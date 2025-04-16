@@ -46,4 +46,18 @@ Viewing_Volumes.sh
    good_output/surf/rh.pial:edgecolor=red
 
 
+free_tutorial.sh
+
+.. code:: Bash
+
+   #!/bin/bash
+
+   export TUTORIAL_DATA=tutorial_data_20190918_1558
+   export SUBJECTS_DIR=$TUTORIAL_DATA/buckner_data/tutorial_subjs
+
+   cp Viewing_Volumes.sh ./$SUBJECTS_DIR/.
+
+   cd $SUBJECTS_DIR
+
+   ./Viewing_Volumes.sh
 
