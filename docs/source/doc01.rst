@@ -65,6 +65,8 @@ Using the Recon-all command
 
 https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html
 
+https://openneuro.org/datasets/ds000174/versions/1.0.1/download
+
  If you are in the Cannabis directory, navigate to sub-101’s anatomical directory by typing cd sub-101/ses-BL/anat. You can then run recon-all with the following command:
 
 .. code:: Bash
