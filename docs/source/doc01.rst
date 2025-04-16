@@ -61,3 +61,14 @@ free_tutorial.sh
 
    ./Viewing_Volumes.sh
 
+Using the Recon-all command
+
+https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html
+
+ If you are in the Cannabis directory, navigate to sub-101’s anatomical directory by typing cd sub-101/ses-BL/anat. You can then run recon-all with the following command:
+
+.. code:: Bash
+
+   recon-all -s sub-101 -i sub-101_ses-BL_T1w.nii.gz -all
+
+
