@@ -73,4 +73,39 @@ https://openneuro.org/datasets/ds000174/versions/1.0.1/download
 
    recon-all -s sub-101 -i sub-101_ses-BL_T1w.nii.gz -all
 
+**AFNI**
+
+https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_linux_ubuntu22.html
+https://andysbrainbook.readthedocs.io/en/latest/AFNI/AFNI_Overview.html
+
+
+paso1
+
+.. code:: Bash
+
+#!/bin/bash
+
+mkdir afni
+
+cd afni
+
+curl -O https://raw.githubusercontent.com/afni/afni/master/src/other_builds/OS_notes.linux_ubuntu_22_64_a_admin.txt
+curl -O https://raw.githubusercontent.com/afni/afni/master/src/other_builds/OS_notes.linux_ubuntu_22_64_b_user.tcsh
+curl -O https://raw.githubusercontent.com/afni/afni/master/src/other_builds/OS_notes.linux_ubuntu_22_64_c_nice.tcsh
+
+
+euler@euler:~$ 
+
+
+
+paso2
+
+.. code:: Bash
+
+
+#!/bin/bash
+
+sudo bash OS_notes.linux_ubuntu_22_64_a_admin.txt 2>&1 | tee o.ubuntu_22_a.txt
+tcsh OS_notes.linux_ubuntu_22_64_b_user.tcsh 2>&1 | tee o.ubuntu_22_b.txt
+tcsh OS_notes.linux_ubuntu_22_64_c_nice.tcsh 2>&1 | tee o.ubuntu_22_c.txt
 
