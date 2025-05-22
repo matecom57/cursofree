@@ -21,3 +21,5 @@ Contents
    usage
    api
    doc01
+   Java_Curso/java_curso.rst
+
