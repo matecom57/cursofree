@@ -1,18 +1,18 @@
 TEMARIO
 =======
 
-Objetivos generales:
+**Objetivos generales:**
 
 - Introducir al alumno en aprender un lenguaje de programación para el análisis estadístico de datos.
 
-Objetivos específicos: 
+**Objetivos específicos:**
 
 - Aprender un lenguaje de programación, fácil de aprender y útil para el análisis de datos.
 
 - Aprender herramientas que proporciona R para hacer análisis estadístico de datos, paramétrico y no paramétrico.
 
 
-Temaa
+Temas
 -----
 
 1. Qué es “R”. Instalación y Ambiente de Programación. Historia
