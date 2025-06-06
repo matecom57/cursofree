@@ -1,0 +1,24 @@
+---
+title: "Distribuciones de Probabilidad"
+---
+
+4.1 Variable Aleatoria
+
+4.2 Distribuciones de Probabilidad - Funcion de Probabilidad - Funcion Densidad de Probabilidad
+
+4.3 Funcion Distribucion (Acunulada)
+
+Si X es una variable aleatoria, entonces para cualquier numero real $x_0$, existe la probabilidad $P(X\leq x_0)$ del evento $X \leq x_0$,
+
+4.4 Media y Varianza de una Distribucion de Probabilidad
+
+La media o valor medio de una distribucion se representa por $\mu$, y se define por:
+
+a) $\mu = \sum x_i f(x_i)$, si X es discreta
+
+b) $\mu = \int_{-\infty}^{\infty} X f(X)$, si X es continua
+
+4.5 Esperanza Matematica
+
+4.6 Momentos
+---

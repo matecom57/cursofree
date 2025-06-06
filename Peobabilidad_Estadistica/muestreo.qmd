@@ -1,0 +1,12 @@
+---
+title: "Muestreo"
+---
+
+7.1 Razones para el Muestreo
+
+7.2 Bases Teoricas del Muestreo
+
+7.3 Tipos de Muestreo
+
+7.3.1 Muestreo Aleatorio Simple
+---

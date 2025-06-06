@@ -1,0 +1,14 @@
+---
+title: "Distribuciones Discretas Especiales"
+---
+
+5.1 Distribucion Uniforme Discreta
+
+5.2 Distribucion Binomial
+
+5.3 Distribucion de Poisson
+
+5.4 Distribucion Multinomial
+
+5.5 Distribucion Hipergeometrica
+---

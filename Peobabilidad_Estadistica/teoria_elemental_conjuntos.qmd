@@ -6,4 +6,14 @@ title: "Teoria Elemental de Conjuntos"
 
 2.2 Conjunto Vacio
 
----
+2.3 Conjunto Universal
+
+2.4 Relacion entre Conjuntos
+
+2.5 Operaciones con Conjuntos
+
+2.6 Diagramas de Venn
+
+2.7 Cardinal de un Conjunto
+
+------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+---
+title: "Probabilidad Elemental"
+---
+
+3.1 Elementos de Analisi Combinatorio
+
+3.2 Principios Fundamentales en el Proceso de Contar
+
+3.3 Permutaciones
+
+3.4 Combinaciones
+
+3.5 Desarrollo del binomio
+
+3.6 Conceptos Basicos en la Probabilidad
+
+3.6.1 Experimento y Ensayo
+
+Un experimento aleatorios es un proceso que tiene las siguientes propiedades:
+
+1) El proceso se efectua de acuerdo a un conjunto bien definido de reglas.
+
+2) 
+
+6.6.2 Espacio Muestra y Eventos
+
+3.6.3 Eventos Mutuamente Exclusivos
+
+3.6.4 Eventos Complementarios
+
+3.7 Definiciones de Probabilidad
+
+Hay tres formas de calcular o estimar la probabilidad.
+execute: 
+  
+a) El enfoque clasico o "a prori" proviene de los juegos de azar o definicion clasica de Laplaca 
+
+b) La defnicion empirica, "a posteriori" o frecuencial que se basa en la frecuencia relativa de ocurrencia de un evento con respecto a un gran numero de ensayos repetidos
+c) La definicion de Kolmogorov o definicion axiomatica o matematica de la probabilidad.
+execute: 
+
+3.7.1 Definicion Clasica de Laplace o "A Priori"
+
+3.8 Determinacion Practica de Probabilidades
+
+3.9 Propiedades de la Probabilidad
+
+3.10 Probabilidad Condicional
+
+3.11 Eventos Independientes
+
+3.12 Regla de Bayes
+---

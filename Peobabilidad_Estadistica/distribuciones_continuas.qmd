@@ -1,0 +1,12 @@
+---
+title: "Distribuciones Continuas"
+---
+
+6.1 Distribucion Continua Uniforme
+
+6.2 Distribucion Normal
+
+6.3 Distribucion JI-Cuadrada y Funcion Gamma
+
+6.4 Distribucion t de Student
+---
