@@ -22,4 +22,5 @@ Contents
    api
    doc01
    Java_Curso/java_curso.rst
+   Curso_R/curso-r
 
