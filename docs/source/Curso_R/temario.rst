@@ -1,4 +1,5 @@
 Introducción al Lenguaje de Programación “R”
+============================================
 
 Objetivos generales:
 
