@@ -1,27 +1,25 @@
-Introducción al Lenguaje de Programación “R”
-============================================
+TEMARIO
+=======
 
 Objetivos generales:
 
-El alumno:
+- Introducir al alumno en aprender un lenguaje de programación para el análisis estadístico de datos.
 
-● Introducir al alumno en aprender un lenguaje de programación para el análisis estadístico de datos.
+Objetivos específicos: 
 
-Objetivos específicos: El alumno:
+- Aprender un lenguaje de programación, fácil de aprender y útil para el análisis de datos.
 
-● Aprender un lenguaje de programación, fácil de aprender y útil para el análisis de datos.
-
-● Aprender herramientas que proporciona R para hacer análisis estadístico de datos, paramétrico y no paramétrico.
+- Aprender herramientas que proporciona R para hacer análisis estadístico de datos, paramétrico y no paramétrico.
 
 
-Unidad	Tema
+Temaa
+-----
 
 1. Qué es “R”. Instalación y Ambiente de Programación. Historia
 
 2. R como Calculadora. Operadores Aritméticos, Operadores de Comparación.
 
-3. Conceptos básicos de Programación Orientada a Objetos. Tipos de Datos. Datos Escalares, Vectores, Factores, Matrices. Definición de 
-Variables.
+3. Conceptos básicos de Programación Orientada a Objetos. Tipos de Datos. Datos Escalares, Vectores, Factores, Matrices. Definición de  Variables.
 
 4. Solución de Ecuaciones. Diferenciación e Integración de Funciones.
 
@@ -64,6 +62,7 @@ Variables.
 12.11 Análisis de Imágenes
 
 Bibliografía Básica:
+--------------------
 
 1. Gareth James and Daniela Witten, “An Introduction to Satistical Learning”, Ed. Springer
 
