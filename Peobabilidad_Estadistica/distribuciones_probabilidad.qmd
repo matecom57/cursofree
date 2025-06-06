@@ -2,23 +2,212 @@
 title: "Distribuciones de Probabilidad"
 ---
 
-4.1 Variable Aleatoria
+## 4.1 Variable Aleatoria
 
-4.2 Distribuciones de Probabilidad - Funcion de Probabilidad - Funcion Densidad de Probabilidad
+Una variable aleatoria es una **función que asocia un valor numérico a cada resultado posible de un experimento aleatorio**. En otras palabras, es un valor cuyo resultado no se puede predecir con certeza antes de realizar el experimento. 
 
-4.3 Funcion Distribucion (Acunulada)
+**Concepto clave:**
+
+-   **Experimento aleatorio:** Un experimento cuyo resultado no se puede predecir con certeza, por ejemplo, lanzar una moneda o un dado. 
+
+-   **Función:** Asocia cada resultado del experimento aleatorio a un número real. 
+
+**Ejemplos:**
+
+-   Al lanzar una moneda, podemos definir una variable aleatoria que valga 1 si sale cara y 0 si sale cruz. 
+
+-   Al medir la altura de una planta, la altura es una variable aleatoria. 
+
+-   Al contar el número de clientes que entran en una tienda en un minuto, el número de clientes es una variable aleatoria. 
+
+**Tipos de variables aleatorias:**
+
+-   **Variable discreta:**
+
+    Puede tomar un número finito o infinito contable de valores, como el número de clientes que entran en una tienda.
+
+-   **Variable continua:**
+
+    Puede tomar cualquier valor dentro de un intervalo, como la altura de una planta. 
+
+**Importancia:**
+
+-   Las variables aleatorias son fundamentales en estadística y probabilidad para modelar fenómenos aleatorios y realizar análisis.
+
+-   Permiten pasar del estudio de sucesos aislados al estudio de distribuciones de probabilidad.
+
+-   Ayudan a aplicar herramientas matemáticas a la estadística. 
+
+En resumen, una variable aleatoria es una herramienta matemática que permite describir y analizar fenómenos aleatorios, asignando valores numéricos a los resultados posibles de un experimento. 
+
+## 4.2 Distribuciones de Probabilidad - Funcion de Probabilidad - Funcion Densidad de Probabilidad
+
+Las distribuciones de probabilidad **describen cómo se distribuyen las probabilidades de los posibles resultados de un experimento aleatorio**. Son funciones que asignan a cada valor de una variable aleatoria una probabilidad de ocurrencia. Se clasifican en discretas y continuas, y cada tipo tiene diferentes modelos probabilísticos. 
+
+**El concepto de distribución de probabilidad:**
+
+-   **Definición:**
+
+    Una distribución de probabilidad es una función matemática que asigna una probabilidad a cada posible resultado de un experimento aleatorio. 
+
+-   **Variables aleatorias:**
+
+    Las distribuciones de probabilidad se utilizan para describir el comportamiento de variables aleatorias, que son variables cuyo valor es un resultado numérico de un fenómeno aleatorio. 
+
+-   **Tipos:**
+
+    Las distribuciones de probabilidad se clasifican en:
+
+    -   **Discretas:** Cuando la variable aleatoria toma valores finitos o contables (ej: número de caras en un lanzamiento de monedas). 
+
+    -   **Continuas:** Cuando la variable aleatoria toma valores dentro de un intervalo (ej: la altura de una persona). 
+
+**Modelos de distribuciones de probabilidad:**
+
+-   **Discretas:**
+
+    -   **Bernoulli:** Describe la probabilidad de éxito o fracaso en un único ensayo. 
+
+    -   **Binomial:** Describe la probabilidad de éxito en un número fijo de ensayos independientes. 
+
+    -   **Poisson:** Describe la probabilidad de ocurrencia de eventos en un período de tiempo o espacio determinado. 
+
+    -   **Geométrica:** Describe la probabilidad de la primera ocurrencia de un evento. 
+
+-   **Continuas:**
+
+    -   **Normal:** La distribución más común, con forma de campana. 
+
+    -   **Exponencial:** Describe la duración de un evento hasta que ocurre. 
+
+    -   **t de Student:** Utilizada para muestras pequeñas cuando la desviación estándar de la población es desconocida. 
+
+    -   **Chi-cuadrado:** Se utiliza en pruebas de hipótesis y construcción de intervalos de confianza. 
+
+    -   **F (Fisher-Snedecor):** Utilizada en el análisis de varianza. 
+
+**Importancia de las distribuciones de probabilidad:**
+
+-   **Estadística inferencial:** Permiten hacer inferencias sobre una población a partir de una muestra. 
+
+-   **Tomar decisiones bajo incertidumbre:** Ayudan a evaluar la probabilidad de diferentes resultados y a tomar decisiones informadas. 
+
+-   **Modelado de fenómenos:** Permiten modelar la probabilidad de ocurrencia de eventos y predicciones. 
+
+**Ejemplos:**
+
+-   **Distribución normal:** Se utiliza para modelar la distribución de alturas de personas, ya que la altura es influenciada por muchos factores genéticos y ambientales. 
+
+-   **Distribución binomial:** Se utiliza para calcular la probabilidad de obtener un cierto número de aciertos al lanzar una moneda varias veces. 
+
+-   **Distribución de Poisson:** Se utiliza para modelar la llegada de clientes a una tienda, por ejemplo. 
+
+En resumen: Las distribuciones de probabilidad son herramientas fundamentales en la estadística y la teoría de la probabilidad, que permiten describir, analizar y predecir el comportamiento de variables aleatorias. 
+
+## 4.3 Función Distribución (Acumulada)
+
+La función de distribución acumulada (FDC) es una **función que proporciona la probabilidad de que una variable aleatoria sea menor o igual que un valor determinado**. En otras palabras, la FDC acumula las probabilidades de todos los valores menores o iguales al valor de entrada. 
+
+**Definición:**
+
+La función de distribución acumulada, F(x), de una variable aleatoria X se define como: 
+
+F(x) = P(X ≤ x) 
+
+Esto significa que la función F(x) devuelve la probabilidad de que la variable aleatoria X tome un valor menor o igual que x. 
+
+**Características:**
+
+-   **Siempre entre 0 y 1:**
+
+    La FDC varía entre 0 y 1, donde 0 representa la probabilidad de que X sea menor o igual a -∞ y 1 representa la probabilidad de que X sea menor o igual a +∞. 
+
+-   **Monótona creciente:**
+
+    La FDC es una función no decreciente, lo que significa que su valor siempre aumenta o se mantiene constante a medida que x aumenta. 
+
+-   **Relación con la función de densidad de probabilidad (PDF):**
+
+    En el caso de variables aleatorias continuas, la FDC es la integral de la PDF desde -∞ hasta x. 
+
+**Uso de la FDC:**
+
+-   **Calcular probabilidades:**
+
+    La FDC se utiliza para calcular la probabilidad de que una variable aleatoria tome un valor menor o igual a un valor determinado.
+
+-   **Determinar percentiles:**
+
+    La FDC también se puede utilizar para encontrar los percentiles de una distribución.
+
+-   **Comparar distribuciones:**
+
+    La FDC puede ayudar a comparar la forma y distribución de diferentes variables aleatorias. 
+
+**Ejemplo:**
+
+Supongamos que tenemos una variable aleatoria que representa la altura de los estudiantes de una escuela. La FDC de esta variable nos daría la probabilidad de que un estudiante elegido al azar sea menor o igual a una altura determinada. Por ejemplo, F(1.80) sería la probabilidad de que un estudiante elegido al azar sea menor o igual a 1.80 metros de altura. 
+
+--------------------
 
 Si X es una variable aleatoria, entonces para cualquier numero real $x_0$, existe la probabilidad $P(X\leq x_0)$ del evento $X \leq x_0$,
 
-4.4 Media y Varianza de una Distribucion de Probabilidad
+## 4.4 Media y Varianza de una Distribucion de Probabilidad
 
 La media o valor medio de una distribucion se representa por $\mu$, y se define por:
 
-a) $\mu = \sum x_i f(x_i)$, si X es discreta
+a)  $\mu = \sum x_i f(x_i)$, si X es discreta
 
-b) $\mu = \int_{-\infty}^{\infty} X f(X)$, si X es continua
+b)  $\mu = \int_{-\infty}^{\infty} X f(X)$, si X es continua
 
 4.5 Esperanza Matematica
 
-4.6 Momentos
----
+## 4.6 Momentos
+
+En estadística, los momentos son **indicadores descriptivos que resumen características de una distribución de probabilidad, como la media, la varianza, la asimetría y la curtosis**. 
+
+**Tipos de Momentos:**
+
+-   **Momento de orden r:**
+
+    Es la media aritmética de la r-ésima potencia de los valores de la variable (o de sus desviaciones respecto a la media aritmética). 
+
+-   **Momentos respecto a la media (momentos centrales):**
+
+    Se calculan tomando la desviación de cada valor respecto a la media y elevándola a un exponente. 
+
+    -   **Primer momento (media):** Representa la ubicación central de la distribución. 
+
+    -   **Segundo momento (varianza):** Mide la dispersión de los datos alrededor de la media. 
+
+    -   **Tercer momento (asimetría):** Indica si la distribución está sesgada hacia la izquierda o la derecha. 
+
+    -   **Cuarto momento (curtosis):** Describe la forma de la curva de distribución (apuntamiento o aplanamiento). 
+
+-   **Momentos respecto al origen:**
+
+    Se calculan sin restar la media, elevando los valores directamente a la potencia. 
+
+-   **Momentos estándar:**
+
+    Son los momentos centrales normalizados, lo que significa que se dividen por la desviación estándar elevada a la potencia correspondiente. 
+
+**Usos de los Momentos:**
+
+-   **Describir una distribución:**
+
+    Los momentos proporcionan información sobre la forma, ubicación y dispersión de los datos. 
+
+-   **Comparar distribuciones:**
+
+    Los momentos se pueden usar para comparar diferentes distribuciones y ver si tienen características similares. 
+
+-   **Estimación de parámetros:**
+
+    El método de momentos es un método de estimación de parámetros poblacionales que se basa en igualar los momentos poblacionales con los momentos muestrales. 
+
+-   **Teoría de la probabilidad:**
+
+    Los momentos son fundamentales para la teoría de la probabilidad y la estadística. 
+
+En resumen: Los momentos son herramientas estadísticas que ayudan a comprender y analizar la distribución de datos, proporcionando información sobre su media, dispersión, forma y asimetría. 

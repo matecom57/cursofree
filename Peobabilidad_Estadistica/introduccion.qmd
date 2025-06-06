@@ -4,18 +4,296 @@ title: "introduccion"
 
 ## 1.1 Introduccoin y Definicion de Estadistica
 
-1.2 Relacion entre Estadistica y Probabilidad
+La estadística es la **ciencia que se ocupa de la recolección, organización, análisis, interpretación y presentación de datos numéricos**. Su objetivo principal es extraer conclusiones y tomar decisiones informadas a partir de la información cuantitativa. 
 
-1.3 Sintesis historica de la estadistica y de la Probabilidad
+**Más en detalle:**
 
-1.4 Estadistica e Investigacion
+-   **Recopilación de datos:**
 
-1.5 Etapas de una Investigacion Estadistica
+    La estadística implica la recolección de información, ya sea a través de encuestas, experimentos o la extracción de datos de diversas fuentes. 
 
-1.6 Estadistica Descriptiva y Estadistica Inferencial
+-   **Organización y presentación:**
 
-1.7 Poblacion y Muestra
+    Una vez recopilados, los datos se organizan y se presentan de manera que sean fácilmente comprensibles, utilizando herramientas como tablas, gráficos y diagramas. 
 
-1.8 Unidades Elementales y Observacion
+-   **Análisis e interpretación:**
 
-1.8 Sumatorias
+    Se aplican métodos estadísticos para analizar los datos, identificar patrones, tendencias y relaciones, y extraer conclusiones significativas. 
+
+-   **Tomar decisiones informadas:**
+
+    La estadística permite tomar decisiones más acertadas y fundamentadas en diversas áreas, como la investigación científica, la gestión empresarial o la política pública. 
+
+**Ramas principales de la estadística:**
+
+-   **Estadística descriptiva:**
+
+    Se enfoca en la descripción y resumen de datos, utilizando medidas como la media, la mediana y la desviación estándar, según la Cepal.
+
+-   **Estadística inferencial:**
+
+    Se utiliza para realizar generalizaciones sobre una población a partir de los datos de una muestra, utilizando técnicas como la estimación y la prueba de hipótesis según Economipedia. 
+
+En resumen: La estadística es una herramienta fundamental para comprender la realidad a través de la información cuantitativa, permitiendo tomar decisiones más informadas y fundamentadas. 
+
+## 1.2 Relacion entre Estadistica y Probabilidad
+
+La estadística y la probabilidad están íntimamente relacionadas, y **la probabilidad es, de hecho, la base de la estadística**. La estadística utiliza la probabilidad para analizar y comprender datos, mientras que la probabilidad se ocupa de la cuantificación de la incertidumbre en eventos. 
+
+**El papel de la probabilidad en la estadística:**
+
+-   **Análisis de datos:**
+
+    La probabilidad ayuda a interpretar los resultados de los estudios estadísticos, permitiendo a los investigadores determinar la significancia de sus hallazgos y la posibilidad de que se produzcan por azar.
+
+-   **Inferencias:**
+
+    La probabilidad es fundamental para la inferencia estadística, que consiste en hacer conclusiones sobre una población a partir de una muestra. Las pruebas de hipótesis y los intervalos de confianza, por ejemplo, utilizan la probabilidad para determinar la validez de estas inferencias.
+
+-   **Modelos estadísticos:**
+
+    La probabilidad es utilizada para construir modelos estadísticos que describen la distribución de los datos y permiten hacer predicciones. 
+
+En resumen: La probabilidad es una herramienta esencial en la estadística, que proporciona los fundamentos matemáticos para analizar y entender los fenómenos aleatorios, así como para hacer inferencias y predicciones sobre la población a partir de datos muestrales. 
+
+**Ejemplo:**
+
+Imagine que un estudio estadístico revela que un nuevo medicamento reduce la presión arterial en un 75% de los pacientes. La probabilidad, en este caso, ayudaría a determinar si este resultado es significativo o simplemente una variación aleatoria. También ayudaría a determinar el margen de error en esa estimación, y a predecir cómo podría funcionar el medicamento en una población más amplia. 
+
+## 1.3 Sintesis historica de la estadistica y de la Probabilidad
+
+La estadística y la probabilidad, aunque íntimamente relacionadas, tienen orígenes y desarrollos históricos diferentes. **La estadística, desde la antigüedad, se ha centrado en la recopilación, organización y análisis de datos, mientras que la probabilidad, a partir del siglo XVII, ha buscado cuantificar el azar y la incertidumbre en los fenómenos aleatorios**. 
+
+**Orígenes y Desarrollo Temprano:**
+
+-   **Estadística:**
+
+    Desde la antigüedad, las civilizaciones, como Egipto, Babilonia y China, ya llevaban registros de población, bienes y recursos para fines administrativos y fiscales, lo que representa los primeros pasos de la estadística descriptiva. 
+
+-   **Probabilidad:**
+
+    El estudio formal de la probabilidad se inicia en el siglo XVII con el trabajo de matemáticos como Blaise Pascal y Pierre de Fermat, quienes resolvieron problemas relacionados con los juegos de azar, sentando las bases de la teoría de la probabilidad. 
+
+**Siglos XVII y XVIII:**
+
+-   **Estadística:**
+
+    La "Aritmética Política" inglesa y la "Statistik" alemana, que se desarrollaron a mediados del siglo XVII, marcaron el inicio de una visión más científica de la estadística, enfocada en el análisis de datos para comprender la sociedad y la economía. 
+
+-   **Probabilidad:**
+
+    Autores como Jacob Bernoulli y Abraham de Moivre contribuyeron al desarrollo de la teoría de la probabilidad con sus trabajos sobre el cálculo de probabilidades y las distribuciones de probabilidad. 
+
+**Siglo XIX:**
+
+-   **Estadística:**
+
+    Adolphe Quetelet introdujo la noción del "hombre promedio" para analizar fenómenos sociales complejos, expandiendo el alcance de la estadística.
+
+-   **Probabilidad:**
+
+    Se desarrollaron conceptos clave como la distribución normal y la ley de los grandes números, ampliando la aplicabilidad de la probabilidad a diversos campos. 
+
+**Siglo XX:**
+
+-   **Estadística:**
+
+    Ronald Fisher, John Tukey y otros marcaron el desarrollo de la estadística inferencial, con herramientas para analizar datos y extraer conclusiones sobre poblaciones.
+
+-   **Probabilidad:**
+
+    Andréi Markov, Aleksandr Liapunov y Pafnuti Chebyshev realizaron importantes contribuciones a la teoría de la probabilidad, sentando las bases para el desarrollo posterior. 
+
+En resumen, la estadística y la probabilidad han evolucionado desde sus orígenes hasta convertirse en herramientas esenciales para el análisis de datos y la comprensión de la incertidumbre en una amplia variedad de disciplinas, desde la ciencia hasta la economía y las ciencias sociales. 
+
+## 1.4 Estadistica e Investigacion
+
+La estadística **es una herramienta fundamental en la investigación, que permite recopilar, analizar y presentar datos para extraer conclusiones y probar hipótesis**. Facilita la toma de decisiones, la identificación de patrones y la validación de afirmaciones. 
+
+**En detalle:**
+
+-   **Recopilación y análisis de datos:**
+
+    La estadística proporciona métodos para recolectar datos de manera eficiente, organizar la información, y analizarla para identificar tendencias y relaciones. 
+
+-   **Validación de conclusiones:**
+
+    Permite evaluar la validez de las conclusiones basadas en datos, utilizando técnicas estadísticas para identificar sesgos, analizar la calidad de las muestras y evaluar la confiabilidad de los resultados. 
+
+-   **Prueba de hipótesis:**
+
+    La estadística proporciona herramientas para diseñar experimentos, recopilar datos y realizar pruebas de hipótesis, que permiten determinar si los resultados obtenidos son significativos o no, [**según una investigación del Repositorio Institucional UANL**](http://eprints.uanl.mx/12472/1/A5.pdf). 
+
+-   **Estimación de parámetros:**
+
+    Ayuda a estimar parámetros desconocidos de una población a partir de una muestra, utilizando métodos estadísticos que permiten obtener valores precisos y confiables, [**según Repositorio Institucional UANL**](http://eprints.uanl.mx/12472/1/A5.pdf). 
+
+-   **Toma de decisiones:**
+
+    Permite tomar decisiones informadas basadas en datos, identificando las mejores opciones y minimizando riesgos,. 
+
+-   **Generalización de resultados:**
+
+    La estadística inferencial permite generalizar los resultados obtenidos en una muestra a la población en general, utilizando técnicas estadísticas que permiten obtener conclusiones válidas y confiables, [**según la Escuela Nacional de Trabajo Social**](https://www.trabajosocial.unam.mx/plan96/ensenanza/SUAtercersemestre/estadisticaI_sval.pdf). 
+
+-   **Diseño de estudios:**
+
+    Facilita el diseño de estudios científicos, determinando el tamaño de la muestra, la forma de recopilar datos y las técnicas de análisis adecuadas,. 
+
+-   **Comunicación de resultados:**
+
+    Permite presentar los resultados de una investigación de manera clara, concisa y objetiva, utilizando gráficos, tablas y otros medios visuales,. 
+
+-   **Diferentes tipos de estadística:**
+
+    Se puede distinguir entre la estadística descriptiva, que se enfoca en la descripción de datos, y la estadística inferencial, que permite hacer generalizaciones sobre una población a partir de una muestra. 
+
+-   **Aplicaciones en diversas disciplinas:**
+
+    La estadística se utiliza en una amplia variedad de disciplinas, como la medicina, la economía, la sociología, la biología, la psicología y la ingeniería, para resolver problemas y tomar decisiones informadas. 
+
+## 1.5 Etapas de una Investigacion Estadistica
+
+Una investigación estadística sigue generalmente las siguientes etapas: **planificación, recolección de datos, procesamiento de datos, análisis e interpretación, y reporte o difusión de resultados**. 
+
+**1. Planificación:**
+
+-   **Definición del problema:**
+
+    Se identifica la pregunta de investigación y los objetivos que se quieren lograr. 
+
+-   **Diseño del estudio:**
+
+    Se determina la muestra, los instrumentos de recolección de datos, y los métodos estadísticos a utilizar. 
+
+**2. Recolección de datos:**
+
+-   **Selección de la muestra:**
+
+    Se identifica la población a estudiar y se seleccionan las unidades de análisis.
+
+-   **Reunión de datos:**
+
+    Se recopilan datos a través de encuestas, entrevistas, observaciones o experimentos.
+
+**3. Procesamiento de datos:**
+
+-   **Organización y presentación:**
+
+    Se organizan los datos en tablas, gráficos o bases de datos para facilitar el análisis. 
+
+-   **Limpieza y transformación:**
+
+    Se identifican y corrigen posibles errores o inconsistencias en los datos, y se transforman si es necesario. 
+
+**4. Análisis e interpretación:**
+
+-   **Análisis descriptivo:**
+
+    Se calcula medidas de tendencia central (media, mediana, moda) y de dispersión (desviación estándar, varianza). 
+
+-   **Análisis inferencial:**
+
+    Se utilizan métodos estadísticos para realizar inferencias sobre la población a partir de la muestra. 
+
+-   **Interpretación de resultados:**
+
+    Se analizan los resultados y se determina si apoyan o refutan la hipótesis de investigación. 
+
+**5. Reporte o difusión de resultados:**
+
+-   **Informe final:**
+
+    Se redacta un informe que incluye los objetivos, la metodología, los resultados y las conclusiones de la investigación. 
+
+-   **Difusión:**
+
+    Se comparten los resultados a través de publicaciones, presentaciones o informes a la comunidad científica o a la audiencia interesada. 
+
+## 1.6 Estadistica Descriptiva y Estadistica Inferencial
+
+**La estadística descriptiva se enfoca en resumir y describir datos, mientras que la estadística inferencial utiliza datos de una muestra para hacer inferencias sobre una población más grande**. La estadística descriptiva presenta datos de forma resumida, mientras que la estadística inferencial utiliza técnicas para probar hipótesis y hacer predicciones, según la Universidad Autónoma del Estado de Hidalgo :: UAEH. 
+
+**Estadística Descriptiva:**
+
+-   **Objetivo:**
+
+    Resumir, organizar y presentar datos de manera concisa y significativa, según Simplilearn.com. 
+
+-   **Herramientas:**
+
+    Medidas de tendencia central (media, mediana, moda), medidas de dispersión (desviación estándar, varianza), tablas, gráficos, etc., según [**Scribbr**](https://www.scribbr.com/statistics/descriptive-statistics/). 
+
+-   **Aplicaciones:**
+
+    Describir características de un conjunto de datos, como su tamaño, distribución, tendencia central y variabilidad, según [**LinkedIn**](https://es.linkedin.com/advice/0/what-difference-between-descriptive-inferential-i4b5f?lang=es). 
+
+-   **Ejemplos:**
+
+    Calcular el promedio de ventas de un mes, la desviación estándar de los precios de un producto, o presentar datos en un histograma, según [**QuestionPro**](https://www.questionpro.com/blog/es/estadistica-descriptiva/). 
+
+**Estadística Inferencial:**
+
+-   **Objetivo:**
+
+    Hacer inferencias sobre una población a partir de datos de una muestra, según [**Study.com**](https://study.com/academy/lesson/descriptive-and-inferential-statistics.html). 
+
+-   **Herramientas:**
+
+    Pruebas de hipótesis, estimación de parámetros, análisis de regresión, etc., según [**lamalditatesis**](https://www.lamalditatesis.org/post/aprende-a-sacar-conclusiones-con-datos-la-diferencia-entre-estad%C3%ADstica-descriptiva-e-inferencial). 
+
+-   **Aplicaciones:**
+
+    Determinar si hay una diferencia significativa entre dos grupos, predecir el resultado de una encuesta, o establecer un intervalo de confianza, según QuestionPro. 
+
+-   **Ejemplos:**
+
+    Utilizar una prueba t para determinar si hay una diferencia significativa entre la altura promedio de hombres y mujeres, según [**Grad Coach**](https://gradcoach.com/inferential-statistics/). 
+
+**Diferencias clave:**
+
+-   La estadística descriptiva se enfoca en describir un conjunto de datos, mientras que la estadística inferencial se usa para hacer generalizaciones sobre una población. 
+
+-   La estadística descriptiva presenta datos resumidos, mientras que la estadística inferencial permite probar hipótesis y hacer predicciones. 
+
+-   La estadística descriptiva es el primer paso en un análisis de datos, mientras que la estadística inferencial suele ser el paso posterior para responder preguntas específicas, según [**LinkedIn**](https://es.linkedin.com/advice/0/what-difference-between-descriptive-inferential-i4b5f?lang=es). 
+
+## 1.7 Poblacion y Muestra
+
+En estadística, **la población se refiere al conjunto completo de individuos, objetos o eventos sobre los cuales se desea hacer una inferencia.** **La muestra, por otro lado, es un subconjunto de esa población que se selecciona y analiza para obtener información sobre la población en general**. 
+
+**Población:**
+
+-   Es el conjunto total de elementos que comparten características específicas y son objeto de estudio. 
+
+-   Puede ser finita (como los estudiantes de una escuela) o infinita (como los posibles resultados de un lanzamiento de moneda). 
+
+-   A menudo es difícil o imposible estudiar a toda la población, por lo que se utiliza una muestra. 
+
+**Muestra:**
+
+-   Es un subconjunto de la población que se selecciona para ser estudiado. 
+
+-   Debe ser representativa de la población para que los resultados de la muestra puedan ser generalizados a toda la población. 
+
+-   Se selecciona utilizando diferentes técnicas de muestreo, como el muestreo aleatorio simple, el muestreo estratificado, etc. 
+
+**Diferencia clave:**
+
+-   La población es el conjunto completo, mientras que la muestra es una parte de esa población.
+
+-   El objetivo de la muestra es proporcionar información sobre la población sin tener que estudiar a todos sus elementos. 
+
+**Ejemplo:**
+
+Supongamos que queremos saber la opinión de los estudiantes de una universidad sobre la calidad del servicio de cafetería.
+
+-   La población sería todos los estudiantes de esa universidad. 
+
+-   La muestra podría ser, por ejemplo, 500 estudiantes seleccionados al azar, para que representen la opinión de toda la comunidad estudiantil. 
+
+En resumen, la muestra es una herramienta crucial para estudiar poblaciones grandes y complejas, permitiendo inferir conclusiones sobre el conjunto a partir de la observación de una parte representativa. 
+
+## 1.8 Unidades Elementales y Observacion
+
+## 1.8 Sumatorias

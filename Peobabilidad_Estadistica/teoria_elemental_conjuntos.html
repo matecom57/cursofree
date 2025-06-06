@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Teoria Elemental de Conjuntos</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="teoria_elemental_conjuntos_files/libs/clipboard/clipboard.min.js"></script>
+<script src="teoria_elemental_conjuntos_files/libs/quarto-html/quarto.js"></script>
+<script src="teoria_elemental_conjuntos_files/libs/quarto-html/popper.min.js"></script>
+<script src="teoria_elemental_conjuntos_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="teoria_elemental_conjuntos_files/libs/quarto-html/anchor.min.js"></script>
+<link href="teoria_elemental_conjuntos_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="teoria_elemental_conjuntos_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="teoria_elemental_conjuntos_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="teoria_elemental_conjuntos_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="teoria_elemental_conjuntos_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Teoria Elemental de Conjuntos</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="conjuntos.-defenicion-y-notacion" class="level2">
+<h2 class="anchored" data-anchor-id="conjuntos.-defenicion-y-notacion">2.1 Conjuntos. Defenicion y Notacion</h2>
+<p>Un conjunto es una <strong>colección bien definida de objetos, elementos o miembros, considerados como una entidad única</strong>. Se utiliza la notación de conjuntos, que incluye símbolos para representar conjuntos y las relaciones entre ellos, como pertenencia (∈), subconjunto (⊂), y operaciones (unión, intersección, diferencia).&nbsp;</p>
+<p><strong>Definición de Conjuntos:</strong></p>
+<ul>
+<li><p><strong>Conjunto:</strong> Una colección de objetos o elementos distintos, considerados como un todo.&nbsp;</p></li>
+<li><p><strong>Elementos:</strong> Los objetos individuales que pertenecen a un conjunto.&nbsp;</p></li>
+<li><p><strong>Notación:</strong> Los conjuntos se representan con letras mayúsculas (A, B, C, …) y sus elementos se enumeran entre llaves { }.&nbsp;</p></li>
+</ul>
+<p><strong>Notación de Conjuntos:</strong></p>
+<ul>
+<li><p><strong>Pertenencia (∈):</strong></p>
+<p>Se usa para indicar que un elemento pertenece a un conjunto. Por ejemplo, a ∈ A significa que “a” pertenece al conjunto “A”.&nbsp;</p></li>
+<li><p><strong>Subconjunto (⊂):</strong></p>
+<p>Indica que un conjunto está contenido en otro. Por ejemplo, A ⊂ B significa que todos los elementos de “A” también están en “B”.&nbsp;</p></li>
+<li><p><strong>Operaciones:</strong></p>
+<ul>
+<li><p><strong>Unión (∪):</strong> El conjunto que contiene todos los elementos de ambos conjuntos.</p></li>
+<li><p><strong>Intersección (∩):</strong> El conjunto que contiene solo los elementos comunes a ambos conjuntos.</p></li>
+<li><p><strong>Diferencia (-):</strong> El conjunto que contiene los elementos del primer conjunto que no están en el segundo.</p></li>
+<li><p><strong>Complemento (\’):</strong> El conjunto de elementos que no están en un conjunto dado.&nbsp;</p></li>
+</ul></li>
+<li><p><strong>Conjunto Universal (μ):</strong></p>
+<p>El conjunto que contiene todos los elementos relevantes en un contexto específico.&nbsp;</p></li>
+<li><p><strong>Conjunto Nulo (Ø):</strong></p>
+<p>El conjunto que no contiene ningún elemento.&nbsp;</p></li>
+</ul>
+<p><strong>Ejemplos:</strong></p>
+<ul>
+<li><p>A = {1, 2, 3} // Conjunto de números</p></li>
+<li><p>B = {a, b, c} // Conjunto de letras</p></li>
+<li><p>C = {x | x &gt; 0} // Conjunto de números positivos (notación de comprensión)</p></li>
+<li><p>D = {x ∈ A | x es par} // Conjunto de números pares del conjunto A&nbsp;</p></li>
+</ul>
+<p>La teoría de conjuntos es fundamental en matemáticas y se aplica en áreas como la probabilidad, la estadística y la informática.&nbsp;</p>
+</section>
+<section id="conjunto-vacio" class="level2">
+<h2 class="anchored" data-anchor-id="conjunto-vacio">2.2 Conjunto Vacio</h2>
+<p>Un conjunto vacío, también conocido como conjunto nulo, es un <strong>conjunto que no contiene ningún elemento</strong>. Se representa con el símbolo ∅ o con llaves vacías {}.&nbsp;</p>
+<p><strong>Características del conjunto vacío:</strong></p>
+<ul>
+<li><p><strong>Sin elementos:</strong> El conjunto vacío no tiene ningún miembro o elemento.&nbsp;</p></li>
+<li><p><strong>Cardinalidad cero:</strong> Su número de elementos es cero.&nbsp;</p></li>
+<li><p><strong>Representación:</strong> Se denota con el símbolo ∅ o con {}.&nbsp;</p></li>
+<li><p><strong>Intersección:</strong> La intersección de dos conjuntos disjuntos (que no tienen elementos en común) es el conjunto vacío.&nbsp;</p></li>
+<li><p><strong>Subconjunto:</strong> El conjunto vacío es subconjunto de cualquier otro conjunto.&nbsp;</p></li>
+<li><p><strong>Teoría de conjuntos:</strong> En la teoría axiomática de conjuntos, la existencia del conjunto vacío es un postulado fundamental.&nbsp;</p></li>
+</ul>
+<p><strong>Ejemplos de conjunto vacío:</strong></p>
+<ul>
+<li><p>El conjunto de todos los números reales que son a la vez pares e impares.&nbsp;</p></li>
+<li><p>El conjunto de todos los humanos con 10 ojos.&nbsp;</p></li>
+<li><p>El conjunto de todos los años bisiestos entre 2008 y 2012.&nbsp;</p></li>
+<li><p>El conjunto de todos los números mayores que 100 y menores que 50.&nbsp;</p></li>
+</ul>
+<p><strong>Importancia del conjunto vacío:</strong></p>
+<ul>
+<li><p><strong>Matemáticas:</strong></p>
+<p>Es un concepto fundamental en la teoría de conjuntos y se utiliza en diversas áreas de las matemáticas.&nbsp;</p></li>
+<li><p><strong>Ciencia de datos:</strong></p>
+<p>Puede representar situaciones en las que ningún punto de datos cumple con ciertos criterios específicos.&nbsp;</p></li>
+</ul>
+</section>
+<section id="conjunto-universal" class="level2">
+<h2 class="anchored" data-anchor-id="conjunto-universal">2.3 Conjunto Universal</h2>
+<p>Un conjunto universal, representado por el símbolo “U”, es el <strong>conjunto que contiene todos los objetos o elementos relevantes para un contexto específico, como un problema matemático o una discusión</strong>. Es la base sobre la cual se construyen otros conjuntos (subconjuntos) y se definen operaciones de conjuntos.&nbsp;</p>
+<p>En otras palabras, el conjunto universal es el “universo de discurso” para un determinado análisis o problema. Todos los elementos que se consideran en ese análisis deben pertenecer, o estar contenidos, dentro del conjunto universal.&nbsp;</p>
+<p><strong>Ejemplos:</strong></p>
+<ul>
+<li><p>Si estamos hablando de números, el conjunto universal podría ser el conjunto de los números reales (R).&nbsp;</p></li>
+<li><p>Si estamos analizando las letras del alfabeto, el conjunto universal podría ser el conjunto de todas las letras del alfabeto.&nbsp;</p></li>
+<li><p>Si estamos hablando de las aves, el conjunto universal podría ser el conjunto de todas las aves.&nbsp;</p></li>
+</ul>
+<p><strong>Importancia del conjunto universal:</strong></p>
+<ul>
+<li><p>Define el ámbito de estudio de un problema matemático o de un análisis.&nbsp;</p></li>
+<li><p>Permite la definición de subconjuntos y operaciones entre ellos.&nbsp;</p></li>
+<li><p>Facilita la comprensión de las relaciones entre diferentes conjuntos.&nbsp;</p></li>
+<li><p>Ayuda a evitar confusiones y ambiguidades al definir conjuntos.&nbsp;</p></li>
+</ul>
+<p><strong>Relación con otros conceptos:</strong></p>
+<ul>
+<li><p><strong>Subconjunto:</strong></p>
+<p>Un subconjunto es un conjunto que está contenido dentro de un conjunto universal.&nbsp;</p></li>
+<li><p><strong>Complemento:</strong></p>
+<p>El complemento de un subconjunto con respecto al conjunto universal es el conjunto de elementos del conjunto universal que no pertenecen al subconjunto.&nbsp;</p></li>
+</ul>
+<p>En resumen, el conjunto universal es un concepto fundamental en la teoría de conjuntos, que permite delimitar el ámbito de estudio y facilita la construcción de relaciones y operaciones entre conjuntos.&nbsp;</p>
+</section>
+<section id="relacion-entre-conjuntos" class="level2">
+<h2 class="anchored" data-anchor-id="relacion-entre-conjuntos">2.4 Relacion entre Conjuntos</h2>
+<p>En matemáticas, la relación entre conjuntos <strong>es la forma en que dos o más conjuntos se relacionan entre sí</strong>. Estas relaciones pueden ser de igualdad, subconjunto, pertenencia, intersección, unión, entre otras. Una relación en un conjunto puede definirse como una forma de vincular elementos dentro de ese conjunto, o entre diferentes conjuntos.&nbsp;</p>
+<p><strong>Principales tipos de relaciones entre conjuntos:</strong></p>
+<ul>
+<li><p><strong>Igualdad:</strong></p>
+<p>Dos conjuntos son iguales si contienen los mismos elementos, sin importar el orden en que estén.&nbsp;</p></li>
+<li><p><strong>Subconjunto:</strong></p>
+<p>Un conjunto A es subconjunto de otro conjunto B si todos los elementos de A también están en B.&nbsp;</p></li>
+<li><p><strong>Pertenencia:</strong></p>
+<p>Un elemento pertenece a un conjunto si está incluido en ese conjunto.&nbsp;</p></li>
+<li><p><strong>Intersección:</strong></p>
+<p>La intersección de dos conjuntos A y B es un nuevo conjunto que contiene solo los elementos que son comunes a ambos conjuntos.&nbsp;</p></li>
+<li><p><strong>Unión:</strong></p>
+<p>La unión de dos conjuntos A y B es un nuevo conjunto que contiene todos los elementos de ambos conjuntos, sin repeticiones.&nbsp;</p></li>
+<li><p><strong>Relación de inclusión:</strong></p>
+<p>Un conjunto está contenido en otro si todos sus elementos también pertenecen al segundo conjunto.&nbsp;</p></li>
+</ul>
+<p><strong>Ejemplos de relaciones entre conjuntos:</strong></p>
+<ul>
+<li><p><strong>Igualdad:</strong> Si A = {1, 2, 3} y B = {3, 1, 2}, entonces A = B.&nbsp;</p></li>
+<li><p><strong>Subconjunto:</strong> Si A = {1, 2} y B = {1, 2, 3}, entonces A es subconjunto de B (A ⊆ B).&nbsp;</p></li>
+<li><p><strong>Pertenencia:</strong> Si A = {1, 2, 3} y 2 ∈ A, entonces 2 pertenece al conjunto A.&nbsp;</p></li>
+<li><p><strong>Intersección:</strong> Si A = {1, 2, 3} y B = {2, 3, 4}, entonces la intersección de A y B es {2, 3}.&nbsp;</p></li>
+<li><p><strong>Unión:</strong> Si A = {1, 2, 3} y B = {3, 4, 5}, entonces la unión de A y B es {1, 2, 3, 4, 5}.&nbsp;</p></li>
+</ul>
+<p>Las relaciones entre conjuntos son conceptos fundamentales en la teoría de conjuntos y se utilizan en diversos campos de la matemática y otras disciplinas.&nbsp;</p>
+<ul>
+<li><p>Relación matemática - Wikipedia, la enciclopedia libre</p>
+<p>En matemáticas, una relación en un conjunto es alguna clase de vínculo que puede darse o puede no darse (sin posibilidad de estado…</p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD+/v41NTUBAQEAAABZWVknJycWFhaZmZmIiIjp6ellZWXMzMzX19eurq54eHhHR0dExXFyAAAAAXRSTlMAQObYZgAAAPtJREFUeAG8kAWOBDAMA9d1Sin+/7XXbpZZdBaURlMrhx28ycGCD/n0bvkBwJf8C+AoIvRAWGtMyHGtCWkfxW+DRopuuIjUtTQJDStevNoXWaRjRSllLd1O8FFhgEZx2BmkAmHC8HwpOUyxSA50VqOjXgAl50URvNWPBRcAnmwnhbcduthqQCO9KYTFBG7eDWoK1T47AZX9DuiUYT/TuhX3MGpnD51kPprSA9Dl+BCKl7jWHHEHmHsLWhNZZMxPQCLTEuy+cYF6D9i8Q5e2Lcyz4AGwKdJbX0p7AegC2qnvxAsAxQRAYH8J6Dg1a/lvpKRJinMW4cxLMPsDAJjSCaG8cPmnAAAAAElFTkSuQmCC.png" class="img-fluid" alt=""></p>
+<p>Wikipedia</p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAAAxlBMVEX///8AAAD6+v79/f/z8/zk5PhMTNjx8fH6+vpgYNtaWtqGhuLx8fz29v2zs7Obm5uPj4/q6urq6vq3t+2kpOjHx/FXV9qrq6vIyMjg4ODZ2fa/v++dneeCguFHR9dERNfX19dwcN6Xl+WqqurR0fMAALh4eOAAAI4+PtW/v798fHxtbW2rq+VYWFhjY8wJCZwuLsZQUM0AAHtZWcsAAIRNTbpra805OckAAKAAAKofHx81NTU1NbhkZNYoKLZBQUF+ftKJidcTS8Z2AAAEhUlEQVRYhe1Y6XabPBAVtlmNWQ0SYKfYBieO3dZtvn7pktTp+79UxWa0gXGbH/2Re04SIciVNBrdGQ0Ab3jDvwz5w0LUPZaTzXKlGxj6arlJ5PFwyvXtR5Pp8pKpHm4XSSx75mRienKcLLahPk3YDztw/PTZJ58nG8NYZBP+w0m2MIzNANbgIfvvC/G4Cg89/2UewlVwifL//PHrrVw/+MpS7v0aQ54qfu8HXi57i8/rsp0oa8F6eczWN0nP6+c8A9vbbxkeXV8OtD5e/9LoXk0QyPgn8MA8jIcSFoiV+YUvJsb6GsICa713UfFddi0jANldz7oSxbueEVtU6dwl37jisJEYGx3u5OtMB4IQWuogUl3IGYT0c+QgTBfZu0GcoeAsyXczmtGuGzAaQjm74xx09I7pcpqGBodQAu/diOnZMsZQW6JhlMBf0s/BivnAPZvQtkQEmpumzM7R0jS+YU/AeZapxO+PZjkQIWQ5Kdlr3pA+OOcPamNLR5Ic5pVlNzsGKU6SZaSwpsVOmYLNNAba9x+IHYxwAWo0kmaz4RgLrDZPILXZXoc0Ib0AgkcRKu7sOXziexE5aZX2honStDJm+4GaWhCC4Cn4yVNS87I1+uW2EbIprWiRDZHrqsB8eNZ52bpvm27Eumw2rRu0AFn9rt3OMjpxdh7XOiFTbp62nh2lyOUod8V+x8Xs99Kee72qBDehnJIY+f0OsC6J3bzomud4QEnap+zbeSXGa/IgESKxwz6uOswGYAtiky0w5b0tkNKgCl0rUoPU87pVPAv8+57XtsNjQcmNVUDeln9C8nxr54WnaL8v/sLz8QMRSl1VA18Oci7iwzCr/VEo7W1tmaJqIurOsdOy6UqS9MMFDwtMKZwkmFXOTh9wfLZrEGFHQ9DBsO5LCYmPx2NspUCAkYiy3WTO63BXJXTj0WgscAaCkg46CMFOyhLpvjRuuxwC9cJDRn73UmknVajmqn2SqjOpiYast4dyIqDtJckC445ZlK9rG4soayda0yFYs76fgP9osqGlnCO0XbsxIhRseu3qCRclnGiWx2wyo7nIsfHRcZuhRPJSH0iZjY4Ykzw8xiksMpidZWH1hDa0mHMk2vJaNkDIZ1eTfPbyAjRVdSuo/CJdwfY14sZKcAEzH/16EcyCgEg1zhLMBYpilr/y3uxV4xS9wDlQiMKZl/XeUtz3Ihdqw5k46Eb77tRSO0m83uP9bnlEqQEWdUm0Nv9Z9/Ar6cQPSNEIEhjsd3zqUly5vIWMHBQJ/Jxi4dMsUKgjnUaViL8JBq9Ap1l8MlhgByCXtZn5Iei4drD31KX4TmBx/hwvOy6YbMrKJ9Y1EB0iRUemgswl1rhrJvoSh11i8YiPwTUE6T9/STkjdXZu0+iao/CSIrhKnRHhYGY7Npu7EhBfpf7mwhd21g/++FraU+Z4/cszHlD/gyv+pULIXHnlQgS4tlyiXyz+lAhep6hDY1DpaXmh9MQie4UCGYe+Ml5obAaZhkddbPTbYqN/VbGxA0VJdNqURKfXlUTf8IZ/B78BiFdL5ZmzCFcAAAAASUVORK5CYII=.png" class="img-fluid" alt=""></p></li>
+<li><p>Relaciones y operaciones entre conjuntos (Igualdad de conjuntos)</p>
+<p>Relación de igualdad entre conjuntos Decimos que dos o más conjuntos son iguales si dichos conjuntos tienen los mismos elementos.</p></li>
+<li><p>Conjuntos, Relaciones y Funciones.</p>
+<p>Un conjunto es una colección de objetos, llamados elementos, que tiene la propiedad que dado un objeto cualquiera, se puede decidi…</p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA/FBMVEX////+/v779/XCUVTlt7e+SUqkAALx3dnu0c+mAAfPd3jx/fytLzLi7+7r9PT0+fnf8/K81Mro4Nv27uzQ5uTA1tPO3dmrR0rKaGvXiYyqGRniqq6xGiGqCBLam5rb6+qnAAqmICTqw8O/6OWz1dKw1dHQ0MuzJy3ThYPXjo+uQ0Svc2uxhoG93Nquwb2ytrK9WFujUE2qZWfUra2kMjHAwr7Z+ffb2tm4NDq5e3jG4N3JtrW3q6Serq24PT7PpqV9fX9bY2VQVVg8PkFFSEtsbG+FhYdjdXaJnZzl5eUPDxOanJ+ztrcyMTUiIiadysaVt7WsxsR3ioqVlZcK0SnnAAAB80lEQVR4AZRQA5bEUBD8HdtmJ2Pbuv+p1hijnhsl8jLg7paiGXIXLMffZRdE6Z4EyLSiavoNG0AM0+JsXXfc69/g+ZwYfD6HkWzH1MWFk6QJx8MHkixHkcCZTl6UVFpUqjWnjl5DbFKN1qlA0dTanW6t16u1/aSN/QAZ+GSBH4NS4BSDYV1zjAxxNFbGHFqfu9/aSpxMZ3Nl0ctbiEtjuhRXokNIxto/ThhuudYdaWY1skZqa0ucbHDbTNl/pzvVUbX6Pj30VKJDuVmvV8pQeG+VblYcCaEoAJ+bbbg6i5vZuqnKzuyCIBRYWnZiRZ1J5/3fpQOBqhfoD3QlHu7PPj62bEQUjkYLoAEv9mi3ElyYY0pLnOc55veVw1e43a+uoHwyljXO4XGvlzrl9THVt/st5Nj6mj9fFBlYWSXW9QgY8Mj/CCSHUD4PoAeIF69CdyAvDG+JyANbo6wxXo3SLmIHxWRGAViwk1HL/3uOWhPqwPbpAK+wY+9r7+tFsfmzTva2FBijCRutp/7dFmHjT+uzZQ0ljB1RTfJok7XGP9deNdgy9p0gnPvhnOfTOIjOzbP2XlMJYcso3U0B7S+bU0pptKKA/Cp7Qk6voEo7HL/bdFrPKNc5OexQuyPCMs29kH712FMlEDb0OS5+Ed6ur4rf9APXXUt/dAh9dwAAAABJRU5ErkJggg==.png" class="img-fluid" alt=""></p>
+<p>Universidad de Buenos Aires</p></li>
+<li><p>Mostrar todos</p></li>
+</ul>
+</section>
+<section id="operaciones-con-conjuntos" class="level2">
+<h2 class="anchored" data-anchor-id="operaciones-con-conjuntos">2.5 Operaciones con Conjuntos</h2>
+<p>Las operaciones con conjuntos son <strong>técnicas matemáticas que permiten combinar conjuntos para crear nuevos conjuntos</strong>. Las operaciones más comunes son la unión, la intersección, la diferencia y el complemento.&nbsp;</p>
+<p><strong>Operaciones con conjuntos:</strong></p>
+<ol type="1">
+<li><p><strong>1. Unión (∪):</strong></p>
+<p>El conjunto unión de dos conjuntos A y B contiene todos los elementos que están en A, en B, o en ambos.&nbsp;</p>
+<ul>
+<li><strong>Ejemplo:</strong> Si A = {1, 2, 3} y B = {3, 4, 5}, entonces A ∪ B = {1, 2, 3, 4, 5}.&nbsp;</li>
+</ul></li>
+<li><p><strong>2. Intersección (∩):</strong></p>
+<p>El conjunto intersección de dos conjuntos A y B contiene solo los elementos que están en ambos conjuntos.&nbsp;</p>
+<ul>
+<li><strong>Ejemplo:</strong> Si A = {1, 2, 3} y B = {3, 4, 5}, entonces A ∩ B = {3}.&nbsp;</li>
+</ul></li>
+<li><p><strong>3. Diferencia (-):</strong></p>
+<p>El conjunto diferencia de dos conjuntos A y B contiene todos los elementos que están en A pero no en B.&nbsp;</p>
+<ul>
+<li><strong>Ejemplo:</strong> Si A = {1, 2, 3} y B = {3, 4, 5}, entonces A - B = {1, 2}.&nbsp;</li>
+</ul></li>
+<li><p><strong>4. Complemento (C):</strong></p>
+<p>El conjunto complemento de un conjunto A con respecto a un conjunto universal U contiene todos los elementos de U que no están en A.&nbsp;</p>
+<ul>
+<li><strong>Ejemplo:</strong> Si U = {1, 2, 3, 4, 5} y A = {1, 2, 3}, entonces A’ = {4, 5}.&nbsp;</li>
+</ul></li>
+</ol>
+<p><strong>Diagramas de Venn:</strong></p>
+<p>Los diagramas de Venn son herramientas visuales útiles para comprender las operaciones con conjuntos. Se utilizan círculos para representar conjuntos y áreas sombreadas para representar los resultados de las operaciones.&nbsp;</p>
+<p><strong>Ejemplo de diagrama de Venn:</strong></p>
+<p>Si tenemos dos conjuntos A = {1, 2, 3} y B = {3, 4, 5}, el diagrama de Venn mostraría:&nbsp;</p>
+<ul>
+<li><p>Un círculo para A con los elementos {1, 2, 3}.</p></li>
+<li><p>Un círculo para B con los elementos {3, 4, 5}.</p></li>
+<li><p>La intersección A ∩ B, que sería el área donde los círculos se superponen, contiene el elemento {3}.&nbsp;</p></li>
+<li><p>La unión A ∪ B, que sería el área de ambos círculos combinados, contiene los elementos {1, 2, 3, 4, 5}.&nbsp;</p></li>
+<li><p>La diferencia A - B, que sería el área del círculo de A que no se superpone con el círculo de B, contiene los elementos {1, 2}.&nbsp;</p></li>
+</ul>
+</section>
+<section id="diagramas-de-venn" class="level2">
+<h2 class="anchored" data-anchor-id="diagramas-de-venn">2.6 Diagramas de Venn</h2>
+<p>Un diagrama de Venn es una <strong>herramienta visual que utiliza círculos superpuestos para mostrar relaciones, principalmente similitudes y diferencias, entre grupos o categorías</strong>. Los círculos representan conjuntos, y las áreas de superposición indican elementos comunes.&nbsp;</p>
+<p><strong>Aquí hay una explicación más detallada:</strong></p>
+<ul>
+<li><p><strong>Representación de conjuntos:</strong></p>
+<p>Cada círculo representa un conjunto, que puede ser cualquier grupo de elementos, como animales, conceptos, números, etc.&nbsp;</p></li>
+<li><p><strong>Superposición:</strong></p>
+<p>Las áreas donde los círculos se superponen representan los elementos que pertenecen a ambos conjuntos. Por ejemplo, si tienes un círculo para “animales bípedos” y otro para “animales que vuelan”, la superposición podría incluir animales que son bípedos y pueden volar, como los pájaros.&nbsp;</p></li>
+<li><p><strong>Diferencias:</strong></p>
+<p>Las partes de los círculos que no se superponen representan elementos que pertenecen a un solo conjunto y no al otro. En el ejemplo anterior, los animales que solo son bípedos (pero no vuelan) estarían en la parte del círculo “animales bípedos” que no se superpone con el círculo “animales que vuelan”.&nbsp;</p></li>
+<li><p><strong>Similitudes:</strong></p>
+<p>Las partes de los círculos que se superponen representan similitudes o elementos compartidos entre los conjuntos. En el ejemplo, los pájaros son la similitud entre los animales bípedos y los que pueden volar.&nbsp;</p></li>
+<li><p><strong>Aplicaciones:</strong></p>
+<p>Los diagramas de Venn son útiles en diversos campos, como la matemática, la estadística, la lógica, la lingüística y la informática, para ilustrar relaciones y comparar datos de manera visual.&nbsp;</p></li>
+<li><p><strong>Variaciones:</strong></p>
+<p>Existen diferentes tipos de diagramas de Venn, que pueden variar en el número de conjuntos representados, como diagramas de dos conjuntos, tres conjuntos, o incluso más.&nbsp;</p></li>
+<li><p><strong>Creadores de diagramas de Venn:</strong></p>
+<p><a href="https://www.lucidchart.com/pages/es/ejemplos/diagrama-de-venn-online"><strong>Plataformas como Lucidchart</strong></a>, <a href="https://www.canva.com/es_mx/graficas/diagramas-venn/"><strong>Canva</strong></a> y <a href="https://miro.com/es/plantillas/diagrama-de-venn/"><strong>Miro</strong></a> ofrecen herramientas para crear diagramas de Venn de forma sencilla.&nbsp;</p></li>
+</ul>
+</section>
+<section id="cardinal-de-un-conjunto" class="level2">
+<h2 class="anchored" data-anchor-id="cardinal-de-un-conjunto">2.7 Cardinal de un Conjunto</h2>
+<hr>
+<p>El cardinal de un conjunto, también conocido como cardinalidad, <strong>es el número de elementos que contiene ese conjunto</strong>. Es una medida del “tamaño” del conjunto, sin tener en cuenta la naturaleza de los elementos en sí, sino más bien la cantidad de ellos.&nbsp;</p>
+<p><strong>Explicación detallada:</strong></p>
+<ul>
+<li><p><strong>Definición:</strong></p>
+<p>El cardinal de un conjunto A se define como el número de elementos diferentes que contiene A.&nbsp;</p></li>
+<li><p><strong>Notación:</strong></p>
+<p>Se suele representar como |A| o n(A).&nbsp;</p></li>
+<li><p><strong>Conjuntos finitos:</strong></p>
+<p>Para un conjunto finito, el cardinal es simplemente el número de elementos. Por ejemplo, si A = {1, 2, 3}, entonces |A| = 3.&nbsp;</p></li>
+<li><p><strong>Conjuntos infinitos:</strong></p>
+<p>El concepto de cardinalidad se extiende también a conjuntos infinitos, donde se utilizan números transfinitos para representar la cardinalidad.&nbsp;</p></li>
+<li><p><strong>Ejemplos:</strong></p>
+<ul>
+<li><p>Si tienes un conjunto de libros (A = {libro1, libro2, libro3, libro4}), el cardinal de ese conjunto sería 4.&nbsp;</p></li>
+<li><p>Si tienes un conjunto de números pares menores que 10 (A = {2, 4, 6, 8}), el cardinal sería 4.&nbsp;</p></li>
+</ul></li>
+<li><p><strong>Importancia:</strong></p>
+<p>La cardinalidad es fundamental en teoría de conjuntos para comparar la “talla” de diferentes conjuntos y establecer relaciones entre ellos.&nbsp;</p></li>
+<li><p><strong>Propiedades:</strong></p>
+<ul>
+<li><p>Si dos conjuntos son iguales, tienen el mismo cardinal.</p></li>
+<li><p>Si un conjunto es un subconjunto de otro, su cardinalidad es menor o igual a la del conjunto mayor.</p></li>
+<li><p>El cardinal de la unión de dos conjuntos disjuntos (que no tienen elementos en común) es la suma de sus cardinales.&nbsp;</p></li>
+<li><p>El cardinal de la unión de dos conjuntos cualquiera se puede calcular usando el principio de inclusión-exclusión: |A ∪ B| = |A| + |B| - |A ∩ B|.&nbsp;</p></li>
+</ul></li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

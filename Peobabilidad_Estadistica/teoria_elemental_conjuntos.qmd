@@ -2,18 +2,322 @@
 title: "Teoria Elemental de Conjuntos"
 ---
 
-2.1 Conjuntos. Defenicion y Notacion
+## 2.1 Conjuntos. Defenicion y Notacion
 
-2.2 Conjunto Vacio
+Un conjunto es una **colección bien definida de objetos, elementos o miembros, considerados como una entidad única**. Se utiliza la notación de conjuntos, que incluye símbolos para representar conjuntos y las relaciones entre ellos, como pertenencia (∈), subconjunto (⊂), y operaciones (unión, intersección, diferencia). 
 
-2.3 Conjunto Universal
+**Definición de Conjuntos:**
 
-2.4 Relacion entre Conjuntos
+-   **Conjunto:** Una colección de objetos o elementos distintos, considerados como un todo. 
 
-2.5 Operaciones con Conjuntos
+-   **Elementos:** Los objetos individuales que pertenecen a un conjunto. 
 
-2.6 Diagramas de Venn
+-   **Notación:** Los conjuntos se representan con letras mayúsculas (A, B, C, ...) y sus elementos se enumeran entre llaves { }. 
 
-2.7 Cardinal de un Conjunto
+**Notación de Conjuntos:**
+
+-   **Pertenencia (∈):**
+
+    Se usa para indicar que un elemento pertenece a un conjunto. Por ejemplo, a ∈ A significa que "a" pertenece al conjunto "A". 
+
+-   **Subconjunto (⊂):**
+
+    Indica que un conjunto está contenido en otro. Por ejemplo, A ⊂ B significa que todos los elementos de "A" también están en "B". 
+
+-   **Operaciones:**
+
+    -   **Unión (∪):** El conjunto que contiene todos los elementos de ambos conjuntos.
+
+    -   **Intersección (∩):** El conjunto que contiene solo los elementos comunes a ambos conjuntos.
+
+    -   **Diferencia (-):** El conjunto que contiene los elementos del primer conjunto que no están en el segundo.
+
+    -   **Complemento (\\'):** El conjunto de elementos que no están en un conjunto dado. 
+
+-   **Conjunto Universal (μ):**
+
+    El conjunto que contiene todos los elementos relevantes en un contexto específico. 
+
+-   **Conjunto Nulo (Ø):**
+
+    El conjunto que no contiene ningún elemento. 
+
+**Ejemplos:**
+
+-   A = {1, 2, 3} // Conjunto de números
+
+-   B = {a, b, c} // Conjunto de letras
+
+-   C = {x \| x \> 0} // Conjunto de números positivos (notación de comprensión)
+
+-   D = {x ∈ A \| x es par} // Conjunto de números pares del conjunto A 
+
+La teoría de conjuntos es fundamental en matemáticas y se aplica en áreas como la probabilidad, la estadística y la informática. 
+
+## 2.2 Conjunto Vacio
+
+Un conjunto vacío, también conocido como conjunto nulo, es un **conjunto que no contiene ningún elemento**. Se representa con el símbolo ∅ o con llaves vacías {}. 
+
+**Características del conjunto vacío:**
+
+-   **Sin elementos:** El conjunto vacío no tiene ningún miembro o elemento. 
+
+-   **Cardinalidad cero:** Su número de elementos es cero. 
+
+-   **Representación:** Se denota con el símbolo ∅ o con {}. 
+
+-   **Intersección:** La intersección de dos conjuntos disjuntos (que no tienen elementos en común) es el conjunto vacío. 
+
+-   **Subconjunto:** El conjunto vacío es subconjunto de cualquier otro conjunto. 
+
+-   **Teoría de conjuntos:** En la teoría axiomática de conjuntos, la existencia del conjunto vacío es un postulado fundamental. 
+
+**Ejemplos de conjunto vacío:**
+
+-   El conjunto de todos los números reales que son a la vez pares e impares. 
+
+-   El conjunto de todos los humanos con 10 ojos. 
+
+-   El conjunto de todos los años bisiestos entre 2008 y 2012. 
+
+-   El conjunto de todos los números mayores que 100 y menores que 50. 
+
+**Importancia del conjunto vacío:**
+
+-   **Matemáticas:**
+
+    Es un concepto fundamental en la teoría de conjuntos y se utiliza en diversas áreas de las matemáticas. 
+
+-   **Ciencia de datos:**
+
+    Puede representar situaciones en las que ningún punto de datos cumple con ciertos criterios específicos. 
+
+## 2.3 Conjunto Universal
+
+Un conjunto universal, representado por el símbolo "U", es el **conjunto que contiene todos los objetos o elementos relevantes para un contexto específico, como un problema matemático o una discusión**. Es la base sobre la cual se construyen otros conjuntos (subconjuntos) y se definen operaciones de conjuntos. 
+
+En otras palabras, el conjunto universal es el "universo de discurso" para un determinado análisis o problema. Todos los elementos que se consideran en ese análisis deben pertenecer, o estar contenidos, dentro del conjunto universal. 
+
+**Ejemplos:**
+
+-   Si estamos hablando de números, el conjunto universal podría ser el conjunto de los números reales (R). 
+
+-   Si estamos analizando las letras del alfabeto, el conjunto universal podría ser el conjunto de todas las letras del alfabeto. 
+
+-   Si estamos hablando de las aves, el conjunto universal podría ser el conjunto de todas las aves. 
+
+**Importancia del conjunto universal:**
+
+-   Define el ámbito de estudio de un problema matemático o de un análisis. 
+
+-   Permite la definición de subconjuntos y operaciones entre ellos. 
+
+-   Facilita la comprensión de las relaciones entre diferentes conjuntos. 
+
+-   Ayuda a evitar confusiones y ambiguidades al definir conjuntos. 
+
+**Relación con otros conceptos:**
+
+-   **Subconjunto:**
+
+    Un subconjunto es un conjunto que está contenido dentro de un conjunto universal. 
+
+-   **Complemento:**
+
+    El complemento de un subconjunto con respecto al conjunto universal es el conjunto de elementos del conjunto universal que no pertenecen al subconjunto. 
+
+En resumen, el conjunto universal es un concepto fundamental en la teoría de conjuntos, que permite delimitar el ámbito de estudio y facilita la construcción de relaciones y operaciones entre conjuntos. 
+
+## 2.4 Relacion entre Conjuntos
+
+En matemáticas, la relación entre conjuntos **es la forma en que dos o más conjuntos se relacionan entre sí**. Estas relaciones pueden ser de igualdad, subconjunto, pertenencia, intersección, unión, entre otras. Una relación en un conjunto puede definirse como una forma de vincular elementos dentro de ese conjunto, o entre diferentes conjuntos. 
+
+**Principales tipos de relaciones entre conjuntos:**
+
+-   **Igualdad:**
+
+    Dos conjuntos son iguales si contienen los mismos elementos, sin importar el orden en que estén. 
+
+-   **Subconjunto:**
+
+    Un conjunto A es subconjunto de otro conjunto B si todos los elementos de A también están en B. 
+
+-   **Pertenencia:**
+
+    Un elemento pertenece a un conjunto si está incluido en ese conjunto. 
+
+-   **Intersección:**
+
+    La intersección de dos conjuntos A y B es un nuevo conjunto que contiene solo los elementos que son comunes a ambos conjuntos. 
+
+-   **Unión:**
+
+    La unión de dos conjuntos A y B es un nuevo conjunto que contiene todos los elementos de ambos conjuntos, sin repeticiones. 
+
+-   **Relación de inclusión:**
+
+    Un conjunto está contenido en otro si todos sus elementos también pertenecen al segundo conjunto. 
+
+**Ejemplos de relaciones entre conjuntos:**
+
+-   **Igualdad:** Si A = {1, 2, 3} y B = {3, 1, 2}, entonces A = B. 
+
+-   **Subconjunto:** Si A = {1, 2} y B = {1, 2, 3}, entonces A es subconjunto de B (A ⊆ B). 
+
+-   **Pertenencia:** Si A = {1, 2, 3} y 2 ∈ A, entonces 2 pertenece al conjunto A. 
+
+-   **Intersección:** Si A = {1, 2, 3} y B = {2, 3, 4}, entonces la intersección de A y B es {2, 3}. 
+
+-   **Unión:** Si A = {1, 2, 3} y B = {3, 4, 5}, entonces la unión de A y B es {1, 2, 3, 4, 5}. 
+
+Las relaciones entre conjuntos son conceptos fundamentales en la teoría de conjuntos y se utilizan en diversos campos de la matemática y otras disciplinas. 
+
+-   Relación matemática - Wikipedia, la enciclopedia libre
+
+    En matemáticas, una relación en un conjunto es alguna clase de vínculo que puede darse o puede no darse (sin posibilidad de estado...
+
+    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD+/v41NTUBAQEAAABZWVknJycWFhaZmZmIiIjp6ellZWXMzMzX19eurq54eHhHR0dExXFyAAAAAXRSTlMAQObYZgAAAPtJREFUeAG8kAWOBDAMA9d1Sin+/7XXbpZZdBaURlMrhx28ycGCD/n0bvkBwJf8C+AoIvRAWGtMyHGtCWkfxW+DRopuuIjUtTQJDStevNoXWaRjRSllLd1O8FFhgEZx2BmkAmHC8HwpOUyxSA50VqOjXgAl50URvNWPBRcAnmwnhbcduthqQCO9KYTFBG7eDWoK1T47AZX9DuiUYT/TuhX3MGpnD51kPprSA9Dl+BCKl7jWHHEHmHsLWhNZZMxPQCLTEuy+cYF6D9i8Q5e2Lcyz4AGwKdJbX0p7AegC2qnvxAsAxQRAYH8J6Dg1a/lvpKRJinMW4cxLMPsDAJjSCaG8cPmnAAAAAElFTkSuQmCC){alt=""}
+
+    Wikipedia
+
+    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAAAxlBMVEX///8AAAD6+v79/f/z8/zk5PhMTNjx8fH6+vpgYNtaWtqGhuLx8fz29v2zs7Obm5uPj4/q6urq6vq3t+2kpOjHx/FXV9qrq6vIyMjg4ODZ2fa/v++dneeCguFHR9dERNfX19dwcN6Xl+WqqurR0fMAALh4eOAAAI4+PtW/v798fHxtbW2rq+VYWFhjY8wJCZwuLsZQUM0AAHtZWcsAAIRNTbpra805OckAAKAAAKofHx81NTU1NbhkZNYoKLZBQUF+ftKJidcTS8Z2AAAEhUlEQVRYhe1Y6XabPBAVtlmNWQ0SYKfYBieO3dZtvn7pktTp+79UxWa0gXGbH/2Re04SIciVNBrdGQ0Ab3jDvwz5w0LUPZaTzXKlGxj6arlJ5PFwyvXtR5Pp8pKpHm4XSSx75mRienKcLLahPk3YDztw/PTZJ58nG8NYZBP+w0m2MIzNANbgIfvvC/G4Cg89/2UewlVwifL//PHrrVw/+MpS7v0aQ54qfu8HXi57i8/rsp0oa8F6eczWN0nP6+c8A9vbbxkeXV8OtD5e/9LoXk0QyPgn8MA8jIcSFoiV+YUvJsb6GsICa713UfFddi0jANldz7oSxbueEVtU6dwl37jisJEYGx3u5OtMB4IQWuogUl3IGYT0c+QgTBfZu0GcoeAsyXczmtGuGzAaQjm74xx09I7pcpqGBodQAu/diOnZMsZQW6JhlMBf0s/BivnAPZvQtkQEmpumzM7R0jS+YU/AeZapxO+PZjkQIWQ5Kdlr3pA+OOcPamNLR5Ic5pVlNzsGKU6SZaSwpsVOmYLNNAba9x+IHYxwAWo0kmaz4RgLrDZPILXZXoc0Ib0AgkcRKu7sOXziexE5aZX2honStDJm+4GaWhCC4Cn4yVNS87I1+uW2EbIprWiRDZHrqsB8eNZ52bpvm27Eumw2rRu0AFn9rt3OMjpxdh7XOiFTbp62nh2lyOUod8V+x8Xs99Kee72qBDehnJIY+f0OsC6J3bzomud4QEnap+zbeSXGa/IgESKxwz6uOswGYAtiky0w5b0tkNKgCl0rUoPU87pVPAv8+57XtsNjQcmNVUDeln9C8nxr54WnaL8v/sLz8QMRSl1VA18Oci7iwzCr/VEo7W1tmaJqIurOsdOy6UqS9MMFDwtMKZwkmFXOTh9wfLZrEGFHQ9DBsO5LCYmPx2NspUCAkYiy3WTO63BXJXTj0WgscAaCkg46CMFOyhLpvjRuuxwC9cJDRn73UmknVajmqn2SqjOpiYast4dyIqDtJckC445ZlK9rG4soayda0yFYs76fgP9osqGlnCO0XbsxIhRseu3qCRclnGiWx2wyo7nIsfHRcZuhRPJSH0iZjY4Ykzw8xiksMpidZWH1hDa0mHMk2vJaNkDIZ1eTfPbyAjRVdSuo/CJdwfY14sZKcAEzH/16EcyCgEg1zhLMBYpilr/y3uxV4xS9wDlQiMKZl/XeUtz3Ihdqw5k46Eb77tRSO0m83uP9bnlEqQEWdUm0Nv9Z9/Ar6cQPSNEIEhjsd3zqUly5vIWMHBQJ/Jxi4dMsUKgjnUaViL8JBq9Ap1l8MlhgByCXtZn5Iei4drD31KX4TmBx/hwvOy6YbMrKJ9Y1EB0iRUemgswl1rhrJvoSh11i8YiPwTUE6T9/STkjdXZu0+iao/CSIrhKnRHhYGY7Npu7EhBfpf7mwhd21g/++FraU+Z4/cszHlD/gyv+pULIXHnlQgS4tlyiXyz+lAhep6hDY1DpaXmh9MQie4UCGYe+Ml5obAaZhkddbPTbYqN/VbGxA0VJdNqURKfXlUTf8IZ/B78BiFdL5ZmzCFcAAAAASUVORK5CYII=){alt=""}
+
+-   Relaciones y operaciones entre conjuntos (Igualdad de conjuntos)
+
+    Relación de igualdad entre conjuntos Decimos que dos o más conjuntos son iguales si dichos conjuntos tienen los mismos elementos.
+
+-   Conjuntos, Relaciones y Funciones.
+
+    Un conjunto es una colección de objetos, llamados elementos, que tiene la propiedad que dado un objeto cualquiera, se puede decidi...
+
+    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA/FBMVEX////+/v779/XCUVTlt7e+SUqkAALx3dnu0c+mAAfPd3jx/fytLzLi7+7r9PT0+fnf8/K81Mro4Nv27uzQ5uTA1tPO3dmrR0rKaGvXiYyqGRniqq6xGiGqCBLam5rb6+qnAAqmICTqw8O/6OWz1dKw1dHQ0MuzJy3ThYPXjo+uQ0Svc2uxhoG93Nquwb2ytrK9WFujUE2qZWfUra2kMjHAwr7Z+ffb2tm4NDq5e3jG4N3JtrW3q6Serq24PT7PpqV9fX9bY2VQVVg8PkFFSEtsbG+FhYdjdXaJnZzl5eUPDxOanJ+ztrcyMTUiIiadysaVt7WsxsR3ioqVlZcK0SnnAAAB80lEQVR4AZRQA5bEUBD8HdtmJ2Pbuv+p1hijnhsl8jLg7paiGXIXLMffZRdE6Z4EyLSiavoNG0AM0+JsXXfc69/g+ZwYfD6HkWzH1MWFk6QJx8MHkixHkcCZTl6UVFpUqjWnjl5DbFKN1qlA0dTanW6t16u1/aSN/QAZ+GSBH4NS4BSDYV1zjAxxNFbGHFqfu9/aSpxMZ3Nl0ctbiEtjuhRXokNIxto/ThhuudYdaWY1skZqa0ucbHDbTNl/pzvVUbX6Pj30VKJDuVmvV8pQeG+VblYcCaEoAJ+bbbg6i5vZuqnKzuyCIBRYWnZiRZ1J5/3fpQOBqhfoD3QlHu7PPj62bEQUjkYLoAEv9mi3ElyYY0pLnOc55veVw1e43a+uoHwyljXO4XGvlzrl9THVt/st5Nj6mj9fFBlYWSXW9QgY8Mj/CCSHUD4PoAeIF69CdyAvDG+JyANbo6wxXo3SLmIHxWRGAViwk1HL/3uOWhPqwPbpAK+wY+9r7+tFsfmzTva2FBijCRutp/7dFmHjT+uzZQ0ljB1RTfJok7XGP9deNdgy9p0gnPvhnOfTOIjOzbP2XlMJYcso3U0B7S+bU0pptKKA/Cp7Qk6voEo7HL/bdFrPKNc5OexQuyPCMs29kH712FMlEDb0OS5+Ed6ur4rf9APXXUt/dAh9dwAAAABJRU5ErkJggg==){alt=""}
+
+    Universidad de Buenos Aires
+
+-   Mostrar todos
+
+## 2.5 Operaciones con Conjuntos
+
+Las operaciones con conjuntos son **técnicas matemáticas que permiten combinar conjuntos para crear nuevos conjuntos**. Las operaciones más comunes son la unión, la intersección, la diferencia y el complemento. 
+
+**Operaciones con conjuntos:**
+
+1.  **1. Unión (∪):**
+
+    El conjunto unión de dos conjuntos A y B contiene todos los elementos que están en A, en B, o en ambos. 
+
+    -   **Ejemplo:** Si A = {1, 2, 3} y B = {3, 4, 5}, entonces A ∪ B = {1, 2, 3, 4, 5}. 
+
+2.  **2. Intersección (∩):**
+
+    El conjunto intersección de dos conjuntos A y B contiene solo los elementos que están en ambos conjuntos. 
+
+    -   **Ejemplo:** Si A = {1, 2, 3} y B = {3, 4, 5}, entonces A ∩ B = {3}. 
+
+3.  **3. Diferencia (-):**
+
+    El conjunto diferencia de dos conjuntos A y B contiene todos los elementos que están en A pero no en B. 
+
+    -   **Ejemplo:** Si A = {1, 2, 3} y B = {3, 4, 5}, entonces A - B = {1, 2}. 
+
+4.  **4. Complemento (C):**
+
+    El conjunto complemento de un conjunto A con respecto a un conjunto universal U contiene todos los elementos de U que no están en A. 
+
+    -   **Ejemplo:** Si U = {1, 2, 3, 4, 5} y A = {1, 2, 3}, entonces A' = {4, 5}. 
+
+**Diagramas de Venn:**
+
+Los diagramas de Venn son herramientas visuales útiles para comprender las operaciones con conjuntos. Se utilizan círculos para representar conjuntos y áreas sombreadas para representar los resultados de las operaciones. 
+
+**Ejemplo de diagrama de Venn:**
+
+Si tenemos dos conjuntos A = {1, 2, 3} y B = {3, 4, 5}, el diagrama de Venn mostraría: 
+
+-   Un círculo para A con los elementos {1, 2, 3}.
+
+-   Un círculo para B con los elementos {3, 4, 5}.
+
+-   La intersección A ∩ B, que sería el área donde los círculos se superponen, contiene el elemento {3}. 
+
+-   La unión A ∪ B, que sería el área de ambos círculos combinados, contiene los elementos {1, 2, 3, 4, 5}. 
+
+-   La diferencia A - B, que sería el área del círculo de A que no se superpone con el círculo de B, contiene los elementos {1, 2}. 
+
+## 2.6 Diagramas de Venn
+
+Un diagrama de Venn es una **herramienta visual que utiliza círculos superpuestos para mostrar relaciones, principalmente similitudes y diferencias, entre grupos o categorías**. Los círculos representan conjuntos, y las áreas de superposición indican elementos comunes. 
+
+**Aquí hay una explicación más detallada:**
+
+-   **Representación de conjuntos:**
+
+    Cada círculo representa un conjunto, que puede ser cualquier grupo de elementos, como animales, conceptos, números, etc. 
+
+-   **Superposición:**
+
+    Las áreas donde los círculos se superponen representan los elementos que pertenecen a ambos conjuntos. Por ejemplo, si tienes un círculo para "animales bípedos" y otro para "animales que vuelan", la superposición podría incluir animales que son bípedos y pueden volar, como los pájaros. 
+
+-   **Diferencias:**
+
+    Las partes de los círculos que no se superponen representan elementos que pertenecen a un solo conjunto y no al otro. En el ejemplo anterior, los animales que solo son bípedos (pero no vuelan) estarían en la parte del círculo "animales bípedos" que no se superpone con el círculo "animales que vuelan". 
+
+-   **Similitudes:**
+
+    Las partes de los círculos que se superponen representan similitudes o elementos compartidos entre los conjuntos. En el ejemplo, los pájaros son la similitud entre los animales bípedos y los que pueden volar. 
+
+-   **Aplicaciones:**
+
+    Los diagramas de Venn son útiles en diversos campos, como la matemática, la estadística, la lógica, la lingüística y la informática, para ilustrar relaciones y comparar datos de manera visual. 
+
+-   **Variaciones:**
+
+    Existen diferentes tipos de diagramas de Venn, que pueden variar en el número de conjuntos representados, como diagramas de dos conjuntos, tres conjuntos, o incluso más. 
+
+-   **Creadores de diagramas de Venn:**
+
+    [**Plataformas como Lucidchart**](https://www.lucidchart.com/pages/es/ejemplos/diagrama-de-venn-online), [**Canva**](https://www.canva.com/es_mx/graficas/diagramas-venn/) y [**Miro**](https://miro.com/es/plantillas/diagrama-de-venn/) ofrecen herramientas para crear diagramas de Venn de forma sencilla. 
+
+## 2.7 Cardinal de un Conjunto
 
 ------------------------------------------------------------------------
+
+El cardinal de un conjunto, también conocido como cardinalidad, **es el número de elementos que contiene ese conjunto**. Es una medida del "tamaño" del conjunto, sin tener en cuenta la naturaleza de los elementos en sí, sino más bien la cantidad de ellos. 
+
+**Explicación detallada:**
+
+-   **Definición:**
+
+    El cardinal de un conjunto A se define como el número de elementos diferentes que contiene A. 
+
+-   **Notación:**
+
+    Se suele representar como \|A\| o n(A). 
+
+-   **Conjuntos finitos:**
+
+    Para un conjunto finito, el cardinal es simplemente el número de elementos. Por ejemplo, si A = {1, 2, 3}, entonces \|A\| = 3. 
+
+-   **Conjuntos infinitos:**
+
+    El concepto de cardinalidad se extiende también a conjuntos infinitos, donde se utilizan números transfinitos para representar la cardinalidad. 
+
+-   **Ejemplos:**
+
+    -   Si tienes un conjunto de libros (A = {libro1, libro2, libro3, libro4}), el cardinal de ese conjunto sería 4. 
+
+    -   Si tienes un conjunto de números pares menores que 10 (A = {2, 4, 6, 8}), el cardinal sería 4. 
+
+-   **Importancia:**
+
+    La cardinalidad es fundamental en teoría de conjuntos para comparar la "talla" de diferentes conjuntos y establecer relaciones entre ellos. 
+
+-   **Propiedades:**
+
+    -   Si dos conjuntos son iguales, tienen el mismo cardinal.
+
+    -   Si un conjunto es un subconjunto de otro, su cardinalidad es menor o igual a la del conjunto mayor.
+
+    -   El cardinal de la unión de dos conjuntos disjuntos (que no tienen elementos en común) es la suma de sus cardinales. 
+
+    -   El cardinal de la unión de dos conjuntos cualquiera se puede calcular usando el principio de inclusión-exclusión: \|A ∪ B\| = \|A\| + \|B\| - \|A ∩ B\|. 

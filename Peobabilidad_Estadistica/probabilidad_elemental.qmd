@@ -2,27 +2,249 @@
 title: "Probabilidad Elemental"
 ---
 
-3.1 Elementos de Analisi Combinatorio
+## 3.1 Elementos de Analisis Combinatorio
 
-3.2 Principios Fundamentales en el Proceso de Contar
+El análisis combinatorio, también conocido como combinatoria, es la rama de la matemática que se ocupa de la contabilidad, ordenación y combinación de elementos de conjuntos. Sus elementos fundamentales incluyen **el principio fundamental de conteo, las permutaciones, las combinaciones y las variaciones, así como el concepto de factorial**. 
 
-3.3 Permutaciones
+## 3.2 Principios Fundamentales en el Proceso de Contar
 
-3.4 Combinaciones
+Los principios fundamentales en el proceso de contar son cinco: **correspondencia uno a uno, orden estable, cardinalidad, abstracción e irrelevancia del orden**. Estos principios guían el aprendizaje del conteo en niños, permitiéndoles entender el concepto de número y su relación con objetos concretos y abstractos. 
 
-3.5 Desarrollo del binomio
+**El Proceso de Contar: Desglosando los Principios**
 
-3.6 Conceptos Basicos en la Probabilidad
+1.  **1. Correspondencia Uno a Uno:**
 
-3.6.1 Experimento y Ensayo
+    Este principio establece que cada objeto debe ser contado una vez y solo una vez, asignándole una etiqueta numérica única. Esto significa que cada número que se dice corresponde a un elemento del conjunto que se cuenta. 
 
-Un experimento aleatorios es un proceso que tiene las siguientes propiedades:
+2.  **2. Orden Estable:**
 
-1) El proceso se efectua de acuerdo a un conjunto bien definido de reglas.
+    Implica que los números deben decirse en un orden específico y constante, sin importar el orden en que se cuenta el conjunto. Por ejemplo, si contamos objetos, debemos decir "uno, dos, tres" en ese orden, y no "uno, tres, dos". 
 
-2) 
+3.  **3. Cardinalidad:**
 
-6.6.2 Espacio Muestra y Eventos
+    Este principio establece que el último número que se dice al contar representa la cantidad total de elementos en el conjunto. Por ejemplo, si contamos tres manzanas y decimos "uno, dos, tres", el número "tres" representa la cantidad de manzanas. 
+
+4.  **4. Abstracción:**
+
+    Permite contar cualquier objeto, tangible o no, y entender que la cantidad total se puede representar de la misma manera, independientemente de las características del objeto. Se puede contar un grupo de manzanas o un grupo de ideas abstractas, y el número resultante será el mismo. 
+
+5.  **5. Irrelevancia del Orden:**
+
+    Este principio establece que el orden en que se cuentan los objetos no afecta la cantidad total. Se puede contar un grupo de objetos en cualquier orden y obtener el mismo resultado final. 
+
+**Implicaciones del Aprendizaje de estos Principios**
+
+Los principios de conteo son fundamentales para el desarrollo matemático temprano en niños. Dominar estos principios les permite: 
+
+-   Entender el concepto de número y su relación con la cantidad.
+
+-   Desarrollar habilidades matemáticas básicas, como la suma y la resta.
+
+-   Resolver problemas matemáticos de manera más efectiva.
+
+-   Entender conceptos matemáticos más avanzados a medida que crecen.
+
+## 3.3 Permutaciones
+
+Una permutación es una **forma de organizar los elementos de un conjunto, donde el orden sí importa**. Es decir, diferentes ordenaciones de los mismos elementos se consideran permutaciones diferentes. Por ejemplo, si tenemos los dígitos 2, 5 y 8, las permutaciones serían: 258, 285, 528, 582, 825 y 852. 
+
+**Concepto clave:**
+
+-   **Orden importa:** En una permutación, el orden en que se colocan los elementos es crucial. Cambiar el orden crea una nueva permutación. 
+
+**Ejemplos:**
+
+-   **Anagramas:**
+
+    Los anagramas de una palabra son permutaciones de sus letras, ya que cambian el orden de las letras. 
+
+-   **Cifrado:**
+
+    En algunos sistemas de cifrado, las permutaciones se utilizan para reordenar caracteres o bloques de datos para mantenerlos seguros. 
+
+**Diferencia con las combinaciones:**
+
+-   **Permutaciones:** El orden sí importa.
+
+-   **Combinaciones:** El orden no importa, solo importa qué elementos se seleccionan. 
+
+**Forma de calcular:**
+
+El número de permutaciones de 'n' objetos tomados de 'n' objetos se calcula usando el factorial: n! (n factorial = n \* (n-1) \* (n-2) \* ... \* 2 \* 1). 
+
+En resumen: Las permutaciones son una herramienta fundamental en matemáticas y otras disciplinas para contar y organizar elementos de forma ordenada. 
+
+## 3.4 Combinaciones
+
+Una combinación es una **selección de objetos de un grupo, donde el orden de selección no importa**. En otras palabras, las combinaciones se enfocan en cómo se pueden agrupar elementos sin importar en qué orden se elijan. Por ejemplo, una ensalada de frutas es una combinación de frutas, y no importa si primero se agrega la manzana y luego la naranja, o viceversa, la ensalada final es la misma. 
+
+**Conceptos clave:**
+
+-   **Orden no importante:**
+
+    En las combinaciones, el orden en que se seleccionan los elementos no afecta el resultado. Por ejemplo, la selección de la letra "A" y luego la "B" es la misma combinación que la selección de la "B" y luego la "A". 
+
+-   **Sin repetición:**
+
+    En las combinaciones simples, no se permite la repetición de elementos. Si elegimos una canica roja y luego otra canica roja, no estamos considerando una combinación diferente. 
+
+-   **Fórmula:**
+
+    La fórmula para calcular el número de combinaciones se expresa como: C(n, k) = n! / (k! \* (n-k)!) donde n es el número total de elementos y k es el número de elementos que se seleccionan. 
+
+**Ejemplos:**
+
+-   **Elección de 3 estudiantes de un grupo de 10:**
+
+    En este caso, no importa el orden en que se eligen los estudiantes. La combinación de "Estudiante A", "Estudiante B" y "Estudiante C" es la misma que la combinación de "Estudiante B", "Estudiante C" y "Estudiante A".
+
+-   **Formación de un equipo de baloncesto:**
+
+    Si se necesitan 5 jugadores para formar un equipo, la combinación de jugadores 1, 2, 3, 4 y 5 es la misma que la combinación 5, 4, 3, 2 y 1.
+
+-   **Selección de 2 libros de una estantería:**
+
+    La combinación de "Libro A" y "Libro B" es la misma que la combinación de "Libro B" y "Libro A". 
+
+**Diferencia con las permutaciones:**
+
+A diferencia de las combinaciones, las permutaciones sí consideran el orden en que se seleccionan los elementos. Por ejemplo, en las permutaciones, la selección de "A" y luego "B" es diferente de la selección de "B" y luego "A". 
+
+## 3.5 Desarrollo del binomio
+
+El desarrollo de un binomio, en términos matemáticos, **se refiere a la expansión de un binomio elevado a una potencia**. Esto se puede lograr utilizando el binomio de Newton, que proporciona una fórmula para expandir expresiones como (a + b)\^n. 
+
+El binomio de Newton es una herramienta poderosa para expandir binomios de cualquier potencia, y se basa en la idea de que cada término en la expansión tendrá un coeficiente binomial, un exponente de 'a' que disminuye de n a 0, y un exponente de 'b' que aumenta de 0 a n. 
+
+**En resumen, el desarrollo de un binomio implica:**
+
+1.  **1. Identificar los términos:**
+
+    El primer término (a) y el segundo término (b), así como la potencia (n) a la que se eleva el binomio. 
+
+2.  **2. Aplicar el binomio de Newton:**
+
+    -   La fórmula general es: (a + b)\^n = Σ (nCr) \* a\^(n-r) \* b\^r, donde nCr es el coeficiente binomial (n sobre r), r es el índice de la suma (va de 0 a n) y a y b son los términos del binomio. 
+
+    -   El coeficiente binomial nCr se calcula como n! / (r! \* (n-r)!), donde ! denota el factorial. 
+
+3.  **3. Expandir la expresión:**
+
+    Calcula cada término de la suma y luego suma todos los términos para obtener el resultado final. 
+
+**Ejemplo:**
+
+**Consideremos el binomio (x + 2)\^3. Aplicando el binomio de Newton:**
+
+-   (x + 2)\^3 = (3C0) \* x\^3 \* 2\^0 + (3C1) \* x\^2 \* 2\^1 + (3C2) \* x\^1 \* 2\^2 + (3C3) \* x\^0 \* 2\^3
+
+-   = 1 \* x\^3 \* 1 + 3 \* x\^2 \* 2 + 3 \* x \* 4 + 1 \* 1 \* 8
+
+-   = x\^3 + 6x\^2 + 12x + 8.
+
+## 3.6 Conceptos Basicos en la Probabilidad
+
+## 3.6.1 Experimento y Ensayo
+
+En el contexto científico, **un experimento es un procedimiento controlado realizado para probar una hipótesis o investigar un fenómeno, mientras que un ensayo puede ser una única realización de ese experimento o, en un contexto más amplio, una composición literaria analítica o crítica**. 
+
+**El Experimento:**
+
+-   **Definición:**
+
+    Un experimento es una serie de observaciones y mediciones realizadas bajo condiciones controladas para probar una hipótesis o descubrir un fenómeno. 
+
+-   **Propósito:**
+
+    Su principal objetivo es proporcionar evidencia empírica para apoyar, refutar o validar una hipótesis, o para obtener información sobre un fenómeno. 
+
+-   **Control:**
+
+    En un experimento, el investigador controla las variables para poder establecer una relación de causa y efecto. 
+
+-   **Ejemplo:**
+
+    Un ensayo clínico es un tipo de experimento donde se prueba un nuevo tratamiento, procedimiento o dispositivo en humanos, utilizando técnicas de intervención [**según AccessMedicina**](https://accessmedicina.mhmedical.com/content.aspx?bookid=1442&sectionid=101158722). 
+
+**El Ensayo (en el contexto científico):**
+
+-   **Definición:**
+
+    En estadística y probabilidad, un ensayo (también llamado "trial") se refiere a una única ocurrencia o instancia de un experimento o observación. 
+
+-   **Contexto:**
+
+    Los ensayos son fundamentales en el análisis estadístico, donde se repiten para obtener información sobre la distribución de resultados. 
+
+-   **Ejemplo:**
+
+    Si se lanza una moneda varias veces, cada lanzamiento es un ensayo. 
+
+-   **Contexto literario:**
+
+    El ensayo es una composición literaria, generalmente analítica, interpretativa o crítica, que explora un tema desde una perspectiva personal o específica [**según LibGuides**](https://uprc.libguides.com/c.php?g=942147&p=6791548). 
+
+En resumen: Un experimento es una investigación controlada, mientras que un ensayo puede ser una única realización de ese experimento o una composición literaria. 
+
+**En el contexto de "ensayo y error":**
+
+-   **Definición:**
+
+    "Ensayo y error" es una estrategia de resolución de problemas que implica probar diferentes soluciones hasta encontrar una que funcione. 
+
+-   **Proceso:**
+
+    Se prueba una alternativa, y si no funciona, se intenta otra, repitiendo el proceso hasta encontrar una solución. 
+
+-   **Orientación:**
+
+    Esta estrategia se enfoca en encontrar una solución, no necesariamente en comprender el porqué de la solución. 
+
+-   **Relación con los experimentos:**
+
+    A veces, el "ensayo y error" puede ser una forma de experimentar sin un diseño riguroso. 
+
+## 6.6.2 Espacio Muestra y Eventos
+
+En teoría de la probabilidad, **el espacio muestral (Ω) es el conjunto de todos los posibles resultados de un experimento aleatorio, mientras que un evento (A) es cualquier subconjunto de ese espacio muestral**. En otras palabras, el espacio muestral contiene todos los resultados posibles, y un evento es una selección específica o combinación de esos resultados. 
+
+**Definición del espacio muestral:**
+
+-   Es el conjunto de todos los resultados posibles de un experimento aleatorio. 
+
+-   Se denota generalmente con la letra griega Ω (Omega). 
+
+-   Ejemplo: Si se lanza una moneda, el espacio muestral es {cara, cruz}. 
+
+**Definición del evento:**
+
+-   Es cualquier subconjunto del espacio muestral. 
+
+-   Representa una selección específica o combinación de resultados del espacio muestral. 
+
+-   Ejemplo: Si el espacio muestral es {1, 2, 3, 4, 5, 6} (lanzar un dado), un evento podría ser {1, 3, 5} (números impares). 
+
+-   Los eventos se pueden clasificar como:
+
+    -   **Evento simple:** Un evento que contiene un único resultado del espacio muestral. 
+
+    -   **Evento compuesto:** Un evento que contiene más de un resultado del espacio muestral. 
+
+    -   **Evento imposible:** Un evento que no contiene ningún resultado del espacio muestral (es el conjunto vacío). 
+
+    -   **Evento seguro:** Un evento que contiene todos los resultados del espacio muestral (es el propio espacio muestral). 
+
+**Relación entre espacio muestral y eventos:**
+
+-   Todos los eventos son subconjuntos del espacio muestral.
+
+-   El espacio muestral en sí mismo es un evento (el evento seguro).
+
+-   El evento vacío es un evento (el evento imposible). 
+
+**Ejemplo:**
+
+Si se lanza un dado de seis caras, el espacio muestral es Ω = {1, 2, 3, 4, 5, 6}. Un evento podría ser A = {2, 4, 6} (números pares). En este caso, A es un subconjunto de Ω. 
 
 3.6.3 Eventos Mutuamente Exclusivos
 
@@ -30,14 +252,13 @@ Un experimento aleatorios es un proceso que tiene las siguientes propiedades:
 
 3.7 Definiciones de Probabilidad
 
-Hay tres formas de calcular o estimar la probabilidad.
-execute: 
-  
-a) El enfoque clasico o "a prori" proviene de los juegos de azar o definicion clasica de Laplaca 
+Hay tres formas de calcular o estimar la probabilidad. execute:
 
-b) La defnicion empirica, "a posteriori" o frecuencial que se basa en la frecuencia relativa de ocurrencia de un evento con respecto a un gran numero de ensayos repetidos
-c) La definicion de Kolmogorov o definicion axiomatica o matematica de la probabilidad.
-execute: 
+a)  El enfoque clasico o "a prori" proviene de los juegos de azar o definicion clasica de Laplaca
+
+b)  La defnicion empirica, "a posteriori" o frecuencial que se basa en la frecuencia relativa de ocurrencia de un evento con respecto a un gran numero de ensayos repetidos
+
+c)  La definicion de Kolmogorov o definicion axiomatica o matematica de la probabilidad. execute:
 
 3.7.1 Definicion Clasica de Laplace o "A Priori"
 
@@ -49,5 +270,4 @@ execute:
 
 3.11 Eventos Independientes
 
-3.12 Regla de Bayes
----
+## 3.12 Regla de Bayes
