@@ -57,7 +57,8 @@ El uso de la estadística como herramienta de la investigación no puede separar
 
 Aunque pueda parecer que está de más mencionarlo, un proyecto de investigación debe ser diseñado y planificado antes de efectuarse. Sin em- bargo, por muy evidente que parezca esto, los estadísticos conocen demasia- do bien al investigador que aporta muchos datos, obtenidos de una manera for\_ tuita y a menudo sin una idea precisa de por qué fueron obtenidos. En tales casos, es a veces el triste deber del estadístico comunicarle al investigador que sus esfuerzos fueron desperdiciados porque no hay una manera legi- tima de analizar sus datos.
 
-## 1.5 Etapas de ina Investigacion Estadistica
+1.5 Etapas de ina Investigacion Estadistica
+-------------------------------------------
 
 1. **Formulación del problema**: Para investigar con éxito un pro- blema dado, primero tenemos que crear conceptos precisos, formular pregun tas claras, e imponer limitaciones adecuadas al problema, tomando en cuen ta el tiempo y el dinero disponibles y la habilidad de los investigado- res. Si se fracasa en esta formulación, los datos compilados pueden ser irrelevantes o inadecuados.
 

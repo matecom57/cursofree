@@ -1,0 +1,183 @@
+---
+title: "c02 Teoria Elemental de Conjuntos"
+---
+
+## 2.1 Conjuntos. Definicion y Notacion
+
+El termino conjunto juega un papel fundamental en el desarrollo de las Matemáticas modernas. El origen de este concepto se debe al matemático alemán **George Cantor**(1945-1918) y, surgió de la necesidad de darle rigurosidad lógica a las discusiones matemáticas con el fin de eliminar la ambigüedad del lenguaje cotidiano.
+
+**Definición intuitiva**: Un conjunto no tiene definición matemática, sin embargo, en forma intuitiva un conjunto es un agregado o colección de objetos de cualquier naturaleza con características bien definidas de manera que se puedan distinguir todos sus elementos. A los objetos que lo componen se les llama elementos del conjunto.
+
+**Notación:** A los conjuntos se les denota con letras mayúsculas y a sus elementos con letras minúsculas; a los elementos se les encierra entre "llaves" ( { } ) y se separan con "comas" ( , ). Asi por ejemplo, el conjunto D cuyos elementos son los números que aparecen al lanzar un dado se escribe:
+
+D = {1, 2, 3, 4, 5, 6}
+
+Se pueden citar infinidad de ejemplos de conjuntos, algunos de ellos son:
+
+Ejemplo 2.1 El conjunto de días de la semana.
+
+Ejemplo 2.2 El conjunto de las vocales.
+
+Ejemplo 2.3 El conjunto de los números reales
+
+Ejemplo 1.4 El conjunto de los enteros positivos menores que 10.
+
+Ejemplo 2.5 El conjunto de los números reales entre 2 y 5.
+
+Los conjuntos se pueden escribir en forma implícita (por descrip ción) cuando no se enumeran o enlistan todos sus elementos, o en forma ex- plícita (por enumeración) cuando se enlistan todos sus elementos; por ejemplo, el conjunto de los días de la semana se puede escribir en forma implícita así:
+
+$$
+S = \{ x | \text{x es un dia de la semana} \}
+$$
+
+Este se lee, S es el conjunto de los x tales que x es un día de la semana.
+
+También podemos escribirlo en forma explícita
+
+S = {domingo, lunes, martes, miércoles, jueves, viernes, sábado}
+
+Los conjuntos dados en los ejemplos 2, 3, 4 y S también se pue- den excribir en forma implícita y en forma explícita:
+
+$V = \{x | x \text{ es una vocal} \}$ forma implícita
+
+$V = \{a, e, i, o, u \}$ forma explícita
+
+$R = \{x | x \text{ es un numero real} \} = (-\infty, \infty)$ forma implícita
+
+$A = \{n \in Z^+ | n < 10 \}$ forma implícita
+
+$A = \{ 1,2,3,4,5,6,7,8,9 \}$ forma explícita
+
+$B = \{x \in R| 2 < x <5 \} = (2,5)$ forma implícita
+
+Según la cantidad de elementos que tenga un conjunto, estos se pueden clasificar en conjuntos finitos, los que tienen un número conoci- do de elementos, y los conjuntos infinitos, los que tienen un número ili mitado de elementos.
+
+Los conjuntos citados en los ejemplos 1, 2 y 4 son conjuntos fi- nitos y los conjuntos de los ejemplos 3 y 5 son conjuntos infinitos.
+
+Cuando queremos indicar que un elemento pertenece a un conjunto o que es un miembro del conjunto usamos el símbolo "$\in$" que se lee , "pertenece a", o "es elemento de"; y cuando queremos indicar que no pertene al conjunto, usamos: "$\notin$", Por ejemplo:
+
+lunes $\in$ S
+
+3 $\notin$ S
+
+## 2.2 Conjunto Vacio
+
+Un conjunto que no Tiene elementos se le llama conjunto vacío y se denota por $\emptyset$ .
+
+Ejemplo 2.6 El conjunto $A= \{ x \in \mathrm{R} | x^2+1 =0 \}$ es un conjunto vacío porque no hay ningún número real que satisfaga $x^2 + 1 = 0$.
+
+Ejemplo 2.7 El conjunto de los meses del año con 27 días.
+
+## 2.3 Conjunto Universal
+
+El conjunto universal U es el conjunto de todos los elementos considerados en un problema o situación dada. Por ejemplo, si solo queremos trabajar con los números reales positivos, el conjunto universal será $U = R⁺=(0, \infty)$ o si queremos trabajar con los números que aparecen en un dado, el conjunto universal será U = {1, 2, 3, 4, 5, 6}.
+
+Nótese que el conjunto universal no es único, depende de la situación.
+
+## 2.4 Relacion entre conjuntos
+
+Consideremos los conjuntos
+
+A = { 0 , 1 , 2, 3, 4, 5, 6, 7, 8, 9}
+
+B = { 0 , 2, 4, 6, 8}
+
+C = { 1 , 3, 5, 7, 9}
+
+D = { 3 , 6, 9}
+
+Estos conjuntos se pueden comparar de la siguiente forma: to\_ dos los elementos de B son también elementos de A, todos los elementos de C también son elementos de A y todos los elementos de D son elemen- tos de A, entonces decimos que B, C y D están contenidos en A,
+
+En símbolos:
+
+$B \subseteq A$ (léase : El conjunto B está con tenido en A o A contiene a B)
+
+Sin embargo en D hay elementos que pertenecen a B y también a C pero no todos los elementos de D pertenecen a B y a C por lo que D no está contenido de B ni de C, esto se indica así:
+
+$D \nsubseteq B$ y $D \nsubseteq C$
+
+Por otra parte todos los elementos de D pertenecen a D, por consiguiente:
+
+$D \subseteq D$
+
+**SUBCONJUNTO**
+
+Un conjunto B es "**subconjunto**" de un conjunto A si' todos los elementos de B pertenecen a A y se escribe $B \subset A$ . Esto se lee: "B está contenido en A' ó "B es subconjunto de A".
+
+Ejemplo 2.8
+
+El conjunto de los números naturales N ={0, 1, 2, 3, 4,....} es un subconjunto del conjunto de los números enteros. Z = { -3, -2, -1, 0, 1, 2, 3, 4, } y éste a su vez es subconjunto del conjunto de los número racionales Q, que es el conjunto de los números que se pueden expresar de la forma $\frac{m}{n}$ donde m y n son enteros y $n \neq 0$.
+
+Por lo tanto, se tiene la relación
+
+$$
+N \subseteq Z \subseteq Q
+$$
+
+**SUBCONJUNTO PROPIO**
+
+Sean dos conjuntos A y B, se dice que B es un subconjunto propio de A si todos ios elementos de B pertenecen a A y además A contiene por lo menos un elemento que no pertenece a B.
+
+En símbolos, esto se indica $A \subset B$, que quiere decir que B es un subconjunto propio de A.
+
+Ejemplo 2.9
+
+En el conjunto universal de los números naturales
+
+En la siguiente tabla se observan todos los subconjuntos de un conjunto para tres diferentes casos.
+
+El número de subconjuntos de un conjunto de n elementos es $2^n$ , donde uno de los subconjuntos es el propio conjunto, siendo éste un subconjunto no propio, por consiguiente, el número de subconjuntos propios de un conjunto de n elementos es $2^n - 1$ .
+
+Es importante hacer notar la diferencia entre los símbolos , El símbolo se emplea para relacionar a un elemento como per teneciente a un conjunto, mientras que conjunto lo es para relacionar a un como contenido en otro, del cual es por tanto subconjunto. ejemplo, Por IGUALDAD DE CONJUNTOS: Dos conjuntos A y B son iguales, si A es subconjunto de B y B es subconjunto de A, es decir: No está por demás aclarar que el decir que dos conjuntos son iguales no es solo cuestión de contar el número de elementos que tiene cada conjunto, sino de verificar si cada elemento de un conjunto perte- nece también al otro.
+
+## 2.5 Operaciones con Conjuntos
+
+Básicamente se definen cuatro operaciones con conjuntos; la unión, la intersección, el complemento y la diferencia. Se puede definir una operación más, el producto cartesiano pero no será tratado aquí.
+
+**UNION DE CONJUNTOS**
+
+Sean A y B dos subconjuntos del conjunto universal U. La unión de A con B denotada por A U B, es el conjunto de todos los elemen tos que pertenecen a A, a B ó a ambos. En símbolos,
+
+$$
+A \cup B = \{ x | x \in A \text{ o } x\in B \}
+$$
+
+**INTERSECCION DE CONJUNTOS**
+
+Sean A y B dos subconjuntos del conjunto universal U. La inter- sección de A y B, denotada por $A \cap B$, es el conjunto de todos los elemen- tos que pertenecen a A y a B simultáneamente. En símbolos:
+
+$$
+A \cap B = \{ x | x \in A \text{ y } x \in B \}
+$$
+
+**CONJUNTOS DISJUNTOS**
+
+Dos conjuntos A y B que no tienen elementos en común, es decir \$A\capB=\emptyset\$ se llaman conjuntos disjuntos.
+
+**COMPLEMENTO DE UN CONJUNTO**
+
+Sea A un subconjunto del conjunto universal U. El complemento de A, denotado por $A^C$ o A' es el conjunto de los elementos de U que no pertenecen a A; es decir:
+
+$$
+A^C = \{ x | x \in U \text{ y } x \notin A \}
+$$
+
+**DIFERENCIA DE CONJUNTOS**
+
+Sean A y B dos subconjuntos de U, la diferencia de A menos B, de\_ notada por A-B, es el conjunto de los elementos de A que no pertenecen a B. Esto es:
+
+$$
+A-B = \{ x | x \in A \text{ y } x \notin B \}
+$$
+
+Ejemplo 2, 10 Sean U = {1, 2, 3, 4, S. 6. 7. 8. 9} A = {1, 2, 3, 4} B = {3, 4, 5, 6, 7} C = {7, 8, 9}
+
+Entonces: A B = (1, 2, 3. 4, 5, 6, 7} A C = {1, 2, 3, 4, 7, 8, 9} B C = {3, 4, 5, 6, 7, 8, 9} A B = A C {3, 4} = BC = {7} AC= {5, 6, 7, 8, 9} BC= {1, 2, 8, 9} CC= 1 1 , 2, 3, 4, 5, 6) A - B = { 1, 2} B - A = {5, 6, 7} A - C = { 1, 2, 3, 4} C - A = {7, 8, 9} B - C = {3, 4, 5, 6} C - B = {8, 9}
+
+## 2.6 Diagramas de Venn
+
+Cualquier figura geométrica cerrada (círculos, rectángulos, triángulos, óvalos, etc) sirve para representar gráficamente - las operaciones entre conjuntos, estos gráficos son llamados dia gramas de Venn; normalmente al conjunto universal se le represen ta con un rectángulo y los conjuntos con un círculo, triángulo, elipse, etc.
+
+2.7 CARDINAL DE UN CONJUNTO: El número de elementos diferentes de un conjunto se le llama car dinal del conjunto, y lo denotamos por n(A) ó #(A). La "cardinalidad" solo puede darse en el caso de conjuntos fini- tos, ya que en el caso de los conjuntos "infintos",no es posible contar el número de elementos incluidos en ellos.
+
+Sabemos que A Ac = U y que A A = . Por consiguiente, por A c ) = n (A) + n (A c ). la propiedad 3 tenemos que: n (U) = n (A Despejando n (Ac) = n (U) - n (A). Proposición c.q.d. 2.2 Si A y B son dos subconjuntos cualesquiera del conjunto univer- sal U, entonces: n (A BJ = n (A) + n (Bj - n (A B). Observemos que A se puede escribir como la unión de dos conjun- tos disjuntos, y B también.
