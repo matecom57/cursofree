@@ -100,7 +100,7 @@ El término observación se usará para indicar cualquier clase de medida obteni
 
 Dado un conjunto de observaciones de alguna variable representada por $X_1, X_2,....,X_n$ , podemos expresar su suma $X_1+X_2+....+X_n$ en forma abre- viada como
 
-.. latex::
+.. raw:: latex
    
    \sum_{i=1}^n X_i
 
