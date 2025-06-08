@@ -105,23 +105,24 @@ Dado un conjunto de observaciones de alguna variable representada por :math:`X_1
    \sum_{i=1}^n X_i
 
 
-Esto se lee " suma de los $X_i$ desde i igual a 1 hasta n"
+Esto se lee " suma de los :math:`X_i` desde i igual a 1 hasta n"
 
-Ejemplo 1.1. Si $X_1=1, X_2=-3, X_3=\frac{1}{4}$ , entonces
+Ejemplo 1.1. Si :math:`X_1=1, X_2=-3, X_3=\frac{1}{4}`, entonces
 
-$$
-\sum_{i=1}^3 X_i = X_1 + X_2 + X_3 = 1+(-3) + \frac{1}{4} = - \frac{7}{4}
-$$
+.. math::
+
+   \sum_{i=1}^3 X_i = X_1 + X_2 + X_3 = 1+(-3) + \frac{1}{4} = - \frac{7}{4}
+
 
 **Propiedades de las Sumatorias**
 
-1.  Si c es una constante cualquiera, entonces $\sum_{i=1}^n cX_i = c \sum_{i=1}^nX_i$
+1.  Si c es una constante cualquiera, entonces :math:`\sum_{i=1}^n cX_i = c \sum_{i=1}^nX_i`
 
-**Corolario**: Si c es una constante, entonces $\sum_{i=1}^n c = nc$
+**Corolario**: Si c es una constante, entonces :math:`\sum_{i=1}^n c = nc`
 
-2.  \$\\sum\_{i=1}\^n (X_i + Y_i + Z_i) = \\sum\_{i=1}\^n X_i  + \\sum\_{i=1}\^n Y_i  + \\sum\_{i=1}\^n Z_i \$
+2. :math:`\sum\_{i=1}\^n (X_i + Y_i + Z_i) = \\sum\_{i=1}\^n X_i  + \\sum\_{i=1}\^n Y_i  + \\sum\_{i=1}\^n Z_i`
 
-Colorario: $\sum_{i=1}^n (X_i + C) = \sum_{i=1}^n X_i + nC$
+Colorario: :math:`\sum_{i=1}^n (X_i + C) = \sum_{i=1}^n X_i + nC`
 
 Sumatorias Dobles:
 
