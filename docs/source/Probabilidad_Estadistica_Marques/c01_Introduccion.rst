@@ -1,7 +1,8 @@
 c01 Introduccion
 ================
 
-## 1.1 Introduccion y Definicion de Estadistica
+1.1 Introduccion y Definicion de Estadistica
+--------------------------------------------
 
 El término **estadistica** se derivó originalmente del vocablo "**estado**", porque ha sido función tradicional de los gobiernos centrales llevar registros de población, nacimiento,defunciones, profesiones, cosechas y muchas otras clases de cosas y actividades. Contar y medir estos hechos genera muchas clases de datos numéricos.
 
@@ -11,11 +12,13 @@ Actualmente la Estadística es una rama de la matemática aplicada que coleccion
 
 Como un procedimiento de toma de decisiones, la Estadística es de importancia creciente en varios campos, por ejemplo, en la producción industrial en masa, Medicina Y Biología, Economía, Política, Psicología, análisis de opinión pública y otras Ciencias Sociales, Agricultura, Meteorología, Física, Química e Ingeniería.
 
-## 1.2 Relacion entre Estadistica y Probabilidad
+1.2 Relacion entre Estadistica y Probabilidad
+---------------------------------------------
 
 La probabilidad es el estudio de fenómenos puramente aleatorios mientras que la Estadística se puede describir como la ciencia o el arte de reunir y analizar datos e inferir consecuencias a partir de estos elementos. Como el azar afecta tanto a la reunión de datos como a su análisis, y se debe tener en cuenta al hacer inferencias, el tener conocimientos en estadística implica poseer una buena base sobre la teoría de la probabilidad.
 
-## 1.3 Sintesis de la Estadistica y de la Probabilidad
+1.3 Sintesis de la Estadistica y de la Probabilidad
+---------------------------------------------------
 
 La teoría de la Probabilidad tuvo su origen en las apuestas en **juegos de azar**; a Girolamo Cardano (1501-1576), físico, astrónomo y maternatico, se le atribuye la primera discusión sobre probabilidad en su manual para jugadores; pero fueron **Pascal** (1623-1662) y **Fermat** (1600 -1665). alrededor de la primera mitad del **siglo XVII** quienes desarrollaron la **Teoría de la Probabilidad**,
 
@@ -45,7 +48,8 @@ Mientras Karl Pearson trabajaba con grandes muestras, la teoría de las grandes 
 
 Así, en este siglo es cuando se han desarrollado la mayoría de los métodos estadísticos que se usan en la actualidad,
 
-## 1.4 Estadistica e Investigacion
+1.4 Estadistica e Investigacion
+-------------------------------
 
 La Estadística interviene en la investigación y/o el método científico, a través de la experimentación y observación. Esto es, las observaciones experimentales y conocimientos son partes integrantes del método científico y esos métodos invariablemente conducen al empleo de técnicas de la Estadística. Ya que la Estadística, cuando se usa adecuadamente, hace más eficientes las investigaciones, es aconsejable que los investigadores se familiaricen con las técnicas y conceptos básicos de esta ciencia tan útil.
 
@@ -55,45 +59,50 @@ Aunque pueda parecer que está de más mencionarlo, un proyecto de investigació
 
 ## 1.5 Etapas de ina Investigacion Estadistica
 
-1.- **Formulación del problema**: Para investigar con éxito un pro- blema dado, primero tenemos que crear conceptos precisos, formular pregun tas claras, e imponer limitaciones adecuadas al problema, tomando en cuen ta el tiempo y el dinero disponibles y la habilidad de los investigado- res. Si se fracasa en esta formulación, los datos compilados pueden ser irrelevantes o inadecuados.
+1. **Formulación del problema**: Para investigar con éxito un pro- blema dado, primero tenemos que crear conceptos precisos, formular pregun tas claras, e imponer limitaciones adecuadas al problema, tomando en cuen ta el tiempo y el dinero disponibles y la habilidad de los investigado- res. Si se fracasa en esta formulación, los datos compilados pueden ser irrelevantes o inadecuados.
 
 Es bueno rocordar que la calidad de las conclusiones estadísti- cas depende de la corrección y precisión de los datos que, a su vez, de- penden de la exactitud en la formulación del prohlema. Las técnicas esta- dísticas, por muy refinadas y precisas que sean, no pueden ayudar a alcan zar decisiones si son aplicadas a datos inapropiados.
 
-2.- **Diseño del experimento**. Muestro deseo es obtener un máximo de información empleando un mínimo de costo y tiempo. Esto implica, entre otras cosas, que debemos determinar el tamaño de muestra, o la cantidad y tipo de datos que resolverán más eficientemente el problema. A la vez, es te tamaño sera afectado por el método matemático empleado en la última etapa (5a. etapa), y tenemos que seleccionar este método al igual que uno para muestrear. Con respecto al último, debemos observar que no es fácil obtener selecciones que sean completamente aleatorias.
+2. **Diseño del experimento**. Muestro deseo es obtener un máximo de información empleando un mínimo de costo y tiempo. Esto implica, entre otras cosas, que debemos determinar el tamaño de muestra, o la cantidad y tipo de datos que resolverán más eficientemente el problema. A la vez, es te tamaño sera afectado por el método matemático empleado en la última etapa (5a. etapa), y tenemos que seleccionar este método al igual que uno para muestrear. Con respecto al último, debemos observar que no es fácil obtener selecciones que sean completamente aleatorias.
 
 Obtener una muestra representativa es fundamental en teoría es- tadística. Supone preguntas como estas: ¿Qué tipo de datos debe recogerse? ¿Cómo deben ser compilados los datos? ¿De qué tamaño debe ser la muestra? Estas preguntas corresponden a lo que se conoce como diseño de muestras o diseño experimental. Debe tenerse cuidado al planificar y diseñar un expe rimento; de otro modo, puede que no lleguemos a alcanzar ninguna conclu- sión válida.
 
-3 . - **Colección de datos y experimentación**: La compilación de da- tos se refiere a los métodos usados para obtener información pertinente de las unidades elementales introducidas en una muestra. Fin general, ésta es la parte que más tiempo consume en toda investigación que sea realizada. Esta debe sujetarse a reglas estrictas . De hecho, cuanto menos opiniones impongamos, serán mejores los resultados
+3. **Colección de datos y experimentación**: La compilación de da- tos se refiere a los métodos usados para obtener información pertinente de las unidades elementales introducidas en una muestra. Fin general, ésta es la parte que más tiempo consume en toda investigación que sea realizada. Esta debe sujetarse a reglas estrictas . De hecho, cuanto menos opiniones impongamos, serán mejores los resultados
 
-4 . - **Tabulación y descripción de los resultados**: En esta etapa los datos experimentales deben ser ordenados en forma legible y se ilustran con representa ciones gráficas (diagramas o gráficas ) ; además se calculan medidas descriptivas para el tamaño promedio y la separación o dispersión de los valores de la muestra. Los procedimientos correspondientes son simples y serán discutidos en la parte III.
+4. **Tabulación y descripción de los resultados**: En esta etapa los datos experimentales deben ser ordenados en forma legible y se ilustran con representa ciones gráficas (diagramas o gráficas ) ; además se calculan medidas descriptivas para el tamaño promedio y la separación o dispersión de los valores de la muestra. Los procedimientos correspondientes son simples y serán discutidos en la parte III.
 
-5.- **Ingererencia estadística formulación de la respuesta**: Al aplicar el método estadístico seleccionado en la etapa 2. obtenemos conclusiones a partir de la muestra, acerca de la población correspondiente (inferencia estadística ) , tomamos una decisión y formulamos la respuesta a nuestro problema.
+5. **Ingererencia estadística formulación de la respuesta**: Al aplicar el método estadístico seleccionado en la etapa 2. obtenemos conclusiones a partir de la muestra, acerca de la población correspondiente (inferencia estadística ) , tomamos una decisión y formulamos la respuesta a nuestro problema.
 
 No existe una fórmula mágica en estadística matemática que tome en cuenta todas las situaciones prácticas concebibles. Por lo cual es ne- cesario adquirir conocimientos generales de los métodos más importantes que sean útiles para hacer inferencias. En cada caso práctico debe estu- diarse con cuidado la naturaleza del problema específico, para estar seguros de que será escogido el método más apropiado.
 
-## 1.6 Estadistica Descriptiva y Estadistica Inferencial
+1.6 Estadistica Descriptiva y Estadistica Inferencial
+-----------------------------------------------------
 
 Los datos tal como se obtienen no nos proporcionan información suficiente para interpretar su significado por lo que tenemos que utilizar métodos descriptivos para d a r l e s mayor sentido o inferenciales para sacar conclusiones válidas sobre e l l o s . Estos métodos dependen del t i p o de datos que se tengan y de los resultados que se quieran obtener.
 
 Los métodos descriptivos se emplean para esquematizar o mostrar los datos en forma ordenada y gráfica sin sacar conclusiones de ellos. Los métodos descriptivos se pueden usar tanto para muestras como para pobla- ciones mientras que los métodos inferenciales usan solamente muestras para inferir a partir de las primeras, las características de la población. Cuan do usamos Estadística Inferencial generalizamos a partir de las Caracterís- ticas de una muestra las de la población.
 
-## 1.7 Poblacion y Muestra
+1.7 Poblacion y Muestra
+-----------------------
 
 Una población o Universo es un agregado o la totalidad de unida- des elementales tales como personas, empresas industriales, granjas o da- tos de cualquier clase acerca de los cuales se desea información. Una mues tra es una porción o subconjunto de unidades elementales extraídas de una población
 
-## 1.8 Unidades Elementales y Observacion
+1.8 Unidades Elementales y Observacion
+--------------------------------------
 
 Los individuos u objetos de una población que tienen una caracte\_ rística medible se llaman unidades elementales; definir una población es, en un sentido, limitar el contenido de las unidades elementales. Estas po- seen ciertas características, conocidas a veces como rasgos o propiedades, que pueden ser de naturaleza cualitativa o cuantitativa.
 
 El término observación se usará para indicar cualquier clase de medida obtenida en la investigación, es decir, el resultado de observar o medir una unidad elemental, se llama observación; también se puede entender como el valor numérico de una característica cuantificable de una unidad elemental.
 
-## 1.9 Sumatorias
+1.9 Sumatorias
+--------------
 
 Dado un conjunto de observaciones de alguna variable representada por $X_1, X_2,....,X_n$ , podemos expresar su suma $X_1+X_2+....+X_n$ en forma abre- viada como
 
-$$
-\sum_{i=1}^n X_i
-$$
+.. latex::
+   
+   \sum_{i=1}^n X_i
+
 
 Esto se lee " suma de los $X_i$ desde i igual a 1 hasta n"
 
