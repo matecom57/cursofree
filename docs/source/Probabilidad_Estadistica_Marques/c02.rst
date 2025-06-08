@@ -26,9 +26,11 @@ Ejemplo 2.5 El conjunto de los números reales entre 2 y 5.
 
 Los conjuntos se pueden escribir en forma implícita (por descrip ción) cuando no se enumeran o enlistan todos sus elementos, o en forma ex- plícita (por enumeración) cuando se enlistan todos sus elementos; por ejemplo, el conjunto de los días de la semana se puede escribir en forma implícita así:
 
-$$
-S = \{ x | \text{x es un dia de la semana} \}
-$$
+.. math::
+
+   S = \{ x | \text{x es un dia de la semana} \}
+
+https://documentation.help/Sphinx/math.html
 
 Este se lee, S es el conjunto de los x tales que x es un día de la semana.
 
@@ -38,17 +40,17 @@ S = {domingo, lunes, martes, miércoles, jueves, viernes, sábado}
 
 Los conjuntos dados en los ejemplos 2, 3, 4 y S también se pue- den excribir en forma implícita y en forma explícita:
 
-$V = \{x | x \text{ es una vocal} \}$ forma implícita
+:math:`V = \{x | x \text{ es una vocal} \}` forma implícita
 
-$V = \{a, e, i, o, u \}$ forma explícita
+:math:`V = \{a, e, i, o, u \}` forma explícita
 
-$R = \{x | x \text{ es un numero real} \} = (-\infty, \infty)$ forma implícita
+:math:`R = \{x | x \text{ es un numero real} \} = (-\infty, \infty)` forma implícita
 
-$A = \{n \in Z^+ | n < 10 \}$ forma implícita
+:math:`A = \{n \in Z^+ | n < 10 \}` forma implícita
 
-$A = \{ 1,2,3,4,5,6,7,8,9 \}$ forma explícita
+:math:`A = \{ 1,2,3,4,5,6,7,8,9 \}` forma explícita
 
-$B = \{x \in R| 2 < x <5 \} = (2,5)$ forma implícita
+:math:`B = \{x \in R| 2 < x <5 \} = (2,5)` forma implícita
 
 Según la cantidad de elementos que tenga un conjunto, estos se pueden clasificar en conjuntos finitos, los que tienen un número conoci- do de elementos, y los conjuntos infinitos, los que tienen un número ili mitado de elementos.
 
@@ -56,16 +58,16 @@ Los conjuntos citados en los ejemplos 1, 2 y 4 son conjuntos fi- nitos y los con
 
 Cuando queremos indicar que un elemento pertenece a un conjunto o que es un miembro del conjunto usamos el símbolo "$\in$" que se lee , "pertenece a", o "es elemento de"; y cuando queremos indicar que no pertene al conjunto, usamos: "$\notin$", Por ejemplo:
 
-lunes $\in$ S
+lunes :math:`\in` S
 
-3 $\notin$ S
+3 :math:`\notin$` S
 
 2.2 Conjunto Vacio
 ------------------
 
 Un conjunto que no Tiene elementos se le llama conjunto vacío y se denota por $\emptyset$ .
 
-Ejemplo 2.6 El conjunto $A= \{ x \in \mathrm{R} | x^2+1 =0 \}$ es un conjunto vacío porque no hay ningún número real que satisfaga $x^2 + 1 = 0$.
+Ejemplo 2.6 El conjunto :math:`A= \{ x \in \mathrm{R} | x^2+1 =0 \}` es un conjunto vacío porque no hay ningún número real que satisfaga $x^2 + 1 = 0$.
 
 Ejemplo 2.7 El conjunto de los meses del año con 27 días.
 
@@ -93,15 +95,15 @@ Estos conjuntos se pueden comparar de la siguiente forma: to\_ dos los elementos
 
 En símbolos:
 
-$B \subseteq A$ (léase : El conjunto B está con tenido en A o A contiene a B)
+:math:`B \subseteq A` (léase : El conjunto B está con tenido en A o A contiene a B)
 
 Sin embargo en D hay elementos que pertenecen a B y también a C pero no todos los elementos de D pertenecen a B y a C por lo que D no está contenido de B ni de C, esto se indica así:
 
-$D \nsubseteq B$ y $D \nsubseteq C$
+:math:`D \nsubseteq B$ y $D \nsubseteq C`
 
 Por otra parte todos los elementos de D pertenecen a D, por consiguiente:
 
-$D \subseteq D$
+:math:`D \subseteq D`
 
 **SUBCONJUNTO**
 
@@ -113,9 +115,9 @@ El conjunto de los números naturales N ={0, 1, 2, 3, 4,....} es un subconjunto 
 
 Por lo tanto, se tiene la relación
 
-$$
-N \subseteq Z \subseteq Q
-$$
+.. math::
+
+   N \subseteq Z \subseteq Q
 
 **SUBCONJUNTO PROPIO**
 
@@ -142,37 +144,41 @@ Básicamente se definen cuatro operaciones con conjuntos; la unión, la intersec
 
 Sean A y B dos subconjuntos del conjunto universal U. La unión de A con B denotada por A U B, es el conjunto de todos los elemen tos que pertenecen a A, a B ó a ambos. En símbolos,
 
-$$
-A \cup B = \{ x | x \in A \text{ o } x\in B \}
-$$
+.. math::
+
+   A \cup B = \{ x | x \in A \text{ o } x\in B \}
+
 
 **INTERSECCION DE CONJUNTOS**
 
 Sean A y B dos subconjuntos del conjunto universal U. La inter- sección de A y B, denotada por $A \cap B$, es el conjunto de todos los elemen- tos que pertenecen a A y a B simultáneamente. En símbolos:
 
-$$
-A \cap B = \{ x | x \in A \text{ y } x \in B \}
-$$
+.. math::
+
+   A \cap B = \{ x | x \in A \text{ y } x \in B \}
+
 
 **CONJUNTOS DISJUNTOS**
 
-Dos conjuntos A y B que no tienen elementos en común, es decir \$A\capB=\emptyset\$ se llaman conjuntos disjuntos.
+Dos conjuntos A y B que no tienen elementos en común, es decir :math:`A\capB=\emptyset\` se llaman conjuntos disjuntos.
 
 **COMPLEMENTO DE UN CONJUNTO**
 
-Sea A un subconjunto del conjunto universal U. El complemento de A, denotado por $A^C$ o A' es el conjunto de los elementos de U que no pertenecen a A; es decir:
+Sea A un subconjunto del conjunto universal U. El complemento de A, denotado por :math:`A^C` o A' es el conjunto de los elementos de U que no pertenecen a A; es decir:
 
-$$
-A^C = \{ x | x \in U \text{ y } x \notin A \}
-$$
+.. math::
+
+   A^C = \{ x | x \in U \text{ y } x \notin A \}
+
 
 **DIFERENCIA DE CONJUNTOS**
 
 Sean A y B dos subconjuntos de U, la diferencia de A menos B, de\_ notada por A-B, es el conjunto de los elementos de A que no pertenecen a B. Esto es:
 
-$$
-A-B = \{ x | x \in A \text{ y } x \notin B \}
-$$
+.. math::
+
+   A-B = \{ x | x \in A \text{ y } x \notin B \}
+
 
 Ejemplo 2, 10 Sean U = {1, 2, 3, 4, S. 6. 7. 8. 9} A = {1, 2, 3, 4} B = {3, 4, 5, 6, 7} C = {7, 8, 9}
 
