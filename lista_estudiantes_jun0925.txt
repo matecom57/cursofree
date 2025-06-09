@@ -15,4 +15,21 @@ rocato2005@gmail.com,
 susannavg@live.com.mx
 
 
+N°	Nombre	Apellidos	Correo
+1	JOSE YAMIL	ASAFF ARANCIBIA	jose.y.asaff@mx.gt.com
+2	Francisco	Reyna Gómez	pacorey@unam.mx
+3	Jesus Manuel	Segura Campos	j.manuel25s.c@gmail.com
+4	Andrea	Catalán Montiel	andrea.catalan.m@outlook.com
+5	Karen Alejandra	Mendoza Hernández	316590989@iztacala.unam.mx
+6	Brenda Avelina	López Muñiz	brenda.lopez@geociencias.unam.mx
+7	Fabiola	Luna Jiménez	fabiola.luna@ib.unam.mx
+8	Jacob Jesús	Nieto Butrón	jacob.nieto@igeofisica.unam.mx
+9	Karen Janeth	Gutiérrez Hernández	karenjaneth.gh@comunidad.unam.mx
+10	Karina	Robles Rivera	krobles@facmed.unam.mx
+11	Midori Jocelyn	Hernández Serratos	midori-j@hotmail.com
+12	Mónica	García Torres	monica.dual@ciencias.unam.mx
+13	Na'anelii Amairani	Toledo Garcia	naaneliitoledo@gmail.com
+14	Roberto Raúl	Carbajal Torres	rocato2005@gmail.com
+15	Susana	Velasco Gómez	susannavg@live.com.mx
+
 
