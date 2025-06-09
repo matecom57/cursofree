@@ -4,8 +4,8 @@ TEMA 2. Teoria Elemental de Conjuntos
 2.1 Conjuntos. Definicion y Notacion
 ------------------------------------
 
-El termino conjunto juega un papel fundamental en el desarrollo de las Matemáticas modernas. 
-El origen de este concepto se debe al matemático alemán **Geore Cantor**(1945-1918) y surgió de la necesidad de darle 
+El termino **conjunto** juega un papel fundamental en el desarrollo de las Matemáticas modernas. 
+El origen de este concepto se debe al matemático alemán **Geore Cantor** (1945-1918) y surgió de la necesidad de darle 
 rigurosidad lógica a las discusiones matemáticas con el fin de eliminar la ambigüedad del lenguaje cotidiano.
 
 Un **conjunto** no tiene definición matemática, sin embargo, en forma intuitiva un conjunto es un agregado o 
