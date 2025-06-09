@@ -1,0 +1,41 @@
+TEMA 4: DISTRIBUCIONES DE PROBABILIDAD
+
+4.1 VARIABLE ALEATORIA
+----------------------
+
+Si arrojamos dos dados, sabemos que la suma X de los puntos
+que caen hacia arriba debe ser un entero entre 2 y 12, pero no podemos
+predecir que valor de X aparecerá en el siguiente ensayo y podemos decir
+que X depende del azar. 
+
+El tiempo de vida de un foco que se extrae
+aleatoriamente de un lote de focos depende también del azar. 
+
+El número
+de varones de una familia con 5 hijos también depende de la casualidad.
+
+Si las observaciones no se dan en términos de números, podemos
+asignarles números y reducir las observaciones cualitativas al caso
+cuantitativo; asi tenemos que la función que asigna números o valores a
+cada uno de los elementos del espacio muestra con una probabilidad definida, se denomina "**variable aleatoria**"
+Por ejemplo, si se lanza una moneda 3 veces, el número de
+águilas X es una variable aleatoria que toma los valores 0, 1, 2, 3;
+es decir puede que ninguna vez, una sola, dos o tres veces salga águila
+como resultado; la probabilidad de que X = 2 es ya que el espacio
+muestra S = { aaa, aas, asa, ass, saa, sas, ssa, sss}. Así pues, el espació muestra es el 
+dominio de la función y el conjunto de valores que la
+variable puede tomar es el rango de la función, que es un subconjunto
+de los números reales R. Si el rango X es el conjunto de los números en
+teros Z o un subconjunto de Z, la variable aleatoria se llama variable
+aleatoria discreta, y si el rango es el conjunto de los números reales
+R o un subconjunto de R, la variable aleatoria se llama variable aleatiria continua. 
+
+Son ejemplos de variables aleatorias continuas: la estatura, el peso, la edad, el volumen, el pH, etc. 
+Algunos ejemplos de variables discretas son: el número de alumnos que asisten diariamente durante
+un semestre, el número de accidentes automovilísticos en una ciudad
+por día, el número de piezas defectuosas por lote, el número de alumnos
+aprobados por grupo en un examen, etc.
+
+
+
+
