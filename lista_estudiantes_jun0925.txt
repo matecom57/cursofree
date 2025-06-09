@@ -1,3 +1,4 @@
+
 jose.y.asaff@mx.gt.com,
 pacorey@unam.mx,
 j.manuel25s.c@gmail.com,
@@ -12,7 +13,8 @@ midori-j@hotmail.com,
 monica.dual@ciencias.unam.mx,
 naaneliitoledo@gmail.com,
 rocato2005@gmail.com,
-susannavg@live.com.mx
+susannavg@live.com.mx,
+deteresa.sofia@gmail.com
 
 
 N°	Nombre	Apellidos	Correo
@@ -31,5 +33,7 @@ N°	Nombre	Apellidos	Correo
 13	Na'anelii Amairani	Toledo Garcia	naaneliitoledo@gmail.com
 14	Roberto Raúl	Carbajal Torres	rocato2005@gmail.com
 15	Susana	Velasco Gómez	susannavg@live.com.mx
+Sofía de Teresa Sierra
+deteresa.sofia@gmail.com
 
 
