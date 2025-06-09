@@ -11,6 +11,11 @@ TEMARIO
 
 - Aprender herramientas que proporciona R para hacer análisis estadístico de datos, paramétrico y no paramétrico.
 
+Horario
+-------
+
+Se impartira del 9 al 20 de junio, de lunes a viernes de 14:00 a 17:00 horas.
+
 
 Temas
 -----
