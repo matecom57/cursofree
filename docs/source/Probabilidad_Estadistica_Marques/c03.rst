@@ -1,0 +1,1608 @@
+TEMA 3. PROBABILIDAD ELEMENTAL
+
+A pesar de la complejidad de muchos procedimientos avanzados, proporcionados por la tecnología moderna, el simple 
+proceso de contar continúa jugando un papel importante en problemas prácticos de la vida cotidiana. Tenemos que 
+contar, por ejemplo, el número de alumnos por grupo, el número de llamadas telefónicas recibidas en una oficina por 
+día, el número de accidentes ocurridos en los fines de semana, etc. 
+
+Pero, no todos los problemas de contar son tan 
+fáciles como estos. Por ejemplo, para cacular en cuantas formas podemos sentar a 6 personas una al lado de la otra 
+para un foto; o el número de señales que se pueden hacer usando 4 banderas todas de diferente color; o cuántos números 
+de tres cifras se pueden formar con los dígitos: 1, 2, 3, 4, 5, 6, 7, 8, 9 si no se pueden repetir los dígitos; etc. 
+Frecuentemente es necesario determinar cantidades como estas para poder calcular probabilidades, por ello estudiaremos 
+primero como contar y luego determinaremos probabilidades.
+
+Para responder las preguntas de: "cuántos" o "cuál es el número" podríamos proceder de dos formas: una, enlistar 
+todas las posibilidades (si no son muchas) y otra, determinar su número sin enlistarlas. La determinación del número 
+sin enlistar todas las posibilidades es de lo que se ocupa la **teoría combinatoria** mediante algunas reglas o 
+fórmulas; 
+sin embargo, podemos auxiliarnos con diagramas para poder tener una idea intuitiva del problema. 
+
+Los diagramas más 
+usuales son los **diagramas de Venn, los diagramas de árbol, y los diagramas de "rayitas"**.
+
+Los diagramas de Venn ya los introdujimos en el tema anterior, los diagramas de árbol son una ayuda visual intuitiva 
+que 
+se utiliza cuando es necesario tomar en cuenta el orden; por ejemplo, supongamos que un cuarto tiene cuatro puertas, 
+llamémoslas A, B, C, D y, que estamos interesados en saber de cuantas formas podemos entrar por una puerta y salir 
+por otra. Obviamente hay varias posibilidades, ¿cuántas son?. Son doce las posibilidades. 
+
+Para resolver problemas como 
+este, resultan de gran ayuda los diagramas de árbol.
+
+.. math:: arbol01.png
+
+Este diagrama indica que hay cuatro entradas posibles y, una vez usada una de las entradas solo quedan tres posibles 
+salidas. Por lo tanto, hay doce posibilidades, entrar por A y salir por B, C o D; o en trar por B y salir por A, C o 
+D, etc.
+
+Este problema también puede ser resuelto con la ayuda de otro tipo de diagrama, el de **"rayitas"** como son dos 
+operaciones que se van a realizar: entrada y salida, colocamos dos rayas, en una colocamos el número de posibilidades 
+que hay de entrar (4) y en la otra el número de posibilidades que hay de salir por otra puerta diferente a la de la 
+entrada (3), por lo tanto, tenemos: 4 x 3 = 12.
+
+
+Como otro ejemplo, supongamos que un tren de pasajeros de México a Monterrey tiene cuatro vagones disponibles y 
+necesitamos saber el número de formas en que tres pasajeros pueden ser asignados a los cuatro vagones, de manera que 
+dos de los pasajeros no viajen juntos, entonces procede mos a colocar tres "rayas" en las cuales colocamos el número 
+de formas en las cuales se pueden asignar los cuatro vagones a los tres pasajeros. Hay cuatro formas de asignar un 
+vagón al primer pasajero, una vez asignado uno de los vagones al primer pasajero, todavía nos quedan tres vagones 
+diferentes que pueden ser asignados al segundo y por último, quedan aún dos va_ gones disponibles para el tercer 
+pasajero, esto es: 4 x 3 x 2 = 24. 
+
+
+Son entonces 24 formas las que tenemos de asignar los cuatro vagones a los tres pasajeros, de manera que no viajen 
+dos de ellos juntos.
+
+xxxxxxxxxx
+
+Como otro ejemplo, tenemos que si queremos los números de 5 cifras que se pueden formar con los dígitos del 0 al 9 que 
+sean múltiplos de 5 y donde no se pueden repetir los dígitos, procedemos, colocando 5 "rayitas".
+
+En la última rayita (en el lugar de las unidades) sabemos que solo pueden ir el 0 y el S para que sean múltiplos de 5; 
+estas son dos pos i b i l i d a d e s ; por otro lado, una vez colocado uno de estos dos d í g i t o s , para el 
+siguiente lugar, (el de las decenas) podemos colocar cualquiera de los 9 dígitos que no hemos usado, es decir:
+
+9 x 2
+
+Para el lugar de las centenas, todavía nos quedan 8 dígitos, puesto que solo se han usado 2 de los 10 que teníamos, o 
+sea:
+
+8 x 9 x 2
+
+Procediendo en esta forma para el lugar de los millares tenemos 7,dígitos disponibles y para el lugar de las decenas 
+de millar 6. Por lo tanto.
+
+6 x 7 x 8 x 9 x 2 = 6048
+
+Es decir hay 6048 números de 5 cifras todas diferentes y que son múltiplos de cinco.
+
+33 3.2 PRINCIPIOS FUNDAMENTALES EN EL PROCESO DE CONTAR:
+
+PRINCIPIO DE LA MULTIPLICACION Los tres ejemplos anteriores ilustran la multiplicación o principio fundamental del
+
+el siguiente principio de proceso de contar.
+
+Ejemplo 3.1
+
+Un estudiante tiene 8 pantalones diferentes y 10 camisas diferentes, ¿de cuántas maneras puede vestirse en forma 
+diferente?
+
+Solución:
+
+Ejemplo 3.2
+
+Un restaurante ofrece tres sopas diferentes, 5 carnes, 4 postres y 4 tipos de bebida, ¿de cuántas formas podemos 
+ordenar una comida completa consistente de una sopa, una carne, un postre y una bebida?
+
+Ilustremos el principo de la Multiplicación con un diagrama de
+
+árbol.
+
+Ejemplo 3.3
+
+¿De cuántas formas podemos clasificar una persona a la cual se le hace una encuesta en relación al sexo (F, M), estado 
+civil (S, C, V, D, UL) y estatura (Bajo, mediano, alto).
+
+34 PROBABILIDAD Y ESTADISTICA
+
+Sexo
+
+0bservación:
+
+Estado Civil
+
+Estatura
+
+En un diagrama de árbol, construido de izquierda a derecha, si contamos horizontalmente, se multiplica y si contamos 
+verticálmente, se suma.
+
+35 PRINCIPIO DE LA ADICION:
+
+Consideremos ahora otro ejemplo; Un estudiante del Tronco Común de la E.N.E.P. Zaragoza Campo II debe decidir por una 
+de las tres carreras que se ofrecen (B, IQ y QFB) dentro de la carrera de Biología se ofre cen tres especialidades (B1 
+, B2 , B 3 ), en Ingeniería Química solo una y en QFB dos (Q1 , Q 2 ).
+
+¿De cuántas formas puede elegir una especialidad?
+
+Carrera
+
+Especialidad
+
+Aquí vemos que no es posible usar el Principio de la Multiplicación puesto que el número de especialidades es 
+diferente para cada carrera, por lo que solo podemos sumar verticalmente; esto se puede enunciar como el Principio de 
+la Adición.
+
+FACTORIAL DE UN NUMERO ENTERO POSITIVO:
+
+El producto de los n primeros enteros positivos consecutivos es llamado n-factorial o el factorial de n y se denota 
+por n!. Si n = 0, entonces 0! = 1. Por lo tanto:
+
+n! = n(n-1) (n-2) (3) (2) (1) ó (n-2) (n-1) (n)
+
+n! = (1) (2) (3)
+
+36 PROBABILIDAD Y ESTADISTICA
+
+En particular:
+
+2! = 2 x 1 = 2
+
+3! = 3 x 2 x 1 = 6
+
+4! = 4 x 3 x 2 x 1 = 24
+
+5! = 5 x 4 x 3 x 2 x 1 = 120
+
+6! = 6 x 5 x 4 x 3 x 2 x 1 = 720
+
+7 ! = 7 x 6 x 5 x 4 x 3 x 2 x 1 = 5040
+
+Obsérvese que:
+
+8! = 8 x 7!
+
+7! = 7 x 6!
+
+200! = (200) (199 )! En general: n! = n (n-1)!
+
+3.3 PERMUTACIONES
+
+En esta sección, usaremos el Principio de la Multiplicación para hallar fórmulas generales que permitan calcular el 
+número de permutaciones con y sin repetición de n elementos tomando todos a la vez o parte de ellos de cada vez; para 
+ello partiremos de ejemplos y obtendremos las fórmulas para cada caso.
+
+PERMUTACIONES SIN REPETICION DE n ELEMENTOS TOMADOS TODOS A LA VEZ:
+
+Ejemplo 3.4:
+
+¿De cuántas formas diferentes se pueden ordenar las letras de la palabra IMPUREZA?
+
+Solución:
+
+Puesto que tenemos ocho letras diferentes y las vamos a ordenar en diferentes formas, tendremos 8 posibilidades de 
+escoger la primera letra para nuestro arreglo, una vez usada una, nos quedan 7 po sibilidades de escoger una segunda 
+letra y una vez que hayamos usado dos, nos quedan 6, asi sucesivamente hasta agotarlas, en total tenemos:
+
+8x
+
+7
+
+x
+
+6
+
+x.
+
+5
+
+x
+
+4
+
+x
+
+3
+
+x
+
+2
+
+x
+
+_1_
+
+=
+
+8!
+
+=
+
+40320
+
+37 Analizando el ejemplo anterior podemos definir las permutacio_ nes u ordenaciones sin repetición de n elementos 
+tomados todos a la vez, de la siguiente forma;
+
+Ejemplo 3.5 ¿ De cuántas formas se pueden colocar 5 libros diferentes en un anaquel?
+
+Solución
+
+5!
+
+PERMUTACIONES CIRCULARES
+
+Ahora estudiaremos algunos ejemplos de arreglos circulares, sabemos que si queremos sentar a 4 personas, una al lado 
+de la otra en fila, el número de arreglos que podemos hacer es 4 !; ahora bien, si las queremos sentar alrededor de 
+una mesa circular, ¿ de cuántas formas lo podemos hacer?
+
+Algunos autores establecen la diferencia entre ordenaciones o variaciones y las permutaciones; siendo las ordenaciones 
+o variaciones aquellos arreglos donde todos los elementos son diferentes y se toman todos a la vez; mientras que en 
+las permutaciones los elementos pueden estar repetidos y se pueden tomar solo parte de ellos, Nosostros no esta 
+Meceremos esta diferencia.
+
+38 PROBABILIDAD Y ESTADISTICA
+
+Observemos los siguientes arreglos:
+
+Por cada una de las permutaciones o arreglos circulares tenemos 4 de ellos diferentes en fila; esto es, el arreglo 
+circular 1 puede leerse en sentido contrario a las agujas del reloj de las siguientes formas: ABCD, BCDA, CDAB y DABC, 
+que son 4 arreglos diferentes si fueran en fila; pero es un solo arreglo circular. Entonces, en vez de tener 4! que es 
+el número de arreglos en fila, tenemos solamente
+
+=
+
+3!
+
+En consecuencia,
+
+Ejemplo 3.6: ¿De cuántas formas se pueden sentar 3 parejas de casados alrededor de una mesa circular, si no debe haber 
+dos mujeres juntas ni dos hombres juntos?
+
+Solución:
+
+39 El número de formas en que podemos sentar a los 3 hombres alrededor de una mesa circular, dejando un lugar en medio 
+es 2!. Obsérvese que en el primer renglón de círculos, los seis arreglos diferentes tienen a H1 H2 H 3 siempre en la 
+misma posición; y en el segundo renglón, los seis arreglos tienen a H1 H3 H 2 siempre en la misma posición; por ello, 
+son solo dos arreglos de los tres hombres , y una vez sentados los hombres, dejando un lugar en medio, hay 3! = 6 
+formas de sentar a las tres mujeres por cada uno de los dos arreglos de hombres; quedando asi en forma alternada.
+
+PERMUTACIONES SIN REPETICION DE n ELEMENTOS TOMADOS DE r EN r
+
+Ejemplo 3. 7
+
+¿De cuántas formas diferentes se pueden sentar 6 alumnos en un salón de clase con 25 pupitres?
+
+Solución:
+
+El primer estudiante puede elegir entre 25 lugares, el segundo tendrá 24 lugares a escoger, el tercero 23, asi 
+sucesivamente; por lo tanto el número de arreglos sin repetición de 25 elementos tomados de 6 en 6 es:
+
+Esto se simboliza por
+
+Ejemplo
+
+Solución:
+
+3.8 ¿Cuántos números de 2 cifras sin repetición se pueden formar con los. dígitos 8,2,5,4,7 ?
+
+Observemos que:
+
+Esto puede establecerse de manera general:
+
+40 PROBABILIDAD Y ESTADISTICA
+
+Regresando al ejemplo 3.7, donde
+
+Para que aparezca 25!, tenemos que multiplicar por 19! pero, para que la igualdad no se altere tenemos que dividir por 
+19!, por lo tanto
+
+Pero, 19.' = (25-6)!
+
+,
+
+de donde:
+
+En general en la fórmula:
+
+para que aparezca n! en el numerador, necesitamos multiplicar por (n-r) (n-r-1) (3) (2) (1) y para que no se altere la 
+igualdad debemos devidir entre (n-r) (n-r-1) de modo que
+
+(3)
+
+(2)
+
+(1)
+
+=
+
+(n-r)!,
+
+PERMUTACIONES CON REPETICION DE n ELEMENTOS TOMADOS DE r En r
+
+Veamos otra aplicación del principio de la multiplicación. Supon gamos que tenemos 20 niños de un grupo de Pre-escolar 
+y 10 sabores de hela dos disponibles. ¿De cuántas formas diferentes podemos servir un helado a los 20 niños?
+
+Al primer niño le podemos servir uno de los 10 sabores, al segun do niño también le podemos servir de los 10 sabores, 
+al tercero también y asi sucesivamente, a cada uno de los 20 niños le podemos servir de los 10 sabores, por lo que 41 
+En general,
+
+Ejemplo 3.9:
+
+¿De cuántas formas podernos contestar un examen de
+
+12 preguntas de selección múltiple, si cada pregun ta tiene 5 alternativas de respuesta?
+
+Solución:
+
+Para responder la primera pregunta, tenemos 5 alternativas, para responder la segunda pregunta también tenemos S 
+alternativas, asimismo para la tercera, cuarta, etc., entonces en total tenemos
+
+Ejemplo 3.10:
+
+Solución:
+
+Ejemplo 3.11:
+
+¿Cuántos números de tres cifras con repetición
+
+se pueden formar usando todos los siguientes dígitos 7, 4, 8, 5, 3 ?
+
+Queremos abrir un candado de combinación de 4 anilíos, cada uno marcado con los dígitos 1, 2, 3, 4, y 5; pero no 
+sabemos cual es la combinación correcta,ccuál es el número máximo de intentos incorrectos que podemos realizar antes 
+de encontrar la correcta?
+
+Solución:
+
+En cada uno de los 4 anillos pueden ponerse los 5 dí gitos. Asi que n = 5 y r = 4, por lo que el número total de 
+posiciones es = 625. Pero como una de estas 62S es la correcta, el número máximo de intentos incorrectos es 624.
+
+42 PROBABILIDAD Y ESTADISTICA
+
+PERMUTACIONES DE n ELEMENTOS DE LOS CUALES p 1 SON DE UN TIPO, p 2 SON DE OTRO TIPO, p k SON DE OTRO TIPO, DONDE p 1 + 
+p 2 + p 3 +
+
++ P k = n
+
+Ejemplo
+
+Solución:
+
+3.12: ¿Cuántas señales diferentes se pueden hacer con 5 banderas de las cuales 2 son amarillas y 3 son rojas?
+
+Si las 5 banderas fueran todas diferentes tendríamos 5! = 120
+
+señales distintas; pero como 2 son de un color y 3 son de otro, entonces tendremos un número X de arreglos que será 
+menor que 5! . Ahora bien, si las 2 amarillas fueran diferentes, tendríamos 2! formas de colocarlas y por el principio 
+de la multiplicación los X arreglos deberían multiplicarse por 2! para tener un total de X x 2! . Asimismo si las 3 
+rojas fuesen diferentes tendríamos 3! formas de acomodarlas, y en total habría X x 2! x 3! señales con todas las 
+banderas diferentes y este número debería ser igual a 5! es decir, X x 2! x 3! = 5! ; despejando X:
+
+Veamos esto en un diagrama de árbol:
+
+43 Las 10 señales son: AARRR, ARARR, ARRAR, ARRRA, RAARR, RARAR,
+
+RARRA, RRAAR, RRARA, RRRAA.
+
+De esta manera:
+
+Ejemplo
+
+Solución
+
+3.13: Doce estudiantes van a ir a Veracruz en tres ca-
+
+rros, 3 estudiantes en un carro, 4 en el carro 2
+
+y 5 en el carro 3. ¿De cuántas formas se pueden
+
+acomodar, si cualquiera puede conducir?
+
+Aquí n = 12,
+
+RESUMEN DE LAS PERMUTACIONES
+
+FORMULA
+
+por consiguiente
+
+DESCRIPCION
+
+Permutaciones sin repetición de n elementos tomados todos a la vez
+
+Permutaciones circulares de n elementos
+
+Permutaciones sin repetición de n elementos tomados de r en r
+
+Permutaciones con repetición de n elementos tomados de r en r
+
+Permutaciones de n elementos de los cuales p 1 son de un tipo, p 2 de otro tipo, ,pk , de otro
+
+tipo.
+
+44 PROBABILIDAD Y ESTADISTICA
+
+3,4
+
+COMBINACIONES
+
+En la sección anterior obtuvimos fórmula? que nos permiten calcu lar las permutaciones o arreglos u ordenaciones de n 
+objetos con y sin repetición, considerando todos o parte de los n objetos. Todos los casos estudiados tiene algo en 
+común, el orden; es decir, en las permutaciones el orden es el factor primordial; ahora nos ocuparemos de las llamadas 
+combinaciones. Cuando hablamos de combinaciones el orden no es factor que nos interese; asi por ejemplo, cuando 
+formamos el conjunto cuyos elementos son a, b y c no nos interesa en que orden escribimos sus elementos; es decir, los 
+conjuntos.
+
+{a, b, c}, {a, c, b}, {b, c, a}, {b, a, c}, {c, a, b} y {c, b, a} son to dos iguales. Esto es, lo que serían 6 
+permutaciones diferentes de 3 elemen tos tomados todos a la vez constituye una sola combinación.
+
+Analicemos otro problema, en el juego de poker se dan 5 cartas a cada jugador de un paquete de 52 cartas, al jugador 
+no le interesa en que orden le dan las 5 cartas o que le dieron primero o después, ya que él las puede acomodar como 
+le guste. Aquí tenemos entonces, un problema de combinaciones. Las combinaciones de n elementos tomados de r en r se 
+denotan por
+
+Ejemplo
+
+Solución:
+
+3.14: ¿Cuántos helados de dos sabores diferentes nos pueden servir en una heladería que tiene el siguiente surtido de 
+sabores: chocolate, vainilla, mamey, fresa, mango y coco?
+
+Si nos importara el orden sería Pero, como un helado de vainilla con fresa o fresa con vainilla son iguales, por cada 
+dos permutaciones tenemos una combinación.
+
+45 Ejemplo
+
+Solución:
+
+3.15: ¿De cuántas formas podemos elegir 3 profesores de la Sección de Matemáticas que tiene 14 profesores de 
+Bioestadística para formar una comisión para la elaboración de un examen departamental?
+
+Si la comisión formada por los profesores ABC fuese diferente a la formada por los profesores BCA, ACB, BAC, CAB y 
+CBA; tendríamos un problema de permutaciones de 14 elementos tomados de 3 en 3
+
+Pero como los 6 arreglos (ABC, ACB, BCA, BAC, CBA y CAB) constituyen la misma comisión, tendremos que
+
+De esta forma:
+
+Ejemplo 3.16:
+
+Determine el número de subconjuntos de 0, 1, y 4 elementos del conjunto A = {a, b, c, d}
+
+2,
+
+3,
+
+# de elementos del subconjunto
+
+Subconjuntos
+
+# de Subconjuntos
+
+r = 0
+
+r= 1
+
+r = 2
+
+r = 3
+
+r=4
+
+46 PROBABILIDAD Y ESTADISTICA
+
+PROPIEDADES DE LOS NUMEROS COMBINATORIOS
+
+Proposición
+
+1)
+
+2)
+
+3)
+
+4)
+
+3.1:
+
+Demostración:
+
+1)
+
+2)
+
+3)
+
+4)
+
+Trabajando con el lado izquierdo solamente,
+
+47 Ejemplo 3.17:
+
+Solución:
+
+¿Cuántas manos de poker contienen
+
+a) exactamente un par?
+
+b) exactamente un full (3 de una denominación y dos de otra)?
+
+c) exactamente un as?
+
+COMBINACIONES CON REPETICION
+
+Cuando se desean incluir las combinaciones con repetición usamos la fórmula
+
+limpio
+
+3.18: ¿De cuántas formas podemos pedir que nos sirvan un cono de helado con dos "bolitas" diferentes o igua les si en 
+la heladería hay 5 sabores: chocolate, vainilla, fresa, naranja y limón?
+
+Solución:
+
+Estas son:
+
+(ch,ch); (ch,v); (ch,f); (ch,n); (ch,l); (v,v); (v,f); v,n); (v,l);, (f,f); (f,n); (f,l); (n,n); (n,l); (1,1).
+
+48 PROBABILIDAD Y ESTADISTICA
+
+COMPARACION ENTRE PERMUTACIONES Y COMBINACIONES
+
+PERMUTACIONES
+
+COMBINACIONES
+
+Sin repetición
+
+Seleccionar 3 colores sin repetición de los colores siguientes: ROJO. AZUL, VERDE Y BLANCO.
+
+RAV, RVA, AVR, ARV, VAR, VRA RAV RAB, RBA, ABR, ARB, BAR, BRA RAB RVB, RBV, VBR, VRB, BVR, BRV RVB AVB, ABV, VBA, VAB, 
+BVA, BAV AVB
+
+Con repetición
+
+Seleccionar dos colores con repetición de los 4 siguientes: ROJO. AZUL, VERTE y BLANCO.
+
+RR, AA, W , BB RR, AA, W , BB RA, AR, VA, BA RA, AV, VB RV, AV, VR, BR RV, AB RB, AB, VB, BV RB
+
+3.5 DESARROLLO DEL BINOMIO:
+
+Una de las aplicaciones más usadas de las combinaciones es el desar 11o del Binomio de Newton. Los números 
+combinatorios son llamados también coeficientes binomiales por el papel que juegan en el desarrollo del binomio: (a + 
+b)
+
+,
+
+n
+
+=
+
+0,
+
+1,
+
+2,
+
+3
+
+49 Sabemos que:
+
+(a + b)° = 1
+
+(a + b) = a + b
+
+2 2 2 (a + b) = a + 2ab + b
+
+Hagamos algunas observaciones acerca de estos desarrollos:
+
+1) En el desarrollo (a + b) hay (n + 1) términos.
+
+2) Los exponentes de "a" dismimuyen de 1 en 1 desde n hasta 0.
+
+3) Los exponentes de "b" aumentan de 1 en 1 comenzando en 0 hasta n.
+
+4) La suma de los exponentes de a y b en cada uno de los términos es igual a "n".
+
+5) Los coeficientes del primero y último términos son ambos igual a 1.
+
+6) Los coeficientes del segundo y del penúltimo término son ambos iguales a n.
+
+7) Los coeficientes de los términos son simétricos respecto del término cen tral (sin es par) o respecto de los dos 
+términos centrales (si n es impar).
+
+Considerando todas las observaciones anteriores, los (n + 1) términos del desarrollo sin sus coeficientes son:
+
+50 PROBABILIDAD Y ESTADISTICA
+
+Si multiplicamos (a+b)(a+b)(a+b) = (a+b) 3 , obtenemos
+
+aaa + aab + aba + abb + baa + bab + bba + bbb
+
+1 término con 3 "a" y 0 "b" 3 términos con 2 "a" y 1 "b" 3 términos con 1 "a" y 2 "b" 1 término con 0 "a" y 3 "b"
+
+Si consideramos el número de "b" en cada término del producto de los tres factores (a+b) (a+b) (a+b), hay
+
+1 (un término con cero " b" ),
+
+3 (tres términos con una " b" ),
+
+3 (tres términos con dos "b") y
+
+1 (un término con tres " b" ).
+
+Por lo tanto
+
+En general, los coeficientes de (a + b)
+
+De donde:
+
+son
+
+En consecuencia podemos escribir el término general como :
+
+51 Ejemplo Solución:
+
+Ejemplo Solución:
+
+Ejemplo
+
+3.19: Desarrollar (1 + b)n 
+
+3.20: Desarrollar
+
+3.21: Sin desarrollar, hallar el octavo término del desarrollo
+
+Solución: Usando
+
+Ejemplo 3.22:
+
+Solución:
+
+la
+
+formula
+
+del
+
+término
+
+general.
+
+Hallar el término independiente de x en el desarrollo de
+
+Como queremos el término independiente de x, el exponente de x debe ser cero; por lo tanto,
+
+Por consiguiente, el término independiente de x es
+
+52 PROBABILIDAD Y ESTADISTICA
+
+3.6 CONCEPTOS BASICOS EN LA PROBABILIDAD
+
+3.6.1 EXPERIMENTO Y ENSAYO:
+
+Un experimento aleatorio es un proceso que tiene las siguientes propiedades:
+
+1) El proceso se efectúa de acuerdo a un conjunto bien definido de reglas.
+
+2) Es de naturaleza tal que se repite o puede concebirse la repe_ tición del mismo.
+
+3) El resultado de cada ejecución depende de "la casualidad" y, por lo tanto, no se puede predecir un resultado único.
+
+Una sola ejecución del experimento se llama ENSAYO.
+
+3.6.2 ESPACIO MUESTRA Y EVENTO
+
+Al conjunto de todos los posibles resultados de un experimento se llama ESPACIO MUESTRA o ESPACIO MUESTRAL, del 
+experimento, y se denota por S. A cada resultado del experimento se le llama elemento o punto de S. Se dice que un 
+espacio muestra es finito o infinito, cuando el conjunto S tiene un número finito o infinito de elementos, 
+respectivamente.
+
+En muchos problemas prácticos no estamos tan interesados en los resultados individuales, del experimento sino en el 
+hecho de que un resulta do se encuentre contenido en un cierto conjunto de resultados. Es claro que cada conjunto de 
+este tipo es un subconjunto del espacio muestra S, Este -subconjunto se llama EVENTO.
+
+3.6.3 EVENTOS MUTUAMENTE EXCLUSIVOS:
+
+Dos eventos A y B que no ocurren simultáneamente o que no tienen elementos en común, es decir se les llama eventos 
+mutuamente exclusivos o mutuamente excluyentes.
+
+53 3.6.4 EVENTOS COMPLEMENTARIOS:
+
+y
+
+a
+
+Dos eventos A y B son complementarios sí B se le denota por A .
+
+Ejemplo
+
+3.23:. Sea el experimento de sacar dos fusibles ambos a la vez de una caja que contiene 5 fusibles (supon gamos que 
+están marcados con las letras a, b, c, d, y e) y de los cuales 3 están defectuosos (supongamos que los defectuosos son 
+b, c, y d).
+
+El espacio muestra es el conjunto de las formas en que se pueden sacar dos fusibles de los cinco.
+
+S = {ab, ac, ad, ae, be, bd, be, cd, ce, de}
+
+Algunos eventos son:
+
+1) El evento A en que ninguno de los dos fusibles sean defectuosos.
+
+2) El evento B, en que uno de los dos fusibles es defectuoso.
+
+3) El evento C, en que uno o más fusibles son defectuosos
+
+4) El evento D, en que los dos fusibles son defectuosos
+
+Estos se pueden escribir asi:
+
+A = {ae}
+
+B = {ab, ac, ad, be, ce, de}
+
+C = {ab, ac, ad, be, bd, be, cd, ce, de}
+
+D = {be, bd, cd}
+
+Los eventos A y B; A y D; B y D; A y C son mutuamente exclusivos,
+
+es decir,
+
+Los eventos A y C son además complementarios, o sea,
+
+y
+
+54 PROBABILIDAD Y ESTADISTICA
+
+3.7 DEFINICIONES DE PROBABILIDAD:
+
+Antes de profundizar en la forma como se utilizan las probabilidades, es necesario conocer de cierta manera de donde 
+provienen. Hay tres formas de calcular o estimar la probabilidad. El enfoque clásico o "a prio_ ri" proveniente de los 
+juegos de azar o definición clásica de Laplace que se emplea cuando los espacios muéstrales son finitos y tienen 
+resultados igualmente probables; la definición empírica, "a posteriori" o frecuencial que se basa en la frecuencia 
+relativa de ocurrencia de un evento con respecto a un gran número de ensayos repetidos y por último la definición de 
+Kolmogorov o definición axiomática o matemática de la probabilidad.
+
+Seleccionar uno de los tres enfoques dependerá de la naturaleza del problema.
+
+3.7.1 DEFINICION CLASICA DE LAPLACE 0 "A PRIORI'
+
+Esta definición es de uso limitado puesto que descansa sobre la base de las dos siguientes condiciones:
+
+i) El espacio muestra de todos los resultados posibles S es fi nito.
+
+ii) Los resultados del espacio muestra deben ser igualmente pro
+
+bables.
+
+Bajo estas condiciones y si A es el evento formado por n(A) resultados del espacio muestra y, el número total de 
+resultados posibles es n(S), entonces P(A)
+
+Ejemplo 3.24:
+
+Si se saca una carta de un paquete de 52 cartas
+
+de las cuales 26 son negras: 13 espadas A, 2, 3, , 10, J, Q, K; y 13 son tréboles; y 26 son rojas: (13 corazones y 13 
+diamantes), la probabilidad de que la carta sea un as es porque el evento de "sacar un as" consta de 4 de los 52 
+resultados igualmente probables. La proba-
+
+=
+
+0.0769,
+
+55 bilidad de que la carta sea negra es probabilidad de que sea un diamente es
+
+y la
+
+Ejemplo
+
+3.25: Al lanzar un dado,¿cuál es la probabilidad de obtener un número par?
+
+Solución:
+
+Ejemplo 3.26:
+
+¿Cuál es la probabilidad de que una familia que
+
+tiene tres hijos, hayan dos mujeres y un varón, si se considera igualmente probable el nacimiento de un niño o niña?
+
+Solución: S = {MMM , MMV , MVM , MVV , VMM , VMV , VVM , VVV}
+
+n(S) = 8
+
+El evento A en que hayan dos mujeres y un varón
+
+A = ' {MMV , MVM , VMM}
+
+n(A) = 3
+
+Cabe señalar que
+
+puesto que
+
+3.7.2 DEFINICION EMPIRICA, "A POSTERIORI" 0 FRECUENCIAL:
+
+La definición clásica se ve limitada a situaciones en las que hay un número finito de resultados igualmente probables. 
+Por desgracia, hay pro blemas prácticos que no son de este tipo y la definición de Laplace no se puede aplicar. Por 
+ejemplo, si se pregunta por la probabilidad de que un paciente sea curado mediante cierto tratamiento médico, o la 
+probabilidad de que una determinada máquina produzca artículos defectuosos, entonces no hay forma de introducir 
+resultados igualmente probables. Por ello se necesita un concepto más general de probabilidad. Una forma de dar 
+respuesta a estas preguntas es obtener algunos datos empíricos en un intento por estimar las
+
+56 PROBABILIDAD Y ESTADISTICA
+
+probabilidades. Supongamos que efectuamos un experimento n veces y que en esta serie de n ensayos el evento A ocurre 
+exactamente r veces, entonces la frecuencia relativa del evento es o sea,
+
+Si continuamos calculando esta frecuencia relativa cada cierto número de ensayos, a medida que aumentamos n, las 
+frecuencias relativas correspondientes serán más estables; es decir; tienden a ser casi las mis_ mas; en este caso 
+decimos que el experimento muestra regularidad estadistica, o estabilidad de las frecuencias relativas. Esto se 
+ilustra en la si guiente tabla, de una moneda lanzada al aire 1000 veces.
+
+número de lanzamiento
+
+1-100 101 - 200 201 - 300 301 - 400 401 - 500 501 - 600 601 - 700 701 - 800 801 - 900 901 - 1000 TOTAL : 100C
+
+número de caras
+
+52
+
+53
+
+52
+
+47
+
+51
+
+53
+
+48
+
+46
+
+52
+
+54
+
+Frecuencia relativa
+
+Frecuencia acumulada
+
+Frecuencia acumula da relativa
+
+0.52
+
+0.53
+
+0.52
+
+0.47
+
+0.51
+
+0.53
+
+0.48
+
+0.46
+
+0.52
+
+0.54
+
+0.508
+
+52
+
+105
+
+157
+
+204
+
+255
+
+308
+
+356
+
+402
+
+454
+
+508
+
+0.520
+
+0.525
+
+0.523
+
+0.510
+
+0.510
+
+0.513
+
+0.509
+
+0.503
+
+0.504
+
+0.508
+
+508
+
+En un total de 1000 lanzamientos ocurrieron 508 caras, es decir la frecuencia relativa es aproximadamente 0.5.
+
+Experimentos hechos por 3 investigadores obtuvieron:
+
+HECHO POR
+
+BUFFON
+
+K. PEARSON
+
+K. PEARSON
+
+NUMERO DE LANZAMIENTOS
+
+4040
+
+12000
+
+24000
+
+NUMERO DE CARAS
+
+FRECUENCIA RELATIVA DE CARAS
+
+2048
+
+6019
+
+12012
+
+0.5069
+
+0.5016
+
+0.5005
+
+57 La gran mayoría de experimentos aleatorios de importancia prácti ca tienen estabilidad, por esto podemos sospechar 
+que prácticamente será cierto que la frecuencia relativa de un evento E en un gran número de ensa_ yos es 
+aproximadamente igual a un determinado número P(E) , o sea, la probabilidad del evento E es
+
+Obsérvese que este número no es una propiedad que depende solamente de E, sino que se refiere a un cierto espacio 
+muestra S y a un experimento aleatorio. Entonces, decir que el evento £ tiene probabilidad P(E) significa que si 
+efectuamos el experimento muchas veces, es práticamente cierto que la frecuencia relativa de E, (E) es aproximadamente 
+igual a P(E).
+
+Cuando se usa la definición frecuencial, es importante tomar en cuenta los siguientes aspectos:
+
+i) La probabilidad obtenida de esta manera es únicamente una estimación del valor real.
+
+ii) Cuanto mayor sea el número de ensayos, tanto mejor será la estimación de la probabilidad; es decir, a mayor número 
+de ensayos mejor será la estimación.
+
+iii) La probabilidad es propia de solo un conjunto de condiciones idénticas a aquéllas en las que se obtuvieron los 
+datos, o sea, la validez de emplear esta definición depende de que las condiciones en que se realizó el experimento 
+sean repetidas idénticamente.
+
+3.7.3 DEFINICION AXIOMATICA 0 MATEMATICA DE KOLMOGOROV:
+
+Las definiciones anteriores son netamente empíricas o experimentales, sin embargo después de establecer una forma de 
+determinar la probabilidad experimentalmente, se pueden deducir leyes o propiedades de la pro' babilidad en forma 
+lógica o computacional bajo ciertas suposiciones llamados axiomas de la probabilidad.
+
+58 PROBABILIDAD Y ESTADISTICA
+
+La probabilidad de un evento A se define como el número P(A), tal que cumple con los siguientes axiomas:
+
+AXIOMA 1: La probabilidad P(A) de cualquier evento no debe ser menor que cero ni mayor que uno
+
+AXIOMA 2: P(S) = 1
+
+AXIOMA 3: Si A y B son dos eventos mutuamente exclusivos entonces
+
+Toda la teoría elemental de la probabilidad está construida sobre las bases de estos tres simples axiomas.
+
+Si el espacio muestral es infinito, debemos reemplazar el axioma 3 por el AXIOMA 3*: Si A1 , A 2 son eventos 
+mutuamente exclusivos , entonces tenemos que
+
+3.8 DETERMINACION PRACTICA DE PROBABILIDADES:
+
+La determinación práctica de probabilidades depende del problema que se presente, si tenemos un espacio muestra finito 
+con resultados igualmente probables, utilizaremos el concepto clásico de probabilidad, ya que éste satisface los tres 
+axiomas de la definición matemática de probabilidad.
+
+Si la naturaleza del experimento no señala que el número finito de resultados tenga igual posibilidad de ocurrir, o si 
+el espacio muestra no es finito y la naturaleza del experimento no indica como subdividir el espacio muestra en un 
+número finito de eventos igualmente probables, se deben asignar probabilidades usando las frecuencias relativas que se 
+observen en largas secuencias de ensayos. Esto se debe hacer de manera que los axiomas de la probabilidad se 
+satisfagan. De esta manera obtenemos valores aproximados, pero esto no tiene importancia.
+
+A veces la probabilidad del evento A se reporta como P(A)xl00, que significa que cada 100 veces que se realice el 
+experimento, P(A)xl00
+
+59 veces se verifica el, evento A, asi por ejemplo, Si P(A) = 0.25, se puede decir que el evento A tiene una 
+probabilidad de 25% o que el evento ocurre 25% de las veces.
+
+3.9 PROPIEDADES EE LA PROBABILIDAD
+
+Proposición 3.1:
+
+Demostración:
+
+Proposición 3.2:
+
+Demostración:
+
+Sabemos que Por el axioma 3: Despejando:
+
+(Regla de la adición para eventos mutuamente ex clusivos).
+
+Si son eventos mutuamente ex clusivos, entonces
+
+Si r = 1
+
+Si r = 2 ,
+
+Si
+
+r = 3 ,
+
+aplicando el axioma 3,dos veces tene_ mos:
+
+En general si agrupamos los eventos y luego aplicamos el axioma 3 repetidas veces, tenemos:
+
+60 PROBABILIDAD Y ESTADISTICA
+
+Proposición 3.3:
+
+Demostración:
+
+(Regla de la adición para eventos arbitrarios). Si A y B son eventos cualesquiera del espacio muestra S, entonces
+
+Donde los tres conjuntos encerrados en paréntesis son mutuamente exclusivos, por lo tanto, por el axioma 3
+
+Pero A =
+
+Aplicando el axioma 3 a
+
+Sumando:
+
+Por lo tanto
+
+Despejando
+
+A
+
+y
+
+a B, tenemos
+
+Proposición 3.4:
+
+Demostración:
+
+Por el axioma 3
+
+(Regla de la Complementación)
+
+Igualando (1) con (2):
+
+P(A) + P(AC ) = 1,
+
+De donde
+
+P(AC 
+
+)
+
+=
+
+1
+
+-
+
+P(A)
+
+c.q.d.
+
+61 3.10 PROBABILIDAD CONDICIONAL:
+
+En esta sección examinaremos como la probabilidad de ciertos eventos depende o se ve influenciada por la ocurrencia de 
+otros. Para ello veremos algunos ejemplos.
+
+Ejemplo
+
+3.27: Se seleccionan dos semillas aleatoriamente, una por una, de una bolsa que contiene 10 semillas de flores rojas y 
+5 de flores blancas. ¿Cuál es la probabilidad de que:
+
+a) La primera semilla sea roja?
+
+b) La segunda semilla sea blanca si la primera fue roja?
+
+Solución:
+
+a) La probabilidad de que la primera semilla sea roja es . Puesto que hay 10 semillas de flores rojas en un total de 
+15; es decir
+
+b) La probabilidad de que la segunda semilla sea blanca se ve influenciada por lo que salió primero, es decir esta 
+probabilidad está sujeta a una condición, la de que la primera semilla sea roja. Este tipo de probabi lidad se le 
+llama probabilidad condicional y se denota por que se lee: la probabilidad de B2  dado R1 .
+
+Esta probabilidad, llas blancas en un total de 14 que quedan,
+
+puesto que todavia hay 5 semi-
+
+Veamos la situación en un diagrama de árbol:
+
+la. extracción
+
+2a. extracción
+
+62 PROBABILIDAD Y ESTADISTICA
+
+Definición: Para, dos
+
+eventos cualesquiera A y B en un espacio muestra S, tales que la probabilidad del evento B dado el evento A, se define 
+por P(B|A) sentido hablar de
+
+.
+
+Si
+
+P(A)
+
+=
+
+0,
+
+no
+
+tiene
+
+Ejemplo 3.28: Una persona lanza una moneda 3 veces, ¿Cuál es la probabilidad de obtener 3 águilas dado que salió por 
+lo menos un águila?
+
+Solución:
+
+El espacio muestra del experimento de lanzar una moneda 3 veces es S = {aaa, aas, asa, ass, saa, sas, ssa, sss} El 
+evento A de que por lo menos salió un águila en los tres lanzamientos es:
+
+A = {aaa, aas, asa, ass, saa, sas, ssa} El evento B de que obtenga 3 águilas es
+
+B = {aaa}
+
+Nótese que P(B A) es la probabilidad de una ocurrencia en las 7 que son posibles en A; es decir, calcular la 
+probabilidad condicio_ nal de B dado A es como calcular la probabilidad de B en relación al con junto A, como si este 
+fuera un nuevo espacio muestra S* = A Proposición: 3.5: Para dos eventos A y B cualesquiera del espa cio muestra S, 
+P(B) Demostración: Para cualquier evento B,
+
+(Distributividad)
+
+63 Como los eventos su unión es B, por el axioma 3, tenemos:
+
+son mutuamente exclusivos y
+
+De la definición de probabilidad condicional, tenemos
+
+Obsérvese que en un diagrama de árbol si se multiplica
+
+Ejemplo
+
+3.29: Consideremos dos cajas, la caja 1 contiene dos bo_ litas blancas y cuatro bolitas rojas y la caja 2 contiene 8 
+blancas y cuatro rojas. Se selecciona una caja al azar y luego se saca una bolita al azar. Hallar la probabilidad de 
+que la bolita sea blanca.
+
+Solución:
+
+Sea A el evento de seleccionar la caja 1 y A el even to de seleccionar la caja 2, entonces Sea B el evento de que 
+salga una bolita blanca, entonces Ahora bien, por la proposición 3.5 tenemos:
+
+3.11 EVENTOS INDEPENDIENTES:
+
+Cuando A y B son dos eventos con probabilidades positivas, hemos visto que en general la probabilidad condicional del 
+evento B dado el even to A es diferente de la probabilidad del evento B. Sin embargo, cuando se tiene la igualdad: 
+P(B[A) = P(B) es de especial importancia porque esto quiere decir que el evento B no depende o es independiente del 
+evento A. Es decir, no importa si ocurrió o no el evento A puesto que la ocurrencia o no ocurrencia de A no afecta al 
+evento B.
+
+64 PROBABILIDAD Y ESTADISTICA
+
+Proposición:
+
+Demostración:
+
+3.6: Si B es independiente de A, entonces A es independiente de B.
+
+De la definición de probabilidad concicional se tiene
+
+Despejando
+
+Como B es independiente de A,
+
+Sustituyendo en (1)
+
+P(A|B) P(B) = P(A) • P(B)
+
+P(A|B) = P(A) y A es independiente de B. c.q.d.
+
+Proposición: 3.7: Demostración:
+
+A y B son independientes si y solo si Si A y B son independientes, entonces P(B|A) = P(B) y
+
+P(A|B) = P(A)
+
+(1)
+
+De la definición de probabilidad condicional
+
+Sustituyendo (1) en (2) se tiene:
+
+P(B) • P(A) =
+
+Por otra parte si
+
+=
+
+P(A)
+
+•
+
+PCB)
+
+entonces
+
+y
+
+De donde B es independiente de A y A es independiente de B. c.q.d.
+
+Ejemplo
+
+1:30:
+
+En una escuela el 20% de los alumnos tiene problemas visuales, el 8% problemas auditivos y el 4% tienen tanto 
+problemas visuales como auditivos, Sean: V los que tienen problemas visuales y V los que no lo tienen A los que tienen 
+problemas auditivos y A c los que no los tienen.
+
+65 a) ¿Son los dos eventos de tener problemas visuales y auditivos, eventos independientes?
+
+b) ¿Cuál es la probabilidad de que un niño tenga problemas auditivos si sabemos que tiene problemas visuales?
+
+c) Complete la siguiente tabla
+
+d) ¿Cuál es la probabilidad de que un niño no tenga problemas auditivos si tiene problemas visuales?
+
+Solución:
+
+Como
+
+b)
+
+no son independientes.
+
+c) Por diferencias podemos completar la tabla.
+
+d)
+
+PROBABILIDADES MARGINALES:
+
+En el ejemplo anterior 3.30 las probabilidades totales; esto es, la probabilidad de que al elegir un niño al azar, 
+éste tenga problemas visuales, P(V) = 0.20; y la probabilidad de que un niño elegido al azar no
+
+66 PROBABILIDAD Y ESTADISTICA
+
+tenga problemas auditivos, P(AC ) = 0.92; análogamente P(Vc ) = 0.08 y P(A) = 0.08 se llaman probabilidades 
+marginales.
+
+3.12 REGLA DE BAYES:
+
+La regla de Bayes es un caso especial de la probabilidad condicional que se aplica cuando se desea calcular la 
+probabilidad condicional de un evento que ocurrió primero dado lo que ocurrió después. Para llegar a es_ tablecer tan 
+útil regla vamos a estudiar una proposición previa.
+
+Proposición
+
+3.8:
+
+Sean
+
+una partición de
+
+Entonces para cualquier evento B se tiene que:
+
+Demostración:
+
+Considérese el siguiente diagrama
+
+(unión de eventos mutuamente exclusivos)
+
+(Axioma 3)
+
+(Usando la def. de Prob. Condicional)
+
+67 Proposición: 3.9:
+
+(REGLA DE RAYES)
+
+una partición de S y B un evento cualquiera en S, entonces:
+
+Demostración: Por
+
+la
+
+propos.
+
+3.8 PlB)
+
+(1)
+
+Por
+
+la definición de probabilidad condicional se tiene: y
+
+.....(2)
+
+(3)
+
+Igualando (2) y (3): De donde
+
+sustituyendo (1)
+
+en
+
+(4)
+
+(4) se tiene la fórmula deseada
+
+COLORALIO: Si A y A
+
+son una partición de S y B es un evento cualquiera
+
+68 PROBABILIDAD Y ESTADISTICA
+
+Ejemplo 3.31:
+
+Un ingeniero químico sabe que cuando se compran
+
+etiquetas a un proveedor A el número de etiquetas defectuosas y no defectuosas están en la relación 1:24; mientras que 
+el proveedor B afirma que la pro habilidad de encontrar una etiqueta no defectuosa en su compañía es de 9/10. Si se 
+compra la misma cantidad de etiquetas a ambos proveedores:
+
+a) ¿Cuál es la probabilidad de que sea del proveedor B, si se encontró una defectuosa?
+
+b) ¿Cuál es la probabilidad de que sea del proveedor A, si se encontró que no es defectuosa?
+
+Solución:
+
+Visto en un diagrama de árbol E J E R C I C I O S
+
+3.1.- ¿Cuantas placas de automóvil se pueden hacer usando 3 dígitos y 3 le tras del abecedario? (considérese los 
+dígitos del 0 al 9 y 26 letras).
+
+3.2.- ¿De cuántas formas diferentes se puede sentar 5 parejas en 10 butacas en fila de un teatro de manera que no 
+quede ninguna pareja separada.
+
+3.3.- ¿Cuántos números se pueden formar usando todos los siguientes dígitos: 2, 4, 5, 7 y 9. a) si no se pueden 
+repetir los dígitos? b) ¿Cuan tos de estos números son múltiplos de S? c) ¿Cuántos de ellos son mayores de 70,000? d) 
+¿Cuántos de ellos son menores de 50,000? e) ¿Cuán tos de ellos son pares?
+
+3.4.- Seis personas fueron invitadas a un banquete (mesa rectangular con capacidad para seis). ¿De cuántas formas 
+diferentes pueden sentarse las seis personas si:
+
+a) todas aceptaron la invitación?
+
+b) dos de ellas no aceptaron la invitación?
+
+3.5.- Simplificar las siguientes expresiones:
+
+3.6.- Resolver para n;
+
+3.7.- Demostrar cada una de las siguientes proposiciones:
+
+3.8.- ¿Cuántas "palabras" diferentes se pueden formar con las letras de:
+
+a) ASIENTO b) GLOBO c) CENSO d) CONFERENCIA
+
+e) MASSACHUSETTS f) MISSISSIPPI
+
+3.9.- ¿Cuántos números de teléfono de 7 dígitos se pueden establecer si todos los dígitos se pueden utilizar con 
+repetición pero no pueden comenzar con cero?
+
+70 PROBABILIDAD Y ESTADISTICA
+
+3.10.- Seis personas que van en un tour llegan a un hotel donde hay 6 cuar tos uno a continuación del otro a lo largo 
+de un corredor, los cuales serán asignados al azar a las 6 personas, 2 de ellas son conocidas de antemano. ¿De cuántas 
+formas diferentes se pueden colocar las 6 personas en sus respectivos cuartos si las dos conocidas solicitaron estar 
+en cuartos contiguos?
+
+3.11.- Considérese una caja con 4 bolitas numeradas del 1 al 4. ¿De cuántas formas se pueden sacar 3 bolitas una por 
+una, si:
+
+a) no se reemplazan en la caja las sacadas previamente?
+
+b) se reemplazan en la caja las sacadas previamente?
+
+3.12.- ¿De cuántas formas diferentes se pueden colocar 6 llaves en un lla_ vero en forma de aro?
+
+3.13.- Se desean sentar 5 señores y 5 señoras alrededor de una mesa circu lar. ¿De cuántas formas pueden sentarse si 
+no se pueden sentar dos damas una al lado de la otra?
+
+3,14.- En un experimento psicológico de aprendizaje, una rata tiene la op_ ción de escoger uno de cinco trayectorias. 
+Si se escogen dos ratas para el experimento. ¿Cuántos eventos simples están asociados con este experimento (¿Cuántos 
+elementos hay en el espacio muestra?)?
+
+3.15.- Una pizzería ofrece pizzas con cualquier combinación [incluyendo la que sólo tiene queso y la que contiene 
+todo) de los siguientes ingredientes: pimiento, cebolla, champiñón, chorizo, anchoas y jamón. ¿Cuántas pizzas 
+diferentes se pueden ordenar si hay la posibilidad de escoger pizzas con ninguno, uno o más ingredientes y hasta con 
+todos ellos?
+
+3.16.- Una bolsa contiene 5 canicas blancas y 7 rojas. Si se desean sacar 5 canicas al azar ¿De cuántas formas 
+posibles pueden ser sacadas si
+
+a) las canicas pueden ser de cualquier color?
+
+b) se quieren exactamente 3 blancas?
+
+c) las 5 deben ser del mismo color?
+
+71 3.17.- En un laboratorio hay 4 diferentes trabajos que realizar en una tarde en particular y hay 5 personas para 
+hacerlos ¿De cuántas formas pueden ser asignadas las 5 personas para hacer los cuatro trabajos?
+
+3.18.- Una investigadora tiene 4 drogas que desea probar, pero sólo dispone de animales suficientes para probar 3 de 
+las drogas ¿ De cuántas formas puede probar las cuatro drogas?
+
+3.19.- Se le suministran drogas a 8 animales de la siguiente forma: Tipo A a tres de ellos, tipo B a otros tres y tipo 
+C a los dos restantes. Luego se coloca cada uno de los animales en una de las 8 diferentes cajas adyacentes para su 
+observación. Si los animales sólo se distinguen en base al tipo de droga recibida, ¿De cuántas formas diferentes 
+pueden ser colocados?
+
+3.20.- Desarrollar los siguientes binomios usando la fórmula de Binomio de Newton, d) (1 + 0.04)10 
+
+a) (1 + b ) 5 b) (1 + 1) n c) (x + 2y)7 
+
+e)
+
+f)
+
+(x
+
+-
+
+x2 
+
+)1 2 
+
+g)
+
+(-2a
+
++
+
+3b)6 
+
+3.21.- Determinar (sin desarrollar el binomio):
+
+a) el quinto término del desarrollo de (x - y)12 
+
+b) el décimotercer término del desarrollo
+
+c) ios dos términos centrales del desarrollo (1 + 2x)13 
+
+3.22.- Encontrar el coeficiente del término que contiene a:
+
+a) x 2 y 4 en el desarrollo de (2x + 3y)6 
+
+b) x 5 en el desarrollo de (x + x-3 )17  3.23.- Encontrar el término independiente de x en el desarrollo
+
+3.24.- Se lanza un dado una vez. ¿Cuál es la probabilidad de que
+
+a) la cara superior muestre 3 puntos?
+
+b) la cara superior muestre al menos 5 puntos?
+
+3.25.- Una caja contiene 12 transistores buenos y 3 defectuosos, se sacan 3 transistores de la caja. ¿Cuál es la 
+probabilidad de que ninguno sea defectuoso?
+
+72 PROBABILIDAD Y ESTADISTICA
+
+3.26.- A partir del conjunto de letras de La palabra VIDA se escogen 2 letras una por una. enliste el espacio muestra.
+
+3.27.- Si las letras ORMA se arreglan en línea al azar, ¿Cuál es la probabilidad de que en el arreglo aparezca ROMA?
+
+3.28.- Un par de dados es lanzado. Sea A el evento ' , .B el evento y C el evento
+
+a) ¿Son los eventos A y B mutuamente exclusivos?
+
+b) ¿Son A y C mutuamente exclusivos?
+
+c) ¿Son B y C mutuamente exclusivos?
+
+d) ¿Calcular: P
+
+3.29.- Se seleccionan dos semillas aleatoriamente de una bolsa que contiene 10 semillas de flores rojas y 5 de flores 
+bLancas. ¿Cuál es la probabilidad de que:
+
+a) ambas resulten de flores blancas?
+
+b) una de cada color?
+
+3.30.- Una muestra de 6 individuos para cierta prueba es seleccionada de un grupo de 20 fumadores y 10 no fumadores. 
+¿Cuál es la probabilidad de que la muestra contenga 4 fumadores?
+
+3.31.- Una señora que visita una tienda por departamentos a veces usa sus tarjetas de crédito 1, 2 ó 3; otras veces 
+paga con cheque y algunas veces en efectivo. Las probabilidades de pagar con estas 5 alternate vas son respectivamente 
+0.25, 0.29, 0.23, 0.19 y 0.04 ¿Cuál es la probabilidad de que en la próxima visita a la tienda:
+
+a) no pague en efectivo?
+
+b) no use ninguna de sus tarjetas de crédito?
+
+c) use su tarjeta # 1 o pague con cheque o pague en efectivo?
+
+d) que no pague en efectivo ni con cheque?
+
+3.32.- Se desea hacer una con 4 huevos; si hay 12 hue vos en el refrigerador de los cuales 4 están malos. ¿Cuál es la 
+probabilidad de que los 4 huevos salgan buenos?
+
+73 3.33.- En tres cajas se colocan canicas rojas, blancas y azules, distribuidas de la siguiente forma:
+
+CAJAS
+
+1
+
+2
+
+3
+
+CANICAS ROJAS BLANCAS 5 3 1 8 3 1
+
+AZULES 2 1 6
+
+Si se selecciona una caja al azar y se saca una canica al azar. ¿Cuál es la probabilidad de que la caja usada haya 
+sido la # 3 si la canica es roja?
+
+3.34.- Dos personas encargadas de la perforación de tarjetas llenan en distintas perforadoras igual número de 
+tarjetas. La probabilidad de que la primera persona cometa un error es de 0.05; para la segunda esta probabilidad es 
+de 0.1. Al verificar las tarjetas se descubrió un error. Hallar la probabilidad de que se haya equivocado la primera 
+de las encargadas de la perforación. Se supone que ambas máquinas perforadoras estaban en buen estado.
+
+3.35.- En una encuesta reciente hecha a estudiantes de nuevo ingreso a la Universidad se encontró que entre todos los 
+estudiantes admitidos 55% no tienen problema de ningún tipo, 25% sienten que fueron mal orientados en cuanto a la 
+carrera elegida y 20% tienen problemas de tipo económico. La misma encuesta muestra que de los que no tienen ningún 
+tipo de problema solamente el 1% no regresa al 2o. semestre; que la probabilidad de que los que fueron mal orientados 
+no continuen en el 2o. semestre es de 0.7; y la probabilidad de que los que tienen problemas económicos continuen es 
+de 0.05. Si se elige un alumno al azar del 2o. semestre, ¿Cuál es la probabilidad de que él sea uno de los que a pesar 
+de no estar en la carrera de su vocación haya continuado?
+
+3.36.- Una fábrica tiene tres máquinas A, B y C produciendo la misma pieza, para televisores a color. La máquina A 
+produce 601 de las piezas con un 95% de ellas perfectas, la máquina B produce 30% con SOI perfec-
+
+74 PROBABILIDAD Y ESTADISTICA
+
+tas y la máquina C produce 10% con 65% perfectas, Si se selecciona una pieza al azar, ¿Cuál es la probabilidad de que 
+ésta sea defectuosa? y si es defectuosa ¿Cuál es la probabilidad de que haya sido producida por la máquina A?
+
+3.37.- En un hospital especializado ingresan un promedio de 50% de enfermos con la afección K, 30% con la afección L, 
+20% con la afección
+
+M. La probabilidad de curación completa de la afección K es 0.7; para las afecciones L y M estas probabilidades son 
+respectivamente
+
+0.8 y 0.9 Un enfermo internado en el hospital fue dado de alta sano. Hallar la probabilidad de que este enfermo sufría 
+la afección
+
+K.
+
+3.38.- Un ratón es dominante doble (AA) o heterocigoto (Aa) según las pro piedades Mendelianas, y la probabilidad de 
+que cualquiera de los dos casos se presente es 1/2. Se cruza el ratón macho con una hem bra doblemente recesiva (aa) . 
+Si el ratón es dominante doble (AA) entonces la cría poseerá la característica dominante; si el ratón es heterocigoto 
+la cría exhibirá la característica dominante la mitad de las veces también. Supóngase que una cría exhibe la 
+característica dominante. ¿Cuál es la probabilidad de que el ratón padre sea dominante doble?
+
+75  PARTE II DISTRIBUCIONES DE PROBABILIDAD
+
