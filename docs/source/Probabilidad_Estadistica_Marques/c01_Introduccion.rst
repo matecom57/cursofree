@@ -1,4 +1,4 @@
-TEMA:  Introduccion
+TEMA:  Introducción
 ================
 
 1.1 Introducción y Definición de Estadística
