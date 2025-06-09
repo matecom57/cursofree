@@ -59,7 +59,8 @@ En el siglo XIX la necesidad de una profundización en las bases de la Estadíst
 Pearson, considerado el **padre de la Estadística** pasó casi medio siglo haciendo una profunda 
 investigación en Estadística, asi también fue el fundador de la revista "**Biometrika**" y de la 
 Escuela de Estadística en Cambridge, Inglaterra ganando gran ímpetu el estudio de esta materia. 
-A Karl Pearson se debe el estudio de la **bondad de ajuste** con la **distribución** $X^2$ y el **coeficiente de 
+A Karl Pearson se debe el estudio de la **bondad de ajuste** con la **distribución** :math:`\chi^2` y el **coeficiente 
+de 
 correlación** entre dos variables.
 
 Mientras Karl Pearson trabajaba con grandes muestras, la teoría de las grandes muestras era inadecuada 
