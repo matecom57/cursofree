@@ -1,4 +1,5 @@
 TEMA 3. PROBABILIDAD ELEMENTAL
+==============================
 
 A pesar de la complejidad de muchos procedimientos avanzados, proporcionados por la tecnología moderna, el simple 
 proceso de contar continúa jugando un papel importante en problemas prácticos de la vida cotidiana. Tenemos que 
