@@ -166,7 +166,10 @@ En la siguiente tabla se observan todos los subconjuntos de un conjunto para tre
    \end{matrix}
 
 
-El número de subconjuntos de un conjunto de n elementos es $2^n$ , donde uno de los subconjuntos es el propio conjunto, siendo éste un subconjunto no propio, por consiguiente, el número de subconjuntos propios de un conjunto de n elementos es $2^n - 1$ .
+El número de subconjuntos de un conjunto de n elementos es :math:`2^n`, donde uno de los subconjuntos 
+es el propio 
+conjunto, siendo éste un subconjunto no propio, por consiguiente, el número de subconjuntos propios 
+de un conjunto de n elementos es :math:`2^n - 1`.
 
 Es importante hacer notar la diferencia entre los símbolos , El símbolo se emplea para relacionar a un elemento como per teneciente a un conjunto, mientras que conjunto lo es para relacionar a un como contenido en otro, del cual es por tanto subconjunto. ejemplo, Por IGUALDAD DE CONJUNTOS: Dos conjuntos A y B son iguales, si A es subconjunto de B y B es subconjunto de A, es decir: No está por demás aclarar que el decir que dos conjuntos son iguales no es solo cuestión de contar el número de elementos que tiene cada conjunto, sino de verificar si cada elemento de un conjunto perte- nece también al otro.
 
