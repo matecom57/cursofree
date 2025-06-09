@@ -158,7 +158,7 @@ En símbolos, esto se indica :math:`A \subset B`, que quiere decir que B es un s
 
 En la siguiente tabla se observan todos los subconjuntos de un conjunto para tres diferentes casos.
 
-.. math:
+.. math::
 
    \begin{matrix}
    \{ a \} & \varnothing, \{ a \} 2 = 2^1   \\
@@ -171,25 +171,36 @@ es el propio
 conjunto, siendo éste un subconjunto no propio, por consiguiente, el número de subconjuntos propios 
 de un conjunto de n elementos es :math:`2^n - 1`.
 
-Es importante hacer notar la diferencia entre los símbolos , El símbolo se emplea para relacionar a un elemento como per teneciente a un conjunto, mientras que conjunto lo es para relacionar a un como contenido en otro, del cual es por tanto subconjunto. ejemplo, Por IGUALDAD DE CONJUNTOS: Dos conjuntos A y B son iguales, si A es subconjunto de B y B es subconjunto de A, es decir: No está por demás aclarar que el decir que dos conjuntos son iguales no es solo cuestión de contar el número de elementos que tiene cada conjunto, sino de verificar si cada elemento de un conjunto perte- nece también al otro.
+**IGUALDAD DE CONJUNTOS:**
+
+Dos conjuntos A y B son iguales, si A es subconjunto de B y B es subconjunto de A, es decir:
+
+A = B   <=> :math:`A \subseteq B` y :math:`B \subseteq A`
+
+No está por demás aclarar que el decir que dos conjuntos son iguales no es solo cuestión de contar el número de 
+elementos que tiene cada conjunto, sino de verificar si cada elemento de un conjunto pertenece también al otro.
+
 
 2.5 Operaciones con Conjuntos
 -----------------------------
 
-Básicamente se definen cuatro operaciones con conjuntos; la unión, la intersección, el complemento y la diferencia. Se puede definir una operación más, el producto cartesiano pero no será tratado aquí.
+Básicamente se definen cuatro operaciones con conjuntos: **unión, intersección, complemento y la diferencia**. 
+Se puede definir una operación más, el producto cartesiano pero no será tratado aquí.
 
 **UNION DE CONJUNTOS**
 
-Sean A y B dos subconjuntos del conjunto universal U. La unión de A con B denotada por A U B, es el conjunto de todos los elemen tos que pertenecen a A, a B ó a ambos. En símbolos,
+Sean A y B dos subconjuntos del conjunto universal U. La unión de A con B denotada por **A U B**, es el conjunto de 
+todos los elementos que pertenecen a A, a B ó a ambos. En símbolos,
 
 .. math::
 
-   A \cup B = \{ x | x \in A \text{ o } x\in B \}
+   A \cup B = \{ x | x \in A \text{ ó } x\in B \}
 
 
 **INTERSECCION DE CONJUNTOS**
 
-Sean A y B dos subconjuntos del conjunto universal U. La inter- sección de A y B, denotada por $A \cap B$, es el conjunto de todos los elemen- tos que pertenecen a A y a B simultáneamente. En símbolos:
+Sean A y B dos subconjuntos del conjunto universal U. La intersección de A y B, denotada por :math:`A \cap B`, es el 
+conjunto de todos los elementos que pertenecen a A y a B simultáneamente. En símbolos:
 
 .. math::
 
@@ -202,7 +213,8 @@ Dos conjuntos A y B que no tienen elementos en común, es decir :math:`A\capB=\e
 
 **COMPLEMENTO DE UN CONJUNTO**
 
-Sea A un subconjunto del conjunto universal U. El complemento de A, denotado por :math:`A^C` o A' es el conjunto de los elementos de U que no pertenecen a A; es decir:
+Sea A un subconjunto del conjunto universal U. El complemento de A, denotado por :math:`A^c` o A' es el conjunto de 
+los elementos de U que no pertenecen a A; es decir:
 
 .. math::
 
@@ -211,23 +223,36 @@ Sea A un subconjunto del conjunto universal U. El complemento de A, denotado por
 
 **DIFERENCIA DE CONJUNTOS**
 
-Sean A y B dos subconjuntos de U, la diferencia de A menos B, de\_ notada por A-B, es el conjunto de los elementos de A que no pertenecen a B. Esto es:
+Sean A y B dos subconjuntos de U, la diferencia de A menos B, denotada por **A-B**, es el conjunto de los elementos de 
+A que no pertenecen a B. Esto es:
 
 .. math::
 
    A-B = \{ x | x \in A \text{ y } x \notin B \}
 
 
-Ejemplo 2, 10 Sean U = {1, 2, 3, 4, S. 6. 7. 8. 9} A = {1, 2, 3, 4} B = {3, 4, 5, 6, 7} C = {7, 8, 9}
+**Ejemplo 2.10** Sean U = {1, 2, 3, 4, S. 6. 7. 8. 9}, 
 
-Entonces: A B = (1, 2, 3. 4, 5, 6, 7} A C = {1, 2, 3, 4, 7, 8, 9} B C = {3, 4, 5, 6, 7, 8, 9} A B = A C {3, 4} = BC = {7} AC= {5, 6, 7, 8, 9} BC= {1, 2, 8, 9} CC= 1 1 , 2, 3, 4, 5, 6) A - B = { 1, 2} B - A = {5, 6, 7} A - C = { 1, 2, 3, 4} C - A = {7, 8, 9} B - C = {3, 4, 5, 6} C - B = {8, 9}
+A = {1, 2, 3, 4}
+
+B = {3, 4, 5, 6, 7} 
+
+C = {7, 8, 9}
+
 
 2.6 Diagramas de Venn
 ---------------------
 
-Cualquier figura geométrica cerrada (círculos, rectángulos, triángulos, óvalos, etc) sirve para representar gráficamente - las operaciones entre conjuntos, estos gráficos son llamados dia gramas de Venn; normalmente al conjunto universal se le represen ta con un rectángulo y los conjuntos con un círculo, triángulo, elipse, etc.
+Cualquier figura geométrica cerrada (círculos, rectángulos, triángulos, óvalos, etc) sirve 
+para representar gráficamente las operaciones entre conjuntos, 
+estos gráficos son llamados dia gramas de Venn; normalmente al conjunto universal 
+se le represen ta con un rectángulo y los conjuntos con un círculo, triángulo, elipse, etc.
 
-2.7 CARDINAL DE UN CONJUNTO: El número de elementos diferentes de un conjunto se le llama car dinal del conjunto, y lo denotamos por n(A) ó #(A). La "cardinalidad" solo puede darse en el caso de conjuntos fini- tos, ya que en el caso de los conjuntos "infintos",no es posible contar el número de elementos incluidos en ellos.
+2.7 CARDINAL DE UN CONJUNTO: 
+----------------------------
 
-Sabemos que A Ac = U y que A A = . Por consiguiente, por A c ) = n (A) + n (A c ). la propiedad 3 tenemos que: n (U) = n (A Despejando n (Ac) = n (U) - n (A). Proposición c.q.d. 2.2 Si A y B son dos subconjuntos cualesquiera del conjunto univer- sal U, entonces: n (A BJ = n (A) + n (Bj - n (A B). Observemos que A se puede escribir como la unión de dos conjun- tos disjuntos, y B también.
+El número de elementos diferentes de un conjunto se le llama cardinal del conjunto, y lo denotamos por 
+n(A) ó #(A). La "cardinalidad" solo puede darse en el caso de conjuntos finitos, ya que en el caso de 
+los conjuntos "infintos",no es posible contar el número de elementos incluidos en ellos.
+
 
