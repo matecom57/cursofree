@@ -61,6 +61,13 @@ Temas
 
 12.11 Análisis de Imágenes
 
+Software Utilizado
+------------------
+
+`REF-01 <https://www.r-project.org/>`_
+
+`Sign in to GitHub <https://github.com/login>`_
+
 Bibliografía Básica:
 --------------------
 
