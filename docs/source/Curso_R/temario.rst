@@ -77,12 +77,18 @@ Software Utilizado
 Bibliografía Básica:
 --------------------
 
-1. Gareth James and Daniela Witten, “An Introduction to Satistical Learning”, Ed. Springer
+1. Daniel, Wayne, "Biostatistics. A Foundation for Analysis in the Heath Sciences", 9Edition, WILEY.
 
-2. Thomas W. MacFarland, “Introduction to Data Analysis and Graphical Presentation in Biostatistics with R”. Ed. Springer
+2. Gareth James and Daniela Witten, “An Introduction to Satistical Learning”, Ed. Springer
 
-3. Manas A. Pathak, “Beginning Data Science with R”. Ed. Springer
+3. Thomas W. MacFarland, “Introduction to Data Analysis and Graphical Presentation in Biostatistics with R”. Ed. 
+Springer
 
+4. Manas A. Pathak, “Beginning Data Science with R”. Ed. Springer
+
+
+.. image:: libro04_R.jpg
+   :width: 50%
 
 .. image:: libro01_R.png
    :width: 50%
