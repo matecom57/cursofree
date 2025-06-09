@@ -1,5 +1,5 @@
-Introducción a la Programacion 'R' con Estadística 
-==================================================
+Introducción a la estadística con "R"
+=====================================
 
 .. toctree::
    :maxdepth: 2
