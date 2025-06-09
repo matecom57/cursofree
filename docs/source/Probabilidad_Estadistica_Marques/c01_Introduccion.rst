@@ -1,16 +1,21 @@
-c01 Introduccion
+TEMA:  Introduccion
 ================
 
-1.1 Introduccion y Definicion de Estadistica
+1.1 Introducción y Definición de Estadística
 --------------------------------------------
 
-El término **estadistica** se derivó originalmente del vocablo "**estado**", porque ha sido función tradicional de los gobiernos centrales llevar registros de población, nacimiento,defunciones, profesiones, cosechas y muchas otras clases de cosas y actividades. Contar y medir estos hechos genera muchas clases de datos numéricos.
+El término **estadística** se derivó originalmente del vocablo "**estado**", porque ha sido función tradicional de los 
+gobiernos centrales llevar registros de población, nacimiento, defunciones, profesiones, cosechas y muchas otras 
+clases de cosas y actividades. Contar y medir estos hechos genera muchas clases de datos numéricos.
 
-Definición tradicional de estadística:la colección, organización,resumen y presentación de datos numéricos.
+**Definición tradicional de estadística**: la colección, organización, resumen y presentación de datos numéricos.
 
-Actualmente la Estadística es una rama de la matemática aplicada que colecciona, clasifica y evalúa o analiza datos como base para inferencias o conclusiones válidas, así como para tomar decisiones en base a ese análisis.
+Actualmente la Estadística es una rama de la matemática aplicada que colecciona, clasifica y evalúa o analiza datos 
+como base para hacer inferencias o conclusiones válidas, así como para tomar decisiones en base a ese análisis.
 
-Como un procedimiento de toma de decisiones, la Estadística es de importancia creciente en varios campos, por ejemplo, en la producción industrial en masa, Medicina Y Biología, Economía, Política, Psicología, análisis de opinión pública y otras Ciencias Sociales, Agricultura, Meteorología, Física, Química e Ingeniería.
+Como un procedimiento de toma de decisiones, la Estadística es de importancia creciente en varios campos, 
+por ejemplo, en la producción industrial en masa, Medicina Y Biología, Economía, Política, Psicología, 
+análisis de opinión pública, Agricultura, Meteorología, Física, Química e Ingeniería.
 
 1.2 Relacion entre Estadistica y Probabilidad
 ---------------------------------------------
