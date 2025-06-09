@@ -1,44 +1,53 @@
-c02 Teoria Elemental de Conjuntos
+TEMA 2. Teoria Elemental de Conjuntos
 =================================
 
 2.1 Conjuntos. Definicion y Notacion
 ------------------------------------
 
-El termino conjunto juega un papel fundamental en el desarrollo de las Matemáticas modernas. El origen de este concepto se debe al matemático alemán **George Cantor**(1945-1918) y, surgió de la necesidad de darle rigurosidad lógica a las discusiones matemáticas con el fin de eliminar la ambigüedad del lenguaje cotidiano.
+El termino conjunto juega un papel fundamental en el desarrollo de las Matemáticas modernas. 
+El origen de este concepto se debe al matemático alemán **Geore Cantor**(1945-1918) y surgió de la necesidad de darle 
+rigurosidad lógica a las discusiones matemáticas con el fin de eliminar la ambigüedad del lenguaje cotidiano.
 
-**Definición intuitiva**: Un conjunto no tiene definición matemática, sin embargo, en forma intuitiva un conjunto es un agregado o colección de objetos de cualquier naturaleza con características bien definidas de manera que se puedan distinguir todos sus elementos. A los objetos que lo componen se les llama elementos del conjunto.
+Un **conjunto** no tiene definición matemática, sin embargo, en forma intuitiva un conjunto es un agregado o 
+colección 
+de 
+objetos de cualquier naturaleza con características bien definidas de manera que se puedan distinguir 
+todos sus elementos. A los objetos que lo componen se les llama **elementos** del conjunto.
 
-**Notación:** A los conjuntos se les denota con letras mayúsculas y a sus elementos con letras minúsculas; a los elementos se les encierra entre "llaves" ( { } ) y se separan con "comas" ( , ). Asi por ejemplo, el conjunto D cuyos elementos son los números que aparecen al lanzar un dado se escribe:
+**Notación:** A los conjuntos se les denota con letras mayúsculas y a sus elementos con letras minúsculas; 
+a los elementos se les encierra entre "llaves" ( { } ) y se separan con "comas" ( , ). 
+Asi por ejemplo, el conjunto **D** cuyos elementos son los números que aparecen al lanzar un dado se escribe:
 
 D = {1, 2, 3, 4, 5, 6}
 
 Se pueden citar infinidad de ejemplos de conjuntos, algunos de ellos son:
 
-Ejemplo 2.1 El conjunto de días de la semana.
+**Ejemplo 2.1** El conjunto de días de la semana.
 
-Ejemplo 2.2 El conjunto de las vocales.
+**Ejemplo 2.2** El conjunto de las vocales.
 
-Ejemplo 2.3 El conjunto de los números reales
+**Ejemplo 2.3** El conjunto de los números reales
 
-Ejemplo 1.4 El conjunto de los enteros positivos menores que 10.
+**Ejemplo 2.4** El conjunto de los enteros positivos menores que 10.
 
-Ejemplo 2.5 El conjunto de los números reales entre 2 y 5.
+**Ejemplo 2.5** El conjunto de los números reales entre 2 y 5.
 
-Los conjuntos se pueden escribir en forma implícita (por descrip ción) cuando no se enumeran o enlistan todos sus elementos, o en forma ex- plícita (por enumeración) cuando se enlistan todos sus elementos; por ejemplo, el conjunto de los días de la semana se puede escribir en forma implícita así:
+Los conjuntos se pueden escribir en **forma implícita** (por descripción) cuando no se enumeran o enlistan 
+todos sus 
+elementos, o en **forma explícita** (por enumeración) cuando se enlistan todos sus elementos; por ejemplo, el conjunto 
+de los días de la semana se puede escribir en forma implícita así:
 
 .. math::
 
    S = \{ x | \text{x es un dia de la semana} \}
 
-https://documentation.help/Sphinx/math.html
-
-Este se lee, S es el conjunto de los x tales que x es un día de la semana.
+Este se lee, **S es el conjunto de los x tales que x es un día de la semana**.
 
 También podemos escribirlo en forma explícita
 
 S = {domingo, lunes, martes, miércoles, jueves, viernes, sábado}
 
-Los conjuntos dados en los ejemplos 2, 3, 4 y S también se pue- den excribir en forma implícita y en forma explícita:
+Los conjuntos dados en los ejemplos 2, 3, 4 y 5 también se pueden excribir en forma implícita y en forma explícita:
 
 :math:`V = \{x | x \text{ es una vocal} \}` forma implícita
 
