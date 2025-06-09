@@ -71,4 +71,9 @@ Bibliografía Básica:
 3. Manas A. Pathak, “Beginning Data Science with R”. Ed. Springer
 
 
+.. image:: libro01_R.png
+
+.. image:: libro02_R.png
+
+.. image:: libro03_R.png
 
