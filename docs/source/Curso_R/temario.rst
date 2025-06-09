@@ -72,8 +72,11 @@ Bibliografía Básica:
 
 
 .. image:: libro01_R.png
+   :width: 50%
 
 .. image:: libro02_R.png
+   :width: 50%
 
 .. image:: libro03_R.png
+   :width: 50%
 
