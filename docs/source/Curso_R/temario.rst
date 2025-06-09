@@ -66,7 +66,8 @@ Software Utilizado
 
 `REF-01 <https://www.r-project.org/>`_
 
-`Sign in to GitHub <https://github.com/login>`_
+`REF-02 <https://posit.co/download/rstudio-desktop/>`_
+
 
 Bibliografía Básica:
 --------------------
