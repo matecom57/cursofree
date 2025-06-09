@@ -5,4 +5,3 @@ Introducción a la estadística con "R"
    :maxdepth: 2
 
    temario
-   tema01
