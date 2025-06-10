@@ -80,6 +80,22 @@ Otras maneras de generar vectores:
    v[v>40 & v<50]
    v[c(2,4,6)]  
 
+Operaciones en y  entre Vectores:
+--------------------------
+
+Sea ``x <- 1:5, y <- c(2,1,2,3,2)```y ``z <- c(2,2,3,3,2``
+
+.. code::
+
+   x+y
+   x/y
+   x^y 
+   x + 2*y - z
+   log(x)
+   mean(x)
+   sqrt(x)
+   IQR(x)
+
 **Matrices**
 
 Una matriz se define como:
@@ -138,12 +154,27 @@ Otras Funciones
 **Función de densidad de probabilidad**
 
 .. image:: norm01.png
+   :width: 50%
 
 **Función de distribución de probabilidad**
 
 .. image:: norm02.png
+   :width: 50%
+
+Graficación
+-----------
+
+Ejemplo 1.
+
+.. code:: R
+
+   x <- seq(-10,10, .1)
+   y <- x^3 -2*x +1
+   plot(x,y)
 
 
- 
+Ejemplo 2.
 
+.. code:: R
 
+   x <- 1:14 
