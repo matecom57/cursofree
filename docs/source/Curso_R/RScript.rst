@@ -44,5 +44,15 @@ Ejemplo. Leer el archivo anterior y hacer lo siguiente:
 3. Hacer boxplot del peso y edad.
 
 
+Estructuras de Control
+======================
+
+.. code:: R
+
+   ban = 1
+   if (ban) {
+      print('verdadero')
+   }
+
 
 
