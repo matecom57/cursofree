@@ -21,24 +21,27 @@ Operadores de Comparación: :math:`<, \leq, >, \geq, ==, !=`
 
 Operadores Lógicos: &, |
 
+Algunas constantes en R: ``pi, Inf, NaN, NA``
+ 
 **Algunas Funciones**
 
-``getwd()``
+``getwd()`` - obten el directorio de trabajo
 
-``setwd()``
+``setwd()`` - define el directorio de trabajo
 
-``dir()``
+``dir()`` - lista el directorio de trabajo
 
-``mean()``
+``mean()`` - calcula la media artimética 
 
-``median()``
+``median()`` - calcula la mediana 
    
-``sqrt()``
+``sqrt()`` - encuentra la raíz cuadrada
 
-``IQR()``
+``IQR()`` -  encuentra el rango intercuartil
 
-``quantile()``
-``log()``
+``quantile()`` - encuentra los cuantiles
+
+``log()`` - encuentra el logaritmo de base e
    
 **Vectorees**
 
@@ -46,15 +49,29 @@ Operadores Lógicos: &, |
   En R se pueden definir vectores de la siguiente manera:
 
 
-   ``c(5,4,3,55,77,77)`` - \text{se utiliza la función c()}
+   ``c(5,4,3,55,77,77)`` se utiliza la función ``c()``
 
-   ``3:10`` - \text{ secuencia de números 3,4,5,6,7,8,9,10
+   ``3:10`` - ecuencia de números 3,4,5,6,7,8,9,10 con ``:``
 
-   ``-5:4`` - \text{ secuencia de números -5, -4, -3, -2, -1, 0, 1, 2, 3, 4
+   ``-5:4`` - secuencia de números -5, -4, -3, -2, -1, 0, 1, 2, 3, 4
 
-   ``seq(0,1,.3)`` \text{secuencia de números con incrementos de .3 a partir de cero}
+   ``seq(0,1,.3)`` - secuencia de números con incrementos de .3 a partir de cero con la función ``seq()``
 
+**Matrices**
 
+Una matriz se define como:
 
+.. math::
+
+   \begin{pmatrix}
+   x_{11} & x_{12} & ... & x_{1n}  \\
+   x_{11} & x_{12} & ... & x_{1n}  \\
+   \vdots & \vdots  & \ddots & \vdots  \\
+   x_{m1} & x_{m2} & ... & x_{mn}  \\
+   \end{pmatrix}
+
+Esuna matriz de tamaño :math:`m \times n`
+
+ 
 
 
