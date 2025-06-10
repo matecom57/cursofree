@@ -5,7 +5,7 @@ TEMA 2. Teoria Elemental de Conjuntos
 ------------------------------------
 
 El termino **conjunto** juega un papel fundamental en el desarrollo de las Matemáticas modernas. 
-El origen de este concepto se debe al matemático alemán **Geore Cantor** (1945-1918) y surgió de la necesidad de darle 
+El origen de este concepto se debe al matemático alemán **Georg Cantor** (1945-1918) y surgió de la necesidad de darle 
 rigurosidad lógica a las discusiones matemáticas con el fin de eliminar la ambigüedad del lenguaje cotidiano.
 
 Un **conjunto** no tiene definición matemática, sin embargo, en forma intuitiva un conjunto es un agregado o 
@@ -79,7 +79,7 @@ lunes :math:`\in` S
 2.2 Conjunto Vacio
 ------------------
 
-Un conjunto que no tiene elementos se le llama conjunto vacío y se denota por :math:`\emptyset`.
+Un conjunto que no tiene elementos se le llama **conjunto vacío** y se denota por :math:`\emptyset`.
 
 **Ejemplo 2.6** El conjunto :math:`A= \{ x \in \mathrm{R} | x^2+1 =0 \}` es un conjunto vacío porque no hay ningún 
 número real que satisfaga :math:`x^2 + 1 = 0`.
