@@ -109,22 +109,39 @@ Una matriz en R se define como:
    matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,
        dimnames = NULL)
 
-   Arguments
 
-   data	
-   an optional data vector (including a list or expression vector). Non-atomic classed R objects are coerced by as.vector and all attributes discarded.
+Arguments
 
-   nrow	
-   the desired number of rows.
+``data`` - an optional data vector (including a list or expression vector). Non-atomic classed R objects are coerced by 
+as.vector and all attributes discarded.
 
-   ncol	
-   the desired number of columns.
+``nrow`` - the desired number of rows.
 
-   byrow	
-   logical. If FALSE (the default) the matrix is filled by columns, otherwise the matrix is filled by rows.
+``ncol`` - the desired number of columns.
 
-   dimnames	
-   A dimnames attribute for the matrix: NULL or a list of length 2 giving the row and column names respectively. An empty list is treated as NULL, and a list of length one as row names. The list can be named, and the list names will be used as names for the dimensions.
+``byrow`` - logical. If FALSE (the default) the matrix is filled by columns, otherwise the matrix is filled by rows.
+
+``dimnames`` - A dimnames attribute for the matrix: NULL or a list of length 2 giving the row and column names respectively. 
+An 
+empty list is treated as NULL, and a list of length one as row names. The list can be named, and the list names will be used as names for the dimensions.
+
+
+Otras Funciones
+---------------
+
+``rnorm(), qnorm(), dnorm(), pnorm()`` - distribución normal
+
+.. math::
+
+   \varphi_{\mu, \sigma^2}(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}, x \in R
+
+**Función de densidad de probabilidad**
+
+.. image:: norm01.png
+
+**Función de distribución de probabilidad**
+
+.. image:: norm02.png
 
 
  
