@@ -15,6 +15,17 @@ R como una Calculadora
 
     \mathbb{R} =  \mathbb{Q} \cap \mathbb{I}   
 
+**String's**, "cadenas de caracteres"
+
+Ejemplos
+
+1. "Hola" - longitud de 4 caracteres
+
+2. 'Hola' 
+
+3. 'Hola como estas'
+
+
 Operadores Aritméticos: +, -, *, /, ^
 
 Operadores de Comparación: :math:`<, \leq, >, \geq, ==, !=`
