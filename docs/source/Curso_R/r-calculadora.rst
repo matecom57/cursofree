@@ -82,7 +82,39 @@ Una matriz se define como:
    x_{m1} & x_{m2} & ... & x_{mn}  \\
    \end{pmatrix}
 
-Esuna matriz de tamaño :math:`m \times n`
+Es una matriz de tamaño :math:`m \times n`
+
+Una matriz en R se define como:
+
+.. code:: R
+
+   matrix(1:6, ncol=2) # matriz de tamaño 3 x 2
+   
+
+**AYUDA en matrix**
+
+.. code:: R
+
+   matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,
+       dimnames = NULL)
+
+   Arguments
+
+   data	
+   an optional data vector (including a list or expression vector). Non-atomic classed R objects are coerced by as.vector and all attributes discarded.
+
+   nrow	
+   the desired number of rows.
+
+   ncol	
+   the desired number of columns.
+
+   byrow	
+   logical. If FALSE (the default) the matrix is filled by columns, otherwise the matrix is filled by rows.
+
+   dimnames	
+   A dimnames attribute for the matrix: NULL or a list of length 2 giving the row and column names respectively. An empty list is treated as NULL, and a list of length one as row names. The list can be named, and the list names will be used as names for the dimensions.
+
 
  
 
