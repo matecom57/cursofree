@@ -80,7 +80,7 @@ Otras maneras de generar vectores:
    v[v>40 & v<50]
    v[c(2,4,6)]  
 
-Operaciones en y  entre Vectores:
+Operaciones en y entre Vectores:
 --------------------------
 
 Sea ``x <- 1:5, y <- c(2,1,2,3,2)```y ``z <- c(2,2,3,3,2``
@@ -177,4 +177,9 @@ Ejemplo 2.
 
 .. code:: R
 
-   x <- 1:14 
+   x <- 1:14
+   y <- x + rnorm(14, sd=3)
+   plot(x,y)
+   res = lm(y ~ x)
+   abline(res)
+   
