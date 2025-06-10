@@ -17,23 +17,28 @@ R como una Calculadora
 
 Operadores Aritméticos: +, -, *, /, ^
 
-Operadores de Comparación: :math:`<, \leq, >, \get, ==, !=`
+Operadores de Comparación: :math:`<, \leq, >, \geq, ==, !=`
 
 Operadores Lógicos: &, |
 
 **Algunas Funciones**
 
-.. math::
+``getwd()``
 
-   getwd()
-   setwd()
-   dir()
-   mean()
-   median()
-   sqrt()
-   IQR()
-   quantile()
-   log()
+``setwd()``
+
+``dir()``
+
+``mean()``
+
+``median()``
+   
+``sqrt()``
+
+``IQR()``
+
+``quantile()``
+``log()``
    
 **Vectorees**
 
