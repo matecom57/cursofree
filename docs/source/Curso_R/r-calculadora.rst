@@ -26,11 +26,11 @@ Ejemplos
 3. 'Hola como estas'
 
 
-Operadores Aritméticos: +, -, *, /, ^
+Operadores Aritméticos: ``+, -, *, /, ^``
 
 Operadores de Comparación: :math:`<, \leq, >, \geq, ==, !=`
 
-Operadores Lógicos: &, |
+Operadores Lógicos: ``&, |``
 
 Algunas constantes en R: ``pi, Inf, NaN, NA, TRUE, FALSE``
  
@@ -56,7 +56,7 @@ Algunas constantes en R: ``pi, Inf, NaN, NA, TRUE, FALSE``
    
 **Vectorees**
 
-  Un vector es una secuencia de números dado como: :math:`{x_1, x_2, x_3, ..., x_n}`
+  Un vector es una secuencia de números dado como: :math:`{x_1, x_2, x_3, ..., x_n}`.
   En R se pueden definir vectores de la siguiente manera:
 
 
