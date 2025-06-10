@@ -21,7 +21,7 @@ Operadores de Comparación: :math:`<, \leq, >, \geq, ==, !=`
 
 Operadores Lógicos: &, |
 
-Algunas constantes en R: ``pi, Inf, NaN, NA``
+Algunas constantes en R: ``pi, Inf, NaN, NA, TRUE, FALSE``
  
 **Algunas Funciones**
 
@@ -56,6 +56,18 @@ Algunas constantes en R: ``pi, Inf, NaN, NA``
    ``-5:4`` - secuencia de números -5, -4, -3, -2, -1, 0, 1, 2, 3, 4
 
    ``seq(0,1,.3)`` - secuencia de números con incrementos de .3 a partir de cero con la función ``seq()``
+
+   ``rnorm(14, mean=55, sd=5)`` - genera 14 números aleatorios de una distribución normal con media de 55 y dessviación estándard de 5.
+
+Otras maneras de generar vectores:
+
+1. Dado el vector ``v=c(55, 60, 74, 33, 44, 55, 44, 33, 55, 33)``.
+
+.. code:: R
+
+   v[v>45] # vector cuyos elementos son mayores que 45
+   v[v>40 & v<50]
+   v[c(2,4,6)]  
 
 **Matrices**
 
