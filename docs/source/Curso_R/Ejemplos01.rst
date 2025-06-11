@@ -80,7 +80,8 @@ Ejemplos01
     print(sexo)
 
 
-5. Dadas los siguientes variables, graficar un boxplot de cada una de ellas.
+5. Dadas los siguientes variables, graficar un boxplot de cada una de ellas, graficar tambien una grafica de barras de las 
+medias con sus respectivos error estándar.
 
 .. code::
 
