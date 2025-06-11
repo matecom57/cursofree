@@ -5,6 +5,7 @@ Introducción a la estadística con "R"
    :maxdepth: 2
 
    introd
+   Tema2
    Ejemplos01
 
 
