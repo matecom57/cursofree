@@ -7,6 +7,7 @@ Introducción a la estadística con "R"
    introd
    Tema2
    Ejemplos01
+   analisis_imagenes
    Tema3
 
 
