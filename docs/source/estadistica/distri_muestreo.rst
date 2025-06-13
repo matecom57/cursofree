@@ -24,8 +24,6 @@ población, :math:`\mu`, está dado por
 **INTERVALO DE CONFIANZA PARA LA DIFERENCIA ENTRE DOS MEDIAS POBLACIONALES**
 
 
-**
-
 
 
 
