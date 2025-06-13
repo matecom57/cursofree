@@ -119,3 +119,29 @@ Ejercicio. En base al ejercicio anterior generar las siguientes tablas y grafico
 
 .. image:: t4.png
 
+Si el gráfico (histograma o polígono de frecuencias) de una distribución es asimétrico, se dice que la distribución está 
+sesgada. Si una distribución no es simétrica porque su gráfico se extiende más a la derecha que a la izquierda, es decir, si 
+tiene una cola larga a la derecha, decimos que la distribución está sesgada a la derecha o es positivamente sesgada. Si una 
+distribución no es simétrica porque su gráfico se extiende más a la izquierda que a la derecha, es decir, si tiene una cola 
+larga a la izquierda, decimos que la distribución está sesgada a la izquierda o es negativamente sesgada.	
+
+.. image:: t5.png
+
+Dado un conjunto de n observaciones x1, x2, . . . xn, el percentil p P es el valor de X tal que el p por ciento o menos de las 
+observaciones son menores que P y el (100 ≤ p) por ciento o menos de las observaciones son mayores que P.
+
+
+La curtosis es una medida del grado en el cual una distribución es “picuda” o plana en comparación con una distribución normal 
+cuyo gráfico se caracteriza por una apariencia en forma de campana.
+
+Una distribución, en comparación con una distribución normal, puede presentar una proporción excesiva de observaciones en sus 
+colas, de modo que su gráfico presenta una apariencia aplanada. Dicha distribución se denomina platicúrtica. Por el contrario, 
+una distribución, en comparación con una distribución normal, puede presentar una proporción menor de observaciones en sus 
+colas, de modo que su gráfico presenta una apariencia más picuda. ​​Dicha distribución se denomina leptocúrtica. Una 
+distribución normal, o con forma de campana, se denomina mesocúrtica.
+
+.. image:: t6.png
+
+
+
+
