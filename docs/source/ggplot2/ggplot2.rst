@@ -8,7 +8,7 @@ geom_bar
 
    g <- ggplot(mpg, aes(class))
    g <- g + geom_bar()
-   print(p)
+   print(g)
 
 geom_boxplot
 ------------
