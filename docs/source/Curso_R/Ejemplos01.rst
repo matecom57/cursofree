@@ -124,7 +124,7 @@ Solución:
 
 6. Leyendo un archivo en Excel.
 
-.. code: R
+.. code:: R
 
    library("readxl")
 
@@ -135,5 +135,22 @@ Solución:
    dd <- as.data.frame(datos)
 
    print(class(dd))
+
+7. Grafico del modelo de mariposa
+
+.. code:: R
+
+   np = 10
+
+   t <- seq(0, np*2*pi, .01)
+
+   r = exp(cos(t)) - 2* cos(4*t) - sin(t/12)^5
+
+   x = r*sin(t)
+   y = r*cos(t)
+
+   plot(x,y, type='l', col='red')
+
+
 
 
