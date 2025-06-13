@@ -8,4 +8,5 @@ Contenido
 
    Curso_R/curso-r
    ggplot2/ggplot2
+   estadistica/estadistica
 
