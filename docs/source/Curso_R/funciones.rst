@@ -2,24 +2,30 @@ Creación de Funciones
 =====================
 
 Una función es un programa en lenguaje R que es utilizado en varias partes del programa principal.
-La función realiza calculos a partir de datos tomados como argumentos de la función y regresa resultados como
+La función realiza cálculos a partir de datos tomados como argumentos de la función y regresa resultados como
 estructura de datos.
 
 La función se define como:
 
 nombreFun <- function(arg1, arg2,...,argN){
+
    instrucción1
+
    instruccion2
+
    ............
+
    instrucciónN
+
 }
 
 La ultima "intrucciónN" es la que regresa como resultados de los calculos.
 
 donde:
  
-   nombreFun -  es el nombre de la función
-   arg1, arg2, ..., argN - son las estructuras de datos que serán utilizados para los calculos
+   ``nombreFun`` -  es el nombre de la función
+
+   ``arg1, arg2, ..., argN`` - son las estructuras de datos que serán utilizados para los calculos
    
 
 Ejemplos:
