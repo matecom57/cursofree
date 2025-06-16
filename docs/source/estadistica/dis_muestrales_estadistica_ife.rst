@@ -84,6 +84,7 @@ Hay dos tipos de pruebas, bilaterales y unilaterales; las ``bilaterales o de dos
 .. math::
 
    Ho: \theta = \theta_0
+
    Ha: \theta \neq \theta_0
 
 Donde :math:`\theta` representa cualquier parámetro y :math:`theta_0` es un valor supuesto del parámetro.
