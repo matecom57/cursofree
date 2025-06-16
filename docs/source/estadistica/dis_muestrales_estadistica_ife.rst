@@ -18,7 +18,8 @@ reemplazo e ignorando el orden de esta población y obtengamos la distribución 
 .. image:: dis01.png
 
 
-Ejemplo 2: Consideremos las misma población que en el 1 determinemos todas las muestras con reemplazo de tamaño 2 
+Ejemplo 2: Consideremos las misma población que el Ejemplo 1 y  determinemos todas las muestras con reemplazo de 
+tamaño 2 
 y obtengamos la distribución muestral de la media.
 
 .. image:: dis2.png 
@@ -37,7 +38,7 @@ el muestreo se hace con reemplazo.
 
 **TEOREMA DEL LIMITE CENTRAL**
 
-Dada una población cualquiera con media :math:`\mu` y y varianza :math:`\sigma^2`. La distribución muestral de :math:`\bar{x}`, 
+Dada una población cualquiera con media :math:`\mu` y varianza :math:`\sigma^2`. La distribución muestral de :math:`\bar{x}`, 
 calculada a partir de todas las muestras aleatorias de tamaño **n** con reemplazo de esta población, estará distribuida en forma 
 aproximadamente normal con media :math:`\mu_{\bar{x}}= \mu` y varianza :math:`\sigma_{\bar{x}}= \frac{\sigma^2}{n}` y 
 la aproximación a la normal será mejor cuanto mayor sea **n**.
@@ -58,7 +59,7 @@ Este intervalo de confianza esta dado por:
 
 .. math::
 
-   P(\bar{x} - k \sigma_{\bar{x}} < \mu < \bar{x} - k \sigma_{\bar{x}} := 1 - \alpha
+   P(\bar{x} - k \sigma_{\bar{x}} < \mu < \bar{x} - k \sigma_{\bar{x}}) := 1 - \alpha
 
 donde k es un valor crítico correspondiente al nivel de confianza :math:`1 - \alpha`.
 
@@ -76,16 +77,11 @@ de la nula. La hipótesis nula
 generalmente se especifica en una forma opuesta a la que se supone cierta. Las hipótesis nula y alternativa deben 
 ser mutuamente exclusivas.
 
-El procedimiento mediante el cual se decide aceptar o rechazar una hipótesis estadística, o se trata de 
-determinar, cuando las muestras observadas difieren significativamente de los resultados esperados se
-denomina prueba o contraste de hipótesis. Así, hablamos de probar una hipótesis nula contra una alternativa en el 
-supuesto de que la hipótesis nula es verdadera.
-
 **TIPOS DE PRUEBA**
 
 Hay dos tipos de pruebas, bilaterales y unilaterales; las ``bilaterales o de dos colas`` cuya forma general es:
 
-.. math:
+.. math::
 
    Ho: \theta = \theta_0
    Ha: \theta \neq \theta_0
