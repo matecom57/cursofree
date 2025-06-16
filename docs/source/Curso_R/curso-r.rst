@@ -6,6 +6,7 @@ Introducción a la estadística con "R"
 
    introd
    Tema2
+   funciones
    Ejemplos01
    analisis_imagenes
    Tema3
