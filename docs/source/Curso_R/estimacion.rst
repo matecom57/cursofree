@@ -1,6 +1,8 @@
 Estimacion por Intervalo
 ========================
 
+**INTERVALO DE CONFIANZA PARA UNA MEDIA POBLACIÓN**
+
 Para ser más específicos, cuando el muestreo proviene de una distribución normal cuya desviación estándar, 
 :math:`\sigma`, es desconocida, el intervalo de confianza del :math:`100(1 - \alpha)` por ciento para la 
 media de la población, :math:`\mu`, 
@@ -12,8 +14,10 @@ está dado por
 
 **INTERVALO DE CONFIANZA PARA LA DIFERENCIA ENTRE DOS MEDIAS POBLACIONALES**
 
-Population Variances Equal
+**Varianzas de población iguales**
 
+
+.. image:: fig642.png
 
 
 El número de grados de libertad utilizados para determinar el valor de ``t`` a utilizar en la construcción 
