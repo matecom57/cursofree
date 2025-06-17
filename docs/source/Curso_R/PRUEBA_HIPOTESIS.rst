@@ -38,5 +38,34 @@ tan
 extremo como un valor especificado del estadístico de prueba cuando la hipótesis nula es verdadera. Por lo 
 tanto, el valor p es el valor mínimo de :math:`\alpha` para el cual podemos rechazar una hipótesis nula.
 
+**PRUEBA DE HIPÓTESIS: UNA MEDIA POBLACIONAL ÚNICA**
+
+**Muestreo de una población distribuida normalmente: varianza poblacional desconocida**
+
+Cuando el muestreo proviene de una población aproximadamente normal con una varianza desconocida, la 
+estadística de prueba para probar :math:`H_0 : \mu = m_0` es
+
+.. math::
+
+   t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}
+
+que, cuando :math:`H_0` es verdadera, se distribuye como una ``t de Student`` con n - 1 grados de libertad. 
+
+**PRUEBA DE HIPÓTESIS: LA DIFERENCIA ENTRE DOS MEDIAS POBLACIONALES**
+
+Se pueden formular las siguientes hipótesis:
+
+1. :math:`H_0: \mu_1 - \mu_2 = 0, `H_a: \mu_1 - \mu_2 \neq  0`
+
+2. :math:`H_0: \mu_1 - \mu_2 \geq 0, `H_a: \mu_1 - \mu_2 <  0`
+
+3. :math:`H_0: \mu_1 - \mu_2 \leq 0, `H_a: \mu_1 - \mu_2 >  0`
+
+**COMPARACIONES POR PARES**
+
+**PRUEBA DE HIPÓTESIS: VARIANZA DE UNA ÚNICA POBLACIÓN**
+
+**PRUEBA DE HIPÓTESIS: LA RAZÓN DE DOS VARIANZAS POBLACIONALES**
+
 
 
