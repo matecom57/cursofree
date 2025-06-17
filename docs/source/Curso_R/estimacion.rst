@@ -1,4 +1,4 @@
-Estimacion por Intervalo
+Estimación por Intervalo
 ========================
 
 **INTERVALO DE CONFIANZA PARA UNA MEDIA POBLACIÓN**
@@ -26,6 +26,8 @@ intervalo es :math:`n_1+ n_2-2`, el denominador de la ecuación 6.4.2.
 
 
 **Varianzas poblacionales no iguales**
+
+.. image:: fig645.png
 
 **INTERVALO DE CONFIANZA PARA LA VARIANZA DE UNA POBLACIÓN NORMALMENTE DISTRIBUIDA**
 
