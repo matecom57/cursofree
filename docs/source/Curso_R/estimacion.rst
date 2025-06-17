@@ -31,6 +31,16 @@ intervalo es :math:`n_1+ n_2-2`, el denominador de la ecuación 6.4.2.
 
 **INTERVALO DE CONFIANZA PARA LA VARIANZA DE UNA POBLACIÓN NORMALMENTE DISTRIBUIDA**
 
+Tenemos el siguiente intervalo de confianza del :math:`100(1-\alpha)` porciento para :math:`\sigma`, la 
+desviación estándar de la población:
+
+.. image:: fig692.png
+
 **INTERVALO DE CONFIANZA PARA LA RAZÓN DE LAS VARIANZAS DE DOS POBLACIONES NORMALMENTE DISTRIBUIDAS**
+
+Tenemos el siguiente intervalo de confianza del :math:`100(1 - \alpha)` por ciento para 
+:math:`\sigma_1^2/\sigma_2^2`.
+
+.. image:: fig6-10-1.png
 
 
