@@ -10,3 +10,5 @@ Contenido
    ggplot2/ggplot2
    estadistica/estadistica
    estadistica/dis_muestrales_estadistica_ife
+   Curso_R/estimacion
+

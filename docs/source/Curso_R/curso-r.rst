@@ -10,6 +10,5 @@ Introducción a la estadística con "R"
    Ejemplos01
    analisis_imagenes
    Tema3
-   estimacion
 
 
