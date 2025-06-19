@@ -17,7 +17,7 @@ Ecuaciones-C08
    Media & \bar{x}_{.1} &  \bar{x}_{.2} & \bar{x}_{.3} & ... &  \bar{x}_{.k} & \bar{x}_{..} 
    \end{matrix}
 
-:math:`x_{ij}` = the i th observation resulting from the j th treatment (there are a total of k treatments)
+:math:`x_{ij}` = la i-ésima observación resultanto del j-ésimo tratamiento (hay un total de k tratamientos)
 
 :math:`T_{.j} = \sum_{i=1}^{n_j} x_{ij}`
 
