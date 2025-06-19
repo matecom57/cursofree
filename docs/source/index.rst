@@ -13,4 +13,5 @@ Contenido
    Curso_R/estimacion
    Curso_R/PRUEBA_HIPOTESIS
    estadistica/ejercicios_jun1825
+   estadistica/ecuaciones_c08
 
