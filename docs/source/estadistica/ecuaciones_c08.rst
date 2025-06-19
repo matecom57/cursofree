@@ -1,6 +1,8 @@
 Ecuaciones-C08
 ==============
 
+.. image:: medias.png
+
 .. math::
 
    tratamientos
