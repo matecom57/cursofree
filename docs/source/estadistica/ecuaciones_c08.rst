@@ -42,19 +42,19 @@ Ecuaciones-C08
 
    H_A : no todas las \mu_j son iguales
 
-**The Total Sum of Squares**
+**La suma total de cuadrados**
 
 .. math::
 
    SST = \sum_{j=1}^k \sum_{i=1}^{n_j} (x_{ij} - \bar{x}_{..})^2
 
-The Within Groups Sum of Squares
+La suma de cuadrados dentro de los grupos
 
 .. math::
 
    SSW = \sum_{j=1}^k \sum_{i=1}^{n_j} (x_{ij} - \bar{x}_{.j})^2
 
-The Among Groups Sum of Squares
+La suma de cuadrados entre grupos
 
 .. math::
 
@@ -64,7 +64,7 @@ The Among Groups Sum of Squares
 
    SST = SSA + SSW
 
-The First Estimate of
+**La primera estimación de**
 
 .. math::
 
@@ -75,7 +75,8 @@ The First Estimate of
    MSW = \frac{\sum_{j=1}^k \sum_{j=1}^{n_j} (x_{ij} - \bar{x}_{.j})^2} {\sum_{j=1}^kn_j - 1}
 
 
-**The Second Estimate of**
+**La segunda estimación de**
+
 
 .. math::
 
@@ -85,32 +86,25 @@ The First Estimate of
 
    MSA = \frac{\sum_{j=1}^k n_j (\bar{x}_{.j} - \bar{x}_{..})^2}{k-1}
 
-**The Variance Ratio**
+**La razón de varianza**
+
 
 .. image:: tabla8_2_2.png
 
-**EXAMPLE 8.2.1**
-
-Game meats, including those from white-tailed deer and eastern gray squirrels, are
-used as food by families, hunters, and other individuals for health, cultural, or personal
-reasons. A study by David Holben (A-1) assessed the selenium content of meat
-from free-roaming white-tailed deer (venison) and gray squirrel (squirrel) obtained
-from a low selenium region of the United States. These selenium content values were
-also compared to those of beef produced within and outside the same region. We want
-to know if the selenium levels are different in the four meat groups.
+**EJEMPLO 8.2.1**
 
 Las carnes de caza, incluyendo las de venado de cola blanca y ardilla gris oriental, son utilizadas como alimento por familias, cazadores y otras personas por razones de salud, culturales o personales. Un estudio realizado por David Holben (A-1) evaluó el contenido de selenio en la carne de venado de cola blanca y ardilla gris en libertad, obtenida de una región de Estados Unidos con bajo contenido de selenio. Estos valores de contenido de selenio también se compararon con los de la carne de res producida dentro y fuera de la misma región. Queremos saber si los niveles de selenio son diferentes en los cuatro grupos de carne.
 
 .. image:: tabla8_2_4.png
 
 
-**Tukey’s HSD Test**
+**Prueba de Tukey’s HSD **
 
 .. math::
 
    HSD = q_{\alpha, k, N-k} \sqrt{\frac{MSE}{n}}
 
-Tukey’s Test for Unequal Sample Sizes
+Prueba de Tukey para tamaños de muestra desiguales
 
 .. math::
 
