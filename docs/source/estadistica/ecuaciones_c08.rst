@@ -14,7 +14,7 @@ Ecuaciones-C08
    & ...    & ...    & ...    & ... & ... \\
    & x_{n_11} & x_{n_22} & x_{n_33} & ... & x_{n_kk} \\
    Total & T_{.1} & T_{.2} &T_{.3} & ...  & T_{.k} & T_{..} \\ 
-   Media & \bar{x}_1 &  \bar{x}_2 & \bar{x}_3 & ... &  \bar{x}_k & \bar{x}_{..} 
+   Media & \bar{x}_{.1} &  \bar{x}_{.2} & \bar{x}_{.3} & ... &  \bar{x}_{.k} & \bar{x}_{..} 
    \end{matrix}
 
 :math:`x_{ij}` = the i th observation resulting from the j th treatment (there are a total of k treatments)
