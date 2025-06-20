@@ -1,1 +1,0 @@
-tt = read.csv('EXA_C09_S03_01.csv', header=T)
