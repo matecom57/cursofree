@@ -14,4 +14,4 @@ Contenido
    Curso_R/PRUEBA_HIPOTESIS
    estadistica/ejercicios_jun1825
    estadistica/ecuaciones_c08
-
+   Estadistica2/Daniel_Ejercicios_abr2025/ch08_all/ejer_c08
