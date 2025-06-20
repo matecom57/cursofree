@@ -1,8 +1,6 @@
 Ecuaciones-C08
 ==============
 
-.. image:: medias.png
-
 .. math::
 
    tratamientos
@@ -16,10 +14,10 @@ Ecuaciones-C08
    & ...    & ...    & ...    & ... & ... \\
    & x_{n_11} & x_{n_22} & x_{n_33} & ... & x_{n_kk} \\
    Total & T_{.1} & T_{.2} &T_{.3} & ...  & T_{.k} & T_{..} \\ 
-   Media & \bar{x}_{.1} &  \bar{x}_{.2} & \bar{x}_{.3} & ... &  \bar{x}_{.k} & \bar{x}_{..} 
+   Media & \bar{x}_1 &  \bar{x}_2 & \bar{x}_3 & ... &  \bar{x}_k & \bar{x}_{..} 
    \end{matrix}
 
-:math:`x_{ij}` = la i-ésima observación resultanto del j-ésimo tratamiento (hay un total de k tratamientos)
+:math:`x_{ij}` = the i th observation resulting from the j th treatment (there are a total of k treatments)
 
 :math:`T_{.j} = \sum_{i=1}^{n_j} x_{ij}`
 
@@ -44,19 +42,19 @@ Ecuaciones-C08
 
    H_A : no todas las \mu_j son iguales
 
-**La suma total de cuadrados**
+**The Total Sum of Squares**
 
 .. math::
 
    SST = \sum_{j=1}^k \sum_{i=1}^{n_j} (x_{ij} - \bar{x}_{..})^2
 
-La suma de cuadrados dentro de los grupos
+The Within Groups Sum of Squares
 
 .. math::
 
    SSW = \sum_{j=1}^k \sum_{i=1}^{n_j} (x_{ij} - \bar{x}_{.j})^2
 
-La suma de cuadrados entre grupos
+The Among Groups Sum of Squares
 
 .. math::
 
@@ -66,7 +64,7 @@ La suma de cuadrados entre grupos
 
    SST = SSA + SSW
 
-**La primera estimación de**
+The First Estimate of
 
 .. math::
 
@@ -77,8 +75,7 @@ La suma de cuadrados entre grupos
    MSW = \frac{\sum_{j=1}^k \sum_{j=1}^{n_j} (x_{ij} - \bar{x}_{.j})^2} {\sum_{j=1}^kn_j - 1}
 
 
-**La segunda estimación de**
-
+**The Second Estimate of**
 
 .. math::
 
@@ -88,25 +85,32 @@ La suma de cuadrados entre grupos
 
    MSA = \frac{\sum_{j=1}^k n_j (\bar{x}_{.j} - \bar{x}_{..})^2}{k-1}
 
-**La razón de varianza**
-
+**The Variance Ratio**
 
 .. image:: tabla8_2_2.png
 
-**EJEMPLO 8.2.1**
+**EXAMPLE 8.2.1**
+
+Game meats, including those from white-tailed deer and eastern gray squirrels, are
+used as food by families, hunters, and other individuals for health, cultural, or personal
+reasons. A study by David Holben (A-1) assessed the selenium content of meat
+from free-roaming white-tailed deer (venison) and gray squirrel (squirrel) obtained
+from a low selenium region of the United States. These selenium content values were
+also compared to those of beef produced within and outside the same region. We want
+to know if the selenium levels are different in the four meat groups.
 
 Las carnes de caza, incluyendo las de venado de cola blanca y ardilla gris oriental, son utilizadas como alimento por familias, cazadores y otras personas por razones de salud, culturales o personales. Un estudio realizado por David Holben (A-1) evaluó el contenido de selenio en la carne de venado de cola blanca y ardilla gris en libertad, obtenida de una región de Estados Unidos con bajo contenido de selenio. Estos valores de contenido de selenio también se compararon con los de la carne de res producida dentro y fuera de la misma región. Queremos saber si los niveles de selenio son diferentes en los cuatro grupos de carne.
 
 .. image:: tabla8_2_4.png
 
 
-**Prueba de Tukey’s HSD **
+**Tukey’s HSD Test**
 
 .. math::
 
    HSD = q_{\alpha, k, N-k} \sqrt{\frac{MSE}{n}}
 
-Prueba de Tukey para tamaños de muestra desiguales
+Tukey’s Test for Unequal Sample Sizes
 
 .. math::
 
