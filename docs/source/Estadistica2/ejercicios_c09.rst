@@ -1,7 +1,8 @@
 Ejercicios c09
 ==============
 
-EXAMPLE 9.3.1
+EJEMPLO 9.3.1
+
 Després et al. (A-1) point out that the topography of adipose tissue (AT) is associated
 with metabolic complications considered as risk factors for cardiovascular disease. It
 is important, they state, to measure the amount of intraabdominal AT as part of the
