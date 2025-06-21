@@ -21,4 +21,9 @@ Contenido
 
     Estadistica2/index2
 
+.. toctree::
+    :maxdepth: 1
+    :caption: RR
+   
+    RR/index_R
 
