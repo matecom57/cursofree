@@ -14,6 +14,11 @@ Contenido
    Curso_R/PRUEBA_HIPOTESIS
    estadistica/ejercicios_jun1825
    estadistica/ecuaciones_c08
-   Estadistica2/index2
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Estadistica
+
+    Estadistica2/index2
 
 
