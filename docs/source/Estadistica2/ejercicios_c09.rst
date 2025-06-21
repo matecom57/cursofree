@@ -21,13 +21,12 @@ Consulte el Ejemplo 9.3.1. Queremos saber si podemos concluir que, en la poblaci
 
 **EXAMPLE 9.4.2**
 
-Refer to Example 9.3.1. We wish to know if we can conclude that the slope of the
-population regression line describing the relationship between X and Y is zero.
+Consulte el Ejemplo 9.3.1. Queremos saber si podemos concluir que la pendiente de la recta de regresión poblacional que describe la relación entre X e Y es cero.
+
 
 **EXAMPLE 9.4.3**
 
-Refer to Example 9.3.1. We wish to use residual plots to test the assumptions of linearity
-and equal variances in the data.
+Consulte el Ejemplo 9.3.1. Deseamos utilizar gráficos de residuos para comprobar los supuestos de linealidad y varianzas iguales en los datos.
 
 **9.5 USING THE REGRESSION EQUATION**
 
