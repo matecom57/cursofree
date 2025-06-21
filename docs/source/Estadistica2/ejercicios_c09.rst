@@ -3,25 +3,11 @@ Ejercicios c09
 
 EJEMPLO 9.3.1
 
-Després et al. (A-1) point out that the topography of adipose tissue (AT) is associated
-with metabolic complications considered as risk factors for cardiovascular disease. It
-is important, they state, to measure the amount of intraabdominal AT as part of the
-evaluation of the cardiovascular-disease risk of an individual. Computed tomography
-(CT), the only available technique that precisely and reliably measures the amount of
-deep abdominal AT, however, is costly and requires irradiation of the subject. In addition,
-the technique is not available to many physicians. Després and his colleagues conducted
-a study to develop equations to predict the amount of deep abdominal AT from
-simple anthropometric measurements. Their subjects were men between the ages of 18
-and 42 years who were free from metabolic disease that would require treatment.
 
-Among the measurements taken on each subject were deep abdominal AT obtained by
-CT and waist circumference as shown in Table 9.3.1. A question of interest is how
-well one can predict and estimate deep abdominal AT from knowledge of the waist
-circumference. This question is typical of those that can be answered by means of
-regression analysis. Since deep abdominal AT is the variable about which we wish to
-make predictions and estimations, it is the dependent variable. The variable waist measurement,
-knowledge of which will be used to make the predictions and estimations, is
-the independent variable.
+Després et al. (A-1) señalan que la topografía del tejido adiposo (TA) se asocia con complicaciones metabólicas consideradas factores de riesgo de enfermedad cardiovascular. Es importante, afirman, medir la cantidad de TA intraabdominal como parte de la evaluación del riesgo de enfermedad cardiovascular de un individuo. Sin embargo, la tomografía computarizada (TC), la única técnica disponible que mide de forma precisa y fiable la cantidad de TA abdominal profundo, es costosa y requiere la irradiación del sujeto. Además, la técnica no está disponible para muchos médicos. Després y sus colegas realizaron un estudio para desarrollar ecuaciones que predijeran la cantidad de TA abdominal profundo a partir de mediciones antropométricas simples. Sus sujetos fueron hombres de entre 18 y 42 años que no presentaban enfermedad metabólica que requiriera tratamiento.
+
+Among the measurements taken on each subject were deep abdominal AT obtained by CT and waist circumference as shown in Table 9.3.1. A question of interest is how well one can predict and estimate deep abdominal AT from knowledge of the waist circumference. This question is typical of those that can be answered by means of regression analysis. Since deep abdominal AT is the variable about which we wish to make predictions and estimations, it is the dependent variable. The variable waist measurement, knowledge of which will be used to make the predictions and estimations, is the independent variable.
+
 
 **EVALUATING THE REGRESSION EQUATION**
 
