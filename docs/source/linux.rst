@@ -5,7 +5,6 @@ Unix for Neuroimagers
 
 .. toctree::
     :maxdepth: 1
-    :caption: LINUX
 
     linux/Unix_Intro
     linux/Unix_01_Navigation
