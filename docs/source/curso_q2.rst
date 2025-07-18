@@ -13,5 +13,5 @@ En cada maquina LapTop contiene el siguiente software:
 
 Ayuda en el manejo del Sistema Operativo UBUNTU-22
 
-* Manejo de `linux`_.
+* Manejo de :doc:`linux`.
 
