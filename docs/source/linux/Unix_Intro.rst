@@ -24,10 +24,5 @@ AFNI or FSL. And as you'll see, becoming fluent in programming will save you tim
 download a Terminal emulator such as `Cygwin <https://www.cygwin.com/>`__. Although I record my tutorials on a Macintosh computer, once you have 
 downloaded and installed Cygwin, you should be able to follow the rest of the tutorials.
 
-Video
-------------
-
-Click `here <https://www.youtube.com/watch?v=Odn_Ti-tKzI>`__ to see a video introducing you to Unix. When you have finished watching the video, click 
-the "Next" button down below to begin the Unix tutorial series.
 
 
