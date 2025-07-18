@@ -5,9 +5,10 @@ En cada maquina LapTop contiene el siguiente software:
 
 * FSL
 * `FreeSurfer <https://surfer.nmr.mgh.harvard.edu/>`_
-* MRtrix3
-* SPM12
-* Toolbox CONN
-* R
-* RStudio
-* 
+* `MRtrix3 <https://www.mrtrix.org/download/>`_
+* `SPM12 <https://www.fil.ion.ucl.ac.uk/spm/software/spm12/>`_
+* `Toolbox CONN <https://web.conn-toolbox.org/home>`_
+* `R <https://www.r-project.org/>`_
+* `RStudio <https://posit.co/download/rstudio-desktop/>`_
+
+
