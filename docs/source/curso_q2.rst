@@ -11,4 +11,7 @@ En cada maquina LapTop contiene el siguiente software:
 * `R <https://www.r-project.org/>`_
 * `RStudio <https://posit.co/download/rstudio-desktop/>`_
 
+Ayuda en el manejo del Sistema Operativo UBUNTU-22
+
+`linux <linux>`
 
