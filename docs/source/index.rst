@@ -6,24 +6,6 @@ Contenido
 
 .. toctree::
 
-   Curso_R/curso-r
-   ggplot2/ggplot2
-   estadistica/estadistica
-   estadistica/dis_muestrales_estadistica_ife
-   Curso_R/estimacion
-   Curso_R/PRUEBA_HIPOTESIS
-   estadistica/ejercicios_jun1825
-   estadistica/ecuaciones_c08
+   curso_q/curso_q2
+   curso_q/doc01
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Estadistica
-
-    Estadistica2/index2
-
-.. toctree::
-    :maxdepth: 1
-    :caption: RR
-   
-    RR/index_R
-    curso_q2
