@@ -8,4 +8,5 @@ Contenido
 
    curso_q/curso_q2
    curso_q/doc01
+   instalacion
 
