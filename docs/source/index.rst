@@ -1,4 +1,4 @@
-Introducción a la estadística con "R"
+Q2
 ===================================
 
 Contenido
