@@ -7,6 +7,5 @@ Contenido
 .. toctree::
 
    curso_q/curso_q2
-   curso_q/doc01
-   instalacion
+   curso_q/datos_practicas
 
