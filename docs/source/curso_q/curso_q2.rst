@@ -10,8 +10,8 @@ En cada maquina LapTop contiene el siguiente software:
 * `Toolbox CONN <https://web.conn-toolbox.org/home>`_
 * `R <https://www.r-project.org/>`_
 * `RStudio <https://posit.co/download/rstudio-desktop/>`_
-
-Ayuda en el manejo del Sistema Operativo UBUNTU-22
-
-* Manejo de :doc:`linux`.
+* `DSI Studio <https://dsi-studio.labsolver.org/>`_
+* `ÌmageJ <https://imagej.net/ij/>`_
+* `Mango <https://mangoviewer.com/>`_
+* `MRIcron <https://people.cas.sc.edu/rorden/mricron/index.HTML>`_ 
 
