@@ -39,6 +39,40 @@ Instalacion Mango:
 
    $ mango_install.sh
 
+Instalacion de matlab:
+
+.. code:: Bash
+
+   $ matlab_install.sh
+
+Instalacion de MRtrix:
+
+.. code:: Bash
+
+   $ Miniconda3-latest-Linux-x86_64.sh
+   $ matrix_install.sh
+
+Instalacion de MRIcron:
+
+.. code:: Bash
+
+   $ mricron_install.sh
+
+Instalacion de R:
+
+.. code:: Bash
+
+   $ r_install.sh
+
+Instalacion de Rstudio:
+
+.. code:: Bash
+
+   $ rstudio_install.sh
+
+
+
+
 broken.sh
 ds_studio_path.sh
 free_datos.sh
@@ -47,27 +81,16 @@ fsl1.sh
 hosts
 imagej_path.sh
 license.txt
-mango_install.sh
 mango_path.sh
-mango_unix.zip
-matlab_install.sh
 matlab_move_lic.sh
 matlab.sh
-matrix_install.sh
 md5.sh
-Miniconda3-latest-Linux-x86_64.sh
 mount1.sh
-mricron_install.sh
 MRIcron_linux.zip
 mricron_path.sh
-mrtrix_install.sh
 network_install.sh
 network.lic
 path_todos.sh
 recon2.sh
 recon5.sh
 recon.sh
-r_install.sh
-rstudio-2025.05.1-513-amd64.deb
-rstudio_install.sh
-spm12_updates_r7771.zip
