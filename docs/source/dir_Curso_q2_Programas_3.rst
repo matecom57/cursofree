@@ -31,20 +31,21 @@ Instalacion ImageJ
 
 .. code:: Bash
 
-   imagej_install.sh
+   $ imagej_install.sh
 
-01-network-manager-all.yaml
+Instalacion Mango:
+
+.. code:: Bash
+
+   $ mango_install.sh
+
 broken.sh
-conn22a.zip
-dsi_studio_ubuntu2204_cpu.zip
 ds_studio_path.sh
 free_datos.sh
 free.sh
 fsl1.sh
 hosts
-ij154-linux64-java8.zip
 imagej_path.sh
-inbRootCA.cer
 license.txt
 mango_install.sh
 mango_path.sh
