@@ -1,23 +1,48 @@
 Procesos en Bash que instalan software en cada maquina
 =========================================================
 
+Antes de instalar el siguiente software, actualizar el sistema operativo como sigue:
+
+.. code:: Bash
+
+   $ sudo update
+   $ sudeo upgrade
+
+Instalacion de freesurfer con su licencia
+
+.. code:: Bash
+
+   $ freesurfer_install.sh
+   $ freesurfer_cp_license.sh
+
+Instalacion de FSL:
+
+.. code:: Bash
+
+   $ sudo python3 fslinstaller.py
+
+Instalacion DSI-studio:
+
+.. code:: Bash
+
+   $ ds_studio_install.sh
+
+Instalacion ImageJ
+
+.. code:: Bash
+
+   imagej_install.sh
 
 01-network-manager-all.yaml
 broken.sh
 conn22a.zip
 dsi_studio_ubuntu2204_cpu.zip
-ds_studio_install.sh
 ds_studio_path.sh
 free_datos.sh
 free.sh
-freesurfer_cp_license.sh
-freesurfer_install.sh
-freesurfer_ubuntu22-8.0.0_amd64.deb
 fsl1.sh
-fslinstaller.py
 hosts
 ij154-linux64-java8.zip
-imagej_install.sh
 imagej_path.sh
 inbRootCA.cer
 license.txt
