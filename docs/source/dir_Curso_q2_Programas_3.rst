@@ -15,6 +15,12 @@ Instalacion de freesurfer con su licencia
    $ freesurfer_install.sh
    $ freesurfer_cp_license.sh
 
+NOTA: Si en la consola muestra un error, entonces ejecutar el siguiente Script:
+
+.. code:: Bash
+
+   $ broken.sh
+
 Instalacion de FSL:
 
 .. code:: Bash
@@ -73,7 +79,6 @@ Instalacion de Rstudio:
 
 
 
-broken.sh
 ds_studio_path.sh
 free_datos.sh
 free.sh
